@@ -1,0 +1,586 @@
+[
+  {
+    "left": 92,
+    "top": 502,
+    "width": 1771,
+    "height": 74,
+    "label": "field_value",
+    "text": "ARANDA, ELMER, F"
+  },
+  {
+    "left": 92,
+    "top": 460,
+    "width": 1771,
+    "height": 134,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 92,
+    "top": 460,
+    "width": 729,
+    "height": 40,
+    "label": "field_name",
+    "text": "Patient's Name (Last Name, First Name, MI, Suffix)"
+  },
+  {
+    "left": 1913,
+    "top": 501,
+    "width": 475,
+    "height": 72,
+    "label": "field_value",
+    "text": "06 13 87"
+  },
+  {
+    "left": 1913,
+    "top": 461,
+    "width": 476,
+    "height": 115,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 1913,
+    "top": 463,
+    "width": 345,
+    "height": 35,
+    "label": "field_name",
+    "text": "Date of Birth (mm/dd/yy)"
+  },
+  {
+    "left": 787,
+    "top": 600,
+    "width": 104,
+    "height": 68,
+    "label": "field_value",
+    "text": "Yes"
+  },
+  {
+    "left": 95,
+    "top": 599,
+    "width": 931,
+    "height": 152,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 95,
+    "top": 641,
+    "width": 669,
+    "height": 34,
+    "label": "field_name",
+    "text": "Have you advise the patient to return to work?"
+  },
+  {
+    "left": 1746,
+    "top": 579,
+    "width": 176,
+    "height": 91,
+    "label": "field_value",
+    "text": "Full Time"
+  },
+  {
+    "left": 1025,
+    "top": 580,
+    "width": 1120,
+    "height": 173,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 1038,
+    "top": 638,
+    "width": 678,
+    "height": 39,
+    "label": "field_name",
+    "text": "If yes, expected return to work date (mm/dd/yy):"
+  },
+  {
+    "left": 1258,
+    "top": 676,
+    "width": 295,
+    "height": 103,
+    "label": "field_value",
+    "text": "04-20-17"
+  },
+  {
+    "left": 1026,
+    "top": 628,
+    "width": 1120,
+    "height": 151,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 1038,
+    "top": 638,
+    "width": 678,
+    "height": 39,
+    "label": "field_name",
+    "text": "If yes, expected return to work date (mm/dd/yy):"
+  },
+  {
+    "left": 2219,
+    "top": 685,
+    "width": 57,
+    "height": 60,
+    "label": "field_value",
+    "text": "8"
+  },
+  {
+    "left": 2144,
+    "top": 626,
+    "width": 248,
+    "height": 126,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 2164,
+    "top": 643,
+    "width": 202,
+    "height": 33,
+    "label": "field_name",
+    "text": "Hours per day"
+  },
+  {
+    "left": 332,
+    "top": 910,
+    "width": 1132,
+    "height": 168,
+    "label": "field_value",
+    "text": "No driving Limited use of Left Shoulder"
+  },
+  {
+    "left": 94,
+    "top": 834,
+    "width": 2296,
+    "height": 342,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 93,
+    "top": 848,
+    "width": 863,
+    "height": 36,
+    "label": "field_name",
+    "text": "CURRENT RESTRICTIONS (activities patient should not do)"
+  },
+  {
+    "left": 290,
+    "top": 1250,
+    "width": 1186,
+    "height": 132,
+    "label": "field_value",
+    "text": "Limited Use of Left Shoulder"
+  },
+  {
+    "left": 92,
+    "top": 1172,
+    "width": 2300,
+    "height": 338,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 92,
+    "top": 1186,
+    "width": 769,
+    "height": 36,
+    "label": "field_name",
+    "text": "CURRENT LIMITATIONS (activities patient cannot do)"
+  },
+  {
+    "left": 1464,
+    "top": 1493,
+    "width": 97,
+    "height": 80,
+    "label": "field_value",
+    "text": "Yes"
+  },
+  {
+    "left": 91,
+    "top": 1498,
+    "width": 1668,
+    "height": 100,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 93,
+    "top": 1523,
+    "width": 1350,
+    "height": 35,
+    "label": "field_name",
+    "text": "Do you support your patient's return to work within the restrictions and limitations you provided?"
+  },
+  {
+    "left": 2120,
+    "top": 1527,
+    "width": 298,
+    "height": 92,
+    "label": "field_value",
+    "text": "04-20-17"
+  },
+  {
+    "left": 1755,
+    "top": 1509,
+    "width": 660,
+    "height": 110,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 1765,
+    "top": 1522,
+    "width": 348,
+    "height": 35,
+    "label": "field_name",
+    "text": "If yes, as of (mm/dd/yy):"
+  },
+  {
+    "left": 90,
+    "top": 1601,
+    "width": 2303,
+    "height": 95,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 90,
+    "top": 1601,
+    "width": 1064,
+    "height": 46,
+    "label": "field_name",
+    "text": "If no, when do you expect improvement in the patient's functional capacity?"
+  },
+  {
+    "left": 198,
+    "top": 2070,
+    "width": 693,
+    "height": 97,
+    "label": "field_value",
+    "text": "Champman, Roger, J."
+  },
+  {
+    "left": 94,
+    "top": 2023,
+    "width": 2309,
+    "height": 130,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 92,
+    "top": 2024,
+    "width": 924,
+    "height": 34,
+    "label": "field_name",
+    "text": "Physical Name (Last Name, First Name, MI, Suffix) Please Print"
+  },
+  {
+    "left": 368,
+    "top": 2190,
+    "width": 358,
+    "height": 108,
+    "label": "field_value",
+    "text": "Orthopedic"
+  },
+  {
+    "left": 92,
+    "top": 2138,
+    "width": 1146,
+    "height": 155,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 92,
+    "top": 2150,
+    "width": 252,
+    "height": 38,
+    "label": "field_name",
+    "text": "Medical Specialty"
+  },
+  {
+    "left": 1362,
+    "top": 2194,
+    "width": 77,
+    "height": 57,
+    "label": "field_value",
+    "text": "MD"
+  },
+  {
+    "left": 1236,
+    "top": 2141,
+    "width": 1157,
+    "height": 125,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 1244,
+    "top": 2153,
+    "width": 108,
+    "height": 35,
+    "label": "field_name",
+    "text": "Degree"
+  },
+  {
+    "left": 243,
+    "top": 2299,
+    "width": 687,
+    "height": 96,
+    "label": "field_value",
+    "text": "4462 Ritter Street"
+  },
+  {
+    "left": 92,
+    "top": 2266,
+    "width": 2297,
+    "height": 127,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 91,
+    "top": 2278,
+    "width": 121,
+    "height": 30,
+    "label": "field_name",
+    "text": "Address"
+  },
+  {
+    "left": 212,
+    "top": 2428,
+    "width": 366,
+    "height": 97,
+    "label": "field_value",
+    "text": "Birmingham"
+  },
+  {
+    "left": 91,
+    "top": 2391,
+    "width": 1459,
+    "height": 131,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 91,
+    "top": 2405,
+    "width": 58,
+    "height": 36,
+    "label": "field_name",
+    "text": "City"
+  },
+  {
+    "left": 1620,
+    "top": 2444,
+    "width": 96,
+    "height": 62,
+    "label": "field_value",
+    "text": "AL"
+  },
+  {
+    "left": 1549,
+    "top": 2393,
+    "width": 172,
+    "height": 131,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 1561,
+    "top": 2407,
+    "width": 76,
+    "height": 27,
+    "label": "field_name",
+    "text": "State"
+  },
+  {
+    "left": 1796,
+    "top": 2429,
+    "width": 193,
+    "height": 72,
+    "label": "field_value",
+    "text": "35203"
+  },
+  {
+    "left": 1719,
+    "top": 2392,
+    "width": 673,
+    "height": 132,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 1730,
+    "top": 2408,
+    "width": 47,
+    "height": 32,
+    "label": "field_name",
+    "text": "Zip"
+  },
+  {
+    "left": 386,
+    "top": 2573,
+    "width": 507,
+    "height": 68,
+    "label": "field_value",
+    "text": "256-293-5095"
+  },
+  {
+    "left": 94,
+    "top": 2523,
+    "width": 898,
+    "height": 138,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 94,
+    "top": 2532,
+    "width": 272,
+    "height": 35,
+    "label": "field_name",
+    "text": "Telephone Number"
+  },
+  {
+    "left": 1085,
+    "top": 2571,
+    "width": 513,
+    "height": 90,
+    "label": "field_value",
+    "text": "456-672-5040"
+  },
+  {
+    "left": 989,
+    "top": 2522,
+    "width": 768,
+    "height": 141,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 1002,
+    "top": 2532,
+    "width": 185,
+    "height": 32,
+    "label": "field_name",
+    "text": "Fax Number"
+  },
+  {
+    "left": 1828,
+    "top": 2576,
+    "width": 382,
+    "height": 101,
+    "label": "field_value",
+    "text": "958976877"
+  },
+  {
+    "left": 1752,
+    "top": 2522,
+    "width": 638,
+    "height": 152,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 1768,
+    "top": 2530,
+    "width": 388,
+    "height": 39,
+    "label": "field_name",
+    "text": "Physician's Tax ID Number:"
+  },
+  {
+    "left": 686,
+    "top": 2630,
+    "width": 86,
+    "height": 85,
+    "label": "field_value",
+    "text": "No"
+  },
+  {
+    "left": 92,
+    "top": 2660,
+    "width": 2260,
+    "height": 208,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 90,
+    "top": 2671,
+    "width": 439,
+    "height": 36,
+    "label": "field_name",
+    "text": "Are you related to this patient?"
+  },
+  {
+    "left": 94,
+    "top": 2714,
+    "width": 594,
+    "height": 29,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 94,
+    "top": 2714,
+    "width": 439,
+    "height": 29,
+    "label": "field_name",
+    "text": "If yes, what is the relationship"
+  },
+  {
+    "left": 245,
+    "top": 2727,
+    "width": 528,
+    "height": 169,
+    "label": "field_value",
+    "text": "'S'"
+  },
+  {
+    "left": 92,
+    "top": 2728,
+    "width": 1809,
+    "height": 186,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 91,
+    "top": 2871,
+    "width": 432,
+    "height": 43,
+    "label": "field_name",
+    "text": "Signature of Physician"
+  },
+  {
+    "left": 2013,
+    "top": 2905,
+    "width": 371,
+    "height": 109,
+    "label": "field_value",
+    "text": "04-15-17"
+  },
+  {
+    "left": 1902,
+    "top": 2867,
+    "width": 492,
+    "height": 160,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 1914,
+    "top": 2873,
+    "width": 91,
+    "height": 34,
+    "label": "field_name",
+    "text": "Date"
+  }
+]

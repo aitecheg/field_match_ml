@@ -1,0 +1,258 @@
+test_id,question1,question2,is_duplicate
+0,Employee Telephone Number,Long Term Disibility,0
+1,"If yes, termination date (mm/dd/yy)",Weekly,0
+2,Is this employee:,8,0
+3,Number of hours worked on date last worked,N/A,0
+4,Employee Telephone Number,905 331 8089,0
+5,Pre-tax medical and other insurance,Commissions,0
+6,Employee Telephone Number,,0
+7,Commissions (per week),Overtime,0
+8,Date paid through (mm/dd/yy):,09-19-18,1
+9,Date Last Worked (mm/dd/yy),,0
+10,Is this employee:,Full-time,1
+11,"If yes, termination date (mm/dd/yy)",,0
+12,Please check all type of coverage this employee has with Unum and provide the information requested.,depends on the job order,0
+13,Salary/Wage prior to date last worked,Voluntary Benefits Disability,0
+14,Commissions (per week),,0
+15,City,Master Craftsman,0
+16,Pre-tax medical and other insurance,Other,0
+17,Has the employee's employment been terminated?,200,0
+18,Employer Telephone Number,495 202 8689,1
+19,Does the employee have an ownership interest in this business?,10,1
+20,Check off regular work days:,Thurs,1
+21,State,67 S Laramie Ave,0
+22,Flexible spending account,905 331 8089,0
+23,"Employee Name (Last Name, Suffix, First Name, MI)",Tues,0
+24,Zip,"Maroun, Margarita B",1
+25,Date of Hire (mm/dd/yy),N/A,0
+26,Hours scheduled to work per week:,Marshall,0
+27,Bonuses (per week) $,Weekly,0
+28,Date paid through (mm/dd/yy):,Accrued Sick pay,1
+29,For:,IL,0
+30,Social Security Number,Other,0
+31,Zip,09-10-18,0
+32,Check off regular work days:,Master Craftsman,0
+33,Does the employee have an ownership interest in this business?,02 01 99,0
+34,"Employee Name (Last Name, Suffix, First Name, MI)",8,0
+35,Employee Address,104 02 8783,0
+36,Employer Address,,0
+37,Voluntary Benefits Disability Benefit Election Amount $,Full-time,1
+38,Number of hours worked on date last worked,09-10-18,1
+39,Bonuses (per week) $,20,0
+40,401(k)/403(b),20,1
+41,Date of Hire (mm/dd/yy),Full-time,0
+42,City,60644,0
+43,Type of business:,Master Craftsman,0
+44,Pre-tax medical and other insurance,20,1
+45,Zip,905 331 8089,1
+46,Date of Hire (mm/dd/yy),Short Term Disability,1
+47,"If yes, termination date (mm/dd/yy)",No,1
+48,Employer Name,Yes,0
+49,Is this employee:,Mon,0
+50,Check off regular work days:,Other,0
+51,Commissions (per week),Other,0
+52,State,IL,1
+53,City,02 01 99,0
+54,Occupation Title (Please attach a copy of the employee's job description),Overtime,0
+55,Did this employee reduced his/her hours prior to his/her last day worked due to this medical condition?,200,0
+56,City,VA,1
+57,Employer Address,Mon,0
+58,Please check all type of coverage this employee has with Unum and provide the information requested.,Voluntary Benefits Disability,1
+59,Employee Telephone Number,Other,0
+60,Date of Hire (mm/dd/yy),Yes,0
+61,How was the employee paid? (please check all the that apply),VA,0
+62,Flexible spending account,,0
+63,Date Last Worked (mm/dd/yy),09-10-18,1
+64,City,No,0
+65,City,Chicago,1
+66,Employee Address,Marshall,1
+67,Employer Telephone Number,905 331 8089,0
+68,Check off regular work days:,,0
+69,Commissions (per week),60644,0
+70,Did this employee reduced his/her hours prior to his/her last day worked due to this medical condition?,No,1
+71,How was the employee paid? (please check all the that apply),Voluntary Benefits Disability,0
+72,How was the employee paid? (please check all the that apply),20115,0
+73,"If Yes, what is the % of ownership?",20115,0
+74,Check off regular work days:,8,1
+75,State,Full-time,0
+76,Salary/Wage prior to date last worked,905 331 8089,0
+77,For:,,0
+78,"If yes, termination date (mm/dd/yy)",495 202 8689,0
+79,Social Security Number,104 02 8783,1
+80,Employer Name,,0
+81,State,VA,0
+82,City,IL,1
+83,Occupation Title (Please attach a copy of the employee's job description),495 202 8689,0
+84,How was the employee paid? (please check all the that apply),Overtime,0
+85,401(k)/403(b),,0
+86,Type of business:,Partnership,1
+87,How was the employee paid? (please check all the that apply),Salary,1
+88,"If Yes, what is the % of ownership?",,0
+89,How was the employee paid? (please check all the that apply),,0
+90,Date of Hire (mm/dd/yy),,0
+91,Number of hours worked on date last worked,50,0
+92,Flexible spending account,200,1
+93,Type of business:,Yes,1
+94,"Employee Name (Last Name, Suffix, First Name, MI)",,0
+95,"If yes, termination date (mm/dd/yy)",Master Craftsman,0
+96,How was the employee paid? (please check all the that apply),Other,0
+97,"If yes, please provide specific dates and hours worked",No,0
+98,Hours scheduled to work per week:,Short Term Disability,0
+99,Did this employee reduced his/her hours prior to his/her last day worked due to this medical condition?,,0
+100,Pre-tax medical and other insurance,Short Term Disability,0
+101,Hours scheduled to work per week:,No,1
+102,Please check all type of coverage this employee has with Unum and provide the information requested.,905 331 8089,0
+103,How was the employee paid? (please check all the that apply),Commissions,1
+104,Is this employee:,No,0
+105,Hours scheduled to work per week:,Chicago,0
+106,Employer Telephone Number,,0
+107,For:,67 S Laramie Ave,0
+108,Is this employee:,09-10-18,1
+109,Type of business:,104 02 8783,0
+110,Please check all type of coverage this employee has with Unum and provide the information requested.,8,0
+111,Check off regular work days:,Mon,0
+112,How was the employee paid? (please check all the that apply),Thurs,0
+113,"If yes, please provide specific dates and hours worked",Master Craftsman,1
+114,Occupation Title (Please attach a copy of the employee's job description),No,1
+115,Flexible spending account,02 01 99,0
+116,Please check all type of coverage this employee has with Unum and provide the information requested.,,0
+117,Has the employee's employment been terminated?,,0
+118,For:,Other,1
+119,Bonuses (per week) $,N/A,1
+120,How was the employee paid? (please check all the that apply),Weekly,1
+121,Please check all type of coverage this employee has with Unum and provide the information requested.,97 Main Street,0
+122,How was the employee paid? (please check all the that apply),Bonus,1
+123,Employee Address,97 Main Street,1
+124,Did this employee reduced his/her hours prior to his/her last day worked due to this medical condition?,104 02 8783,0
+125,Employer Name,Partnership,0
+126,Is this employee:,,0
+127,Check off regular work days:,N/A,0
+128,City,Marshall,1
+129,For:,Accrued Sick pay,0
+130,"If yes, please provide specific dates and hours worked",,0
+131,"If yes, termination date (mm/dd/yy)",Salary,1
+132,Employee Telephone Number,905 331 8089,1
+133,Employee Address,IL,0
+134,Social Security Number,,0
+135,For:,10,0
+136,Zip,8,0
+137,Employee Address,67 S Laramie Ave,0
+138,Employee Telephone Number,104 02 8783,1
+139,401(k)/403(b),8,0
+140,Please check all type of coverage this employee has with Unum and provide the information requested.,Yes,0
+141,For:,VA,0
+142,Zip,Voluntary Benefits Disability,0
+143,Occupation Title (Please attach a copy of the employee's job description),,0
+144,How was the employee paid? (please check all the that apply),104 02 8783,0
+145,State,,0
+146,Salary/Wage prior to date last worked,Weekly,1
+147,Number of hours worked on date last worked,Mon,1
+148,Does the employee have an ownership interest in this business?,Yes,1
+149,Please check all type of coverage this employee has with Unum and provide the information requested.,Short Term Disability,1
+150,Please check all type of coverage this employee has with Unum and provide the information requested.,Long Term Disibility,1
+151,Voluntary Benefits Disability Benefit Election Amount $,depends on the job order,0
+152,Number of hours worked on date last worked,Short Term Disability,0
+153,Hours scheduled to work per week:,,0
+154,Pre-tax medical and other insurance,,0
+155,Employer Name,"Craig, Thomas G",1
+156,Check off regular work days:,No,0
+157,Date paid through (mm/dd/yy):,Weekly,0
+158,Employer Address,09-10-18,0
+159,$,N/A,1
+160,Employer Telephone Number,Short Term Disability,0
+161,Bonuses (per week) $,depends on the job order,1
+162,City,,0
+163,Zip,"Maroun, Margarita B",0
+164,State,Thurs,0
+165,Please check all type of coverage this employee has with Unum and provide the information requested.,60644,0
+166,"If yes, please provide specific dates and hours worked",10,0
+167,Social Security Number,Thurs,0
+168,Flexible spending account,09-19-18,1
+169,Social Security Number,02 01 99,1
+170,Employer Name,495 202 8689,1
+171,Check off regular work days:,IL,0
+172,Employer Address,67 S Laramie Ave,1
+173,$,Short Term Disability,0
+174,Check off regular work days:,09-19-18,0
+175,Does the employee have an ownership interest in this business?,Chicago,0
+176,"Employee Name (Last Name, Suffix, First Name, MI)",97 Main Street,1
+177,Date paid through (mm/dd/yy):,,0
+178,"If Yes, what is the % of ownership?",905 331 8089,0
+179,Social Security Number,Voluntary Benefits Disability,0
+180,Zip,20115,1
+181,Date Last Worked (mm/dd/yy),"Craig, Thomas G",0
+182,For:,Yes,1
+183,Voluntary Benefits Disability Benefit Election Amount $,Voluntary Benefits Disability,1
+184,Check off regular work days:,depends on the job order,0
+185,Bonuses (per week) $,,0
+186,Salary/Wage prior to date last worked,N/A,1
+187,State,IL,0
+188,State,Weekly,0
+189,"Employee Name (Last Name, Suffix, First Name, MI)","Maroun, Margarita B",1
+190,Has the employee's employment been terminated?,IL,0
+191,For:,Voluntary Benefits Disability,0
+192,Employer Name,8,0
+193,How was the employee paid? (please check all the that apply),No,0
+194,Check off regular work days:,905 331 8089,0
+195,Does the employee have an ownership interest in this business?,50,0
+196,$,Other,0
+197,Hours scheduled to work per week:,8,1
+198,State,60644,1
+199,401(k)/403(b),"Maroun, Margarita B",0
+200,Check off regular work days:,Wed Thurs,1
+201,Date paid through (mm/dd/yy):,Yes,0
+202,Date paid through (mm/dd/yy):,No,0
+203,Date Last Worked (mm/dd/yy),VA,0
+204,Number of hours worked on date last worked,,0
+205,Employee Address,,0
+206,Zip,60644,1
+207,Has the employee's employment been terminated?,No,1
+208,Pre-tax medical and other insurance,200,1
+209,City,50,0
+210,State,VA,1
+211,How was the employee paid? (please check all the that apply),Overtime,1
+212,Date of Hire (mm/dd/yy),02 01 99,1
+213,Please check all type of coverage this employee has with Unum and provide the information requested.,Other,0
+214,Bonuses (per week) $,Yes,0
+215,Check off regular work days:,Tues,1
+216,How was the employee paid? (please check all the that apply),Salary,0
+217,401(k)/403(b),50,1
+218,$,"Maroun, Margarita B",0
+219,Occupation Title (Please attach a copy of the employee's job description),Salary,0
+220,Commissions (per week),50,1
+221,Flexible spending account,Other,0
+222,City,depends on the job order,0
+223,Type of business:,VA,0
+224,"If Yes, what is the % of ownership?",97 Main Street,0
+225,Zip,Yes,0
+226,Voluntary Benefits Disability Benefit Election Amount $,Partnership,0
+227,How was the employee paid? (please check all the that apply),Other,1
+228,"If yes, please provide specific dates and hours worked",No,1
+229,Occupation Title (Please attach a copy of the employee's job description),Master Craftsman,1
+230,State,20115,1
+231,Employer Telephone Number,Thurs,0
+232,Salary/Wage prior to date last worked,Yes,0
+233,$,,0
+234,Check off regular work days:,Mon,1
+235,Voluntary Benefits Disability Benefit Election Amount $,,0
+236,Employer Telephone Number,67 S Laramie Ave,1
+237,How was the employee paid? (please check all the that apply),02 01 99,0
+238,"If Yes, what is the % of ownership?",Partnership,1
+239,Commissions (per week),depends on the job order,1
+240,How was the employee paid? (please check all the that apply),Weekly,0
+241,Please check all type of coverage this employee has with Unum and provide the information requested.,Bonus,0
+242,Does the employee have an ownership interest in this business?,,0
+243,Check off regular work days:,Commissions,0
+244,"If Yes, what is the % of ownership?",10,1
+245,How was the employee paid? (please check all the that apply),Long Term Disibility,0
+246,Type of business:,,0
+247,"Employee Name (Last Name, Suffix, First Name, MI)",09-19-18,0
+248,Zip,,0
+249,For:,Accrued Sick pay,1
+250,Employer Address,Chicago,1
+251,"If yes, please provide specific dates and hours worked",495 202 8689,0
+252,401(k)/403(b),Accrued Sick pay,0
+253,Salary/Wage prior to date last worked,,0
+254,Zip,Chicago,0
+255,Check off regular work days:,"Maroun, Margarita B",0
+256,How was the employee paid? (please check all the that apply),97 Main Street,0

@@ -1,0 +1,417 @@
+[
+  {
+    "left": 92,
+    "top": 512,
+    "width": 1770,
+    "height": 76,
+    "label": "field_value",
+    "text": "ARANDA, ELMER, F"
+  },
+  {
+    "left": 88,
+    "top": 463,
+    "width": 1774,
+    "height": 157,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 91,
+    "top": 469,
+    "width": 727,
+    "height": 35,
+    "label": "field_name",
+    "text": "Patient's Name (Last Name, Suffix, First Name, MI)"
+  },
+  {
+    "left": 1907,
+    "top": 503,
+    "width": 482,
+    "height": 96,
+    "label": "field_value",
+    "text": "06 13 83"
+  },
+  {
+    "left": 1907,
+    "top": 464,
+    "width": 482,
+    "height": 136,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 1907,
+    "top": 464,
+    "width": 346,
+    "height": 42,
+    "label": "field_name",
+    "text": "Date of Birth (mm/dd/yy)"
+  },
+  {
+    "left": 301,
+    "top": 748,
+    "width": 1163,
+    "height": 190,
+    "label": "field_value",
+    "text": "Physical therapy after Surgery and Pain meds."
+  },
+  {
+    "left": 89,
+    "top": 660,
+    "width": 2310,
+    "height": 330,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 89,
+    "top": 670,
+    "width": 411,
+    "height": 36,
+    "label": "field_name",
+    "text": "What is your treatment plan?"
+  },
+  {
+    "left": 320,
+    "top": 1065,
+    "width": 507,
+    "height": 65,
+    "label": "field_value",
+    "text": "Percocel 51325"
+  },
+  {
+    "left": 87,
+    "top": 988,
+    "width": 2312,
+    "height": 182,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 90,
+    "top": 1003,
+    "width": 608,
+    "height": 36,
+    "label": "field_name",
+    "text": "Medications (Please attach medication log)"
+  },
+  {
+    "left": 602,
+    "top": 1159,
+    "width": 102,
+    "height": 49,
+    "label": "field_value",
+    "text": "Yes"
+  },
+  {
+    "left": 90,
+    "top": 1161,
+    "width": 732,
+    "height": 100,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 90,
+    "top": 1179,
+    "width": 492,
+    "height": 34,
+    "label": "field_name",
+    "text": "Has the patient been hospitalized?"
+  },
+  {
+    "left": 1387,
+    "top": 1183,
+    "width": 256,
+    "height": 73,
+    "label": "field_value",
+    "text": "04-13-17"
+  },
+  {
+    "left": 836,
+    "top": 1167,
+    "width": 829,
+    "height": 91,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 836,
+    "top": 1167,
+    "width": 520,
+    "height": 51,
+    "label": "field_name",
+    "text": "If yes, date hospitalized (mm/dd/yy):"
+  },
+  {
+    "left": 2015,
+    "top": 1177,
+    "width": 271,
+    "height": 75,
+    "label": "field_value",
+    "text": "04-15-17"
+  },
+  {
+    "left": 1665,
+    "top": 1171,
+    "width": 725,
+    "height": 84,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 1665,
+    "top": 1171,
+    "width": 293,
+    "height": 49,
+    "label": "field_name",
+    "text": "through (mm/dd/yy)"
+  },
+  {
+    "left": 218,
+    "top": 1296,
+    "width": 589,
+    "height": 128,
+    "label": "field_value",
+    "text": "Jefferson Hospital"
+  },
+  {
+    "left": 88,
+    "top": 1258,
+    "width": 2300,
+    "height": 168,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 89,
+    "top": 1269,
+    "width": 196,
+    "height": 36,
+    "label": "field_name",
+    "text": "Facility Name"
+  },
+  {
+    "left": 195,
+    "top": 1417,
+    "width": 639,
+    "height": 109,
+    "label": "field_value",
+    "text": "565 Coal Valley Rd"
+  },
+  {
+    "left": 86,
+    "top": 1376,
+    "width": 2302,
+    "height": 152,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 88,
+    "top": 1390,
+    "width": 119,
+    "height": 28,
+    "label": "field_name",
+    "text": "Address"
+  },
+  {
+    "left": 154,
+    "top": 1540,
+    "width": 419,
+    "height": 77,
+    "label": "field_value",
+    "text": "Jefferson Hills"
+  },
+  {
+    "left": 90,
+    "top": 1496,
+    "width": 1460,
+    "height": 122,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 90,
+    "top": 1510,
+    "width": 57,
+    "height": 34,
+    "label": "field_name",
+    "text": "City"
+  },
+  {
+    "left": 1608,
+    "top": 1556,
+    "width": 58,
+    "height": 53,
+    "label": "field_value",
+    "text": "PA"
+  },
+  {
+    "left": 1550,
+    "top": 1499,
+    "width": 168,
+    "height": 117,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 1558,
+    "top": 1512,
+    "width": 75,
+    "height": 28,
+    "label": "field_name",
+    "text": "State"
+  },
+  {
+    "left": 1882,
+    "top": 1549,
+    "width": 166,
+    "height": 57,
+    "label": "field_value",
+    "text": "15025"
+  },
+  {
+    "left": 1717,
+    "top": 1498,
+    "width": 672,
+    "height": 121,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 1728,
+    "top": 1513,
+    "width": 46,
+    "height": 33,
+    "label": "field_name",
+    "text": "Zip"
+  },
+  {
+    "left": 455,
+    "top": 1618,
+    "width": 107,
+    "height": 40,
+    "label": "field_value",
+    "text": "Yes"
+  },
+  {
+    "left": 87,
+    "top": 1614,
+    "width": 601,
+    "height": 136,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 89,
+    "top": 1628,
+    "width": 351,
+    "height": 34,
+    "label": "field_name",
+    "text": "Was surgery performed?"
+  },
+  {
+    "left": 714,
+    "top": 1680,
+    "width": 640,
+    "height": 90,
+    "label": "field_value",
+    "text": "Arthroscopy L Shouler"
+  },
+  {
+    "left": 685,
+    "top": 1614,
+    "width": 975,
+    "height": 155,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 703,
+    "top": 1628,
+    "width": 551,
+    "height": 36,
+    "label": "field_name",
+    "text": "If yes, what procedure was performed?"
+  },
+  {
+    "left": 1754,
+    "top": 1671,
+    "width": 333,
+    "height": 111,
+    "label": "field_value",
+    "text": "04-13-17"
+  },
+  {
+    "left": 1658,
+    "top": 1616,
+    "width": 734,
+    "height": 164,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 1665,
+    "top": 1630,
+    "width": 529,
+    "height": 37,
+    "label": "field_name",
+    "text": "Date Surgery Performed (mm/dd/yy)"
+  },
+  {
+    "left": 89,
+    "top": 1750,
+    "width": 736,
+    "height": 99,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 89,
+    "top": 1762,
+    "width": 489,
+    "height": 39,
+    "label": "field_name",
+    "text": "Is patient still under your care?"
+  },
+  {
+    "left": 828,
+    "top": 1754,
+    "width": 1561,
+    "height": 98,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 834,
+    "top": 1760,
+    "width": 408,
+    "height": 37,
+    "label": "field_name",
+    "text": "If no, final date of treatment"
+  },
+  {
+    "number of columns": "4",
+    "number of rows": "3",
+    "header field names": "Name, Specialty, Address, Phone #",
+    "columns positions": "88,814,1240,2067",
+    "bbox_table_header": "88,1947,2321,72",
+    "bbox_table": "88,1946,2332,305",
+    "rows": [
+      {
+        "row_bbox": "88,2020,2334,79",
+        "row_field_values": "Christine Radkowski, Orthopedic, 1200 Brookslane, Jefferson Hills, 412 2617 5040"
+      },
+      {
+        "row_bbox": "88,1947,2321,72",
+        "row_field_values": ",,,"
+      },
+      {
+        "row_bbox": "88,1947,2321,72",
+        "row_field_values": ",,,"
+      }
+    ],
+    "value_location": "below"
+  }
+]
