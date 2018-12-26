@@ -1,0 +1,908 @@
+[
+  {
+    "field_area1": {
+      "bbox": {
+        "x": 161,
+        "y": 472,
+        "l": 1680,
+        "w": 109
+      },
+      "field_name": {
+        "bbox": {
+          "x": 161,
+          "y": 472,
+          "l": 850,
+          "w": 39
+        },
+        "name": "Insured/Policyholder Name (Last Name, First Name, MI, Suffix)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 159,
+          "y": 511,
+          "l": 1683,
+          "w": 73
+        },
+        "value": "CLAUSEN JOSEPH N"
+      }
+    }
+  },
+  {
+    "field_area2": {
+      "bbox": {
+        "x": 1884,
+        "y": 477,
+        "l": 462,
+        "w": 111
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1886,
+          "y": 477,
+          "l": 329,
+          "w": 35
+        },
+        "name": "Date of Birth (mm/dd/yy)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1890,
+          "y": 514,
+          "l": 453,
+          "w": 71
+        },
+        "value": "02 18 67"
+      }
+    }
+  },
+  {
+    "field_area3": {
+      "bbox": {
+        "x": 160,
+        "y": 582,
+        "l": 1679,
+        "w": 112
+      },
+      "field_name": {
+        "bbox": {
+          "x": 161,
+          "y": 584,
+          "l": 668,
+          "w": 32
+        },
+        "name": "Patient Name (Last Name, First Name, MI, Suffix)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 158,
+          "y": 624,
+          "l": 1685,
+          "w": 72
+        },
+        "value": "CLAUSEN EDITH S"
+      }
+    }
+  },
+  {
+    "field_area4": {
+      "bbox": {
+        "x": 1887,
+        "y": 586,
+        "l": 455,
+        "w": 112
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1885,
+          "y": 586,
+          "l": 330,
+          "w": 35
+        },
+        "name": "Date of Birth (mm/dd/yy)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1889,
+          "y": 627,
+          "l": 453,
+          "w": 67
+        },
+        "value": "01 28 75"
+      }
+    }
+  },
+  {
+    "field_area5": {
+      "bbox": {
+        "x": 164,
+        "y": 771,
+        "l": 895,
+        "w": 51
+      },
+      "field_name": {
+        "bbox": {
+          "x": 163,
+          "y": 778,
+          "l": 663,
+          "w": 35
+        },
+        "name": "Is this condition the result of an accidental injury?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 850,
+          "y": 771,
+          "l": 96,
+          "w": 46
+        },
+        "value": "☒ Yes"
+      }
+    }
+  },
+  {
+    "field_area6": {
+      "bbox": {
+        "x": 1088,
+        "y": 766,
+        "l": 938,
+        "w": 70
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1088,
+          "y": 778,
+          "l": 464,
+          "w": 37
+        },
+        "name": "If yes, date of accident (mm/dd/yy)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1575,
+          "y": 767,
+          "l": 451,
+          "w": 68
+        },
+        "value": "03 11 18"
+      }
+    }
+  },
+  {
+    "field_area7": {
+      "bbox": {
+        "x": 163,
+        "y": 847,
+        "l": 1083,
+        "w": 37
+      },
+      "field_name": {
+        "bbox": {
+          "x": 163,
+          "y": 847,
+          "l": 653,
+          "w": 37
+        },
+        "name": "Is this condition the result of his/her employment"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 963,
+          "y": 849,
+          "l": 82,
+          "w": 38
+        },
+        "value": "☒ No"
+      }
+    }
+  },
+	{
+   	"number of columns": "5",
+   	"number of rows": "5",
+   	"header field names": "dates of service (including confinement), diagnosis code (icd), diagnosis description, procedure code, procedure description",
+   	"columns positions": "161,412,583,1339,1502",
+   	"bbox_table_header": "161,951,2186,132",
+   	"bbox_table": "161,951,2186,585",
+   	"rows": [
+			{
+   			"row_bbox": "161,1079,2186,89",
+   			"row_field_values": "03-12-18,M25.562,LEFT KNEE PAIN,99204,Office Visit"
+   		},
+   		{
+   			"row_bbox": "161,1172,2186,90",
+   			"row_field_values": "03-14-18,S83.242D,LEFT KNEE BUCKET-HANDLE TEAR OF MEDIAL MENISCUS,99214,Follow-Up"
+   		},
+   		{
+   			"row_bbox": "161,1262,2186,90",
+   			"row_field_values": "03-16-18,S83.242D,SAME,29881,Surgery"
+   		},
+   		{
+   			"row_bbox": "161,1352,2186,88",
+   			"row_field_values": "03-19-18,S83.242D,SAME,99024,Post-op visit"
+   		},
+   		{
+   			"row_bbox": "161,1440,2186,97",
+   			"row_field_values": "04-09-18,S83.242D,SAME,99024,Post-op Follow-up visit"
+   		}
+   	],
+   	"value_location": "below"
+  },
+  {
+    "field_area8": {
+      "bbox": {
+        "x": 158,
+        "y": 1548,
+        "l": 1537,
+        "w": 33
+      },
+      "field_name": {
+        "bbox": {
+          "x": 158,
+          "y": 1548,
+          "l": 1303,
+          "w": 33
+        },
+        "name": "Has the patient been treated for the same or a similar condition by another physician in the past?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1607,
+          "y": 1543,
+          "l": 84,
+          "w": 42
+        },
+        "value": "☒ No"
+      }
+    }
+  },
+  {
+    "field_area9": {
+      "bbox": {
+        "x": 160,
+        "y": 1657,
+        "l": 928,
+        "w": 101
+      },
+      "field_name": {
+        "bbox": {
+          "x": 160,
+          "y": 1661,
+          "l": 142,
+          "w": 39
+        },
+        "name": "Diagnosis:"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 214,
+          "y": 1702,
+          "l": 631,
+          "w": 57
+        },
+        "value": "M25.562, S83.242D"
+      }
+    }
+  },
+  {
+    "field_area10": {
+      "bbox": {
+        "x": 1087,
+        "y": 1658,
+        "l": 1267,
+        "w": 117
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1101,
+          "y": 1663,
+          "l": 234,
+          "w": 32
+        },
+        "name": "Treatment Dates:"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1148,
+          "y": 1700,
+          "l": 609,
+          "w": 79
+        },
+        "value": "03-12-18- 04-09-18"
+      }
+    }
+  },
+  {
+    "field_area11": {
+      "bbox": {
+        "x": 161,
+        "y": 1823,
+        "l": 473,
+        "w": 109
+      },
+      "field_name": {
+        "bbox": {
+          "x": 161,
+          "y": 1820,
+          "l": 474,
+          "w": 36
+        },
+        "name": "If yes, as of what date? (mm/dd/yy)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 161,
+          "y": 1860,
+          "l": 452,
+          "w": 72
+        },
+        "value": "03 12 18"
+      }
+    }
+  },
+  {
+    "field_area12": {
+      "bbox": {
+        "x": 155,
+        "y": 1973,
+        "l": 484,
+        "w": 108
+      },
+      "field_name": {
+        "bbox": {
+          "x": 159,
+          "y": 1973,
+          "l": 480,
+          "w": 35
+        },
+        "name": "Expected Delivery Date (mm/dd/yy)"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area13": {
+      "bbox": {
+        "x": 716,
+        "y": 1974,
+        "l": 452,
+        "w": 109
+      },
+      "field_name": {
+        "bbox": {
+          "x": 716,
+          "y": 1974,
+          "l": 431,
+          "w": 36
+        },
+        "name": "Actual Delivery Date (mm/dd/yy"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area14": {
+      "bbox": {
+        "x": 159,
+        "y": 2366,
+        "l": 2185,
+        "w": 84
+      },
+      "field_name": {
+        "bbox": {
+          "x": 161,
+          "y": 2375,
+          "l": 876,
+          "w": 34
+        },
+        "name": "Physician Name (Last Name, First Name, MI, Suffix) Please Print"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 233,
+          "y": 2400,
+          "l": 637,
+          "w": 49
+        },
+        "value": "LARKIN , MATTHEW J."
+      }
+    }
+  },
+  {
+    "field_area15": {
+      "bbox": {
+        "x": 154,
+        "y": 2448,
+        "l": 867,
+        "w": 84
+      },
+      "field_name": {
+        "bbox": {
+          "x": 158,
+          "y": 2456,
+          "l": 241,
+          "w": 36
+        },
+        "name": "Medical Specialty"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 410,
+          "y": 2479,
+          "l": 611,
+          "w": 52
+        },
+        "value": "ORTHOPAEDIC SURGERY"
+      }
+    }
+  },
+  {
+    "field_area16": {
+      "bbox": {
+        "x": 1250,
+        "y": 2449,
+        "l": 1100,
+        "w": 86
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1254,
+          "y": 2461,
+          "l": 103,
+          "w": 34
+        },
+        "name": "Degree"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1380,
+          "y": 2485,
+          "l": 74,
+          "w": 45
+        },
+        "value": "MD"
+      }
+    }
+  },
+  {
+    "field_area17": {
+      "bbox": {
+        "x": 160,
+        "y": 2532,
+        "l": 2185,
+        "w": 84
+      },
+      "field_name": {
+        "bbox": {
+          "x": 157,
+          "y": 2540,
+          "l": 115,
+          "w": 30
+        },
+        "name": "Address"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 302,
+          "y": 2567,
+          "l": 643,
+          "w": 44
+        },
+        "value": "560 SOUTH LOOP ROAD"
+      }
+    }
+  },
+  {
+    "field_area18": {
+      "bbox": {
+        "x": 160,
+        "y": 2612,
+        "l": 429,
+        "w": 85
+      },
+      "field_name": {
+        "bbox": {
+          "x": 160,
+          "y": 2623,
+          "l": 54,
+          "w": 35
+        },
+        "name": "City"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 293,
+          "y": 2652,
+          "l": 244,
+          "w": 46
+        },
+        "value": "EDGE WOOD"
+      }
+    }
+  },
+  {
+    "field_area19": {
+      "bbox": {
+        "x": 1552,
+        "y": 2615,
+        "l": 86,
+        "w": 86
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1552,
+          "y": 2624,
+          "l": 75,
+          "w": 31
+        },
+        "name": "State"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1575,
+          "y": 2654,
+          "l": 62,
+          "w": 46
+        },
+        "value": "KY"
+      }
+    }
+  },
+  {
+    "field_area20": {
+      "bbox": {
+        "x": 1711,
+        "y": 2615,
+        "l": 637,
+        "w": 85
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1714,
+          "y": 2624,
+          "l": 49,
+          "w": 36
+        },
+        "name": "Zip"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1761,
+          "y": 2651,
+          "l": 128,
+          "w": 50
+        },
+        "value": "41017"
+      }
+    }
+  },
+  {
+    "field_area21": {
+      "bbox": {
+        "x": 155,
+        "y": 2698,
+        "l": 536,
+        "w": 85
+      },
+      "field_name": {
+        "bbox": {
+          "x": 158,
+          "y": 2707,
+          "l": 261,
+          "w": 31
+        },
+        "name": "Telephone Number"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 258,
+          "y": 2726,
+          "l": 416,
+          "w": 54
+        },
+        "value": "859-301-2663"
+      }
+    }
+  },
+  {
+    "field_area22": {
+      "bbox": {
+        "x": 1017,
+        "y": 2698,
+        "l": 475,
+        "w": 84
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1023,
+          "y": 2708,
+          "l": 169,
+          "w": 29
+        },
+        "name": "Fax Number"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1071,
+          "y": 2733,
+          "l": 405,
+          "w": 50
+        },
+        "value": "859-817-7848"
+      }
+    }
+  },
+  {
+    "field_area23": {
+      "bbox": {
+        "x": 1747,
+        "y": 2702,
+        "l": 385,
+        "w": 102
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1750,
+          "y": 2707,
+          "l": 372,
+          "w": 39
+        },
+        "name": "Physician's Tax ID Number:"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1813,
+          "y": 2734,
+          "l": 302,
+          "w": 72
+        },
+        "value": "61-1274265"
+      }
+    }
+  },
+  {
+    "field_area24": {
+      "bbox": {
+        "x": 155,
+        "y": 2785,
+        "l": 647,
+        "w": 45
+      },
+      "field_name": {
+        "bbox": {
+          "x": 155,
+          "y": 2785,
+          "l": 417,
+          "w": 45
+        },
+        "name": "Are you related to this patient?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 720,
+          "y": 2787,
+          "l": 81,
+          "w": 42
+        },
+        "value": "☒ No"
+      }
+    }
+  },
+  {
+    "field_area25": {
+      "bbox": {
+        "x": 831,
+        "y": 2782,
+        "l": 1514,
+        "w": 54
+      },
+      "field_name": {
+        "bbox": {
+          "x": 831,
+          "y": 2782,
+          "l": 416,
+          "w": 54
+        },
+        "name": "If yes, what is the relationship"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area26": {
+      "bbox": {
+        "x": 158,
+        "y": 2816,
+        "l": 1367,
+        "w": 149
+      },
+      "field_name": {
+        "bbox": {
+          "x": 156,
+          "y": 2920,
+          "l": 364,
+          "w": 40
+        },
+        "name": "Physician Signature"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 248,
+          "y": 2816,
+          "l": 325,
+          "w": 138
+        },
+        "value": "'S'"
+      }
+    }
+  },
+  {
+    "field_area27": {
+      "bbox": {
+        "x": 1634,
+        "y": 2835,
+        "l": 709,
+        "w": 131
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1634,
+          "y": 2922,
+          "l": 84,
+          "w": 37
+        },
+        "name": "Date"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1689,
+          "y": 2846,
+          "l": 259,
+          "w": 76
+        },
+        "value": "04-09-18"
+      }
+    }
+  },
+  {
+    "field_area28": {
+      "bbox": {
+        "x": 161,
+        "y": 951,
+        "l": 2186,
+        "w": 585
+      },
+      "field_name": {
+        "bbox": {
+          "x": 161,
+          "y": 951,
+          "l": 2186,
+          "w": 132
+        },
+        "name": "Header"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 161,
+          "y": 1079,
+          "l": 2186,
+          "w": 90
+        },
+        "value": "Row"
+      }
+    }
+  },
+  {
+    "field_area29": {
+      "bbox": {
+        "x": 161,
+        "y": 951,
+        "l": 2186,
+        "w": 585
+      },
+      "field_name": {
+        "bbox": {
+          "x": 161,
+          "y": 951,
+          "l": 2186,
+          "w": 132
+        },
+        "name": "Header"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 161,
+          "y": 1172,
+          "l": 2186,
+          "w": 90
+        },
+        "value": "Row"
+      }
+    }
+  },
+  {
+    "field_area30": {
+      "bbox": {
+        "x": 161,
+        "y": 951,
+        "l": 2186,
+        "w": 585
+      },
+      "field_name": {
+        "bbox": {
+          "x": 161,
+          "y": 951,
+          "l": 2186,
+          "w": 132
+        },
+        "name": "Header"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 161,
+          "y": 1262,
+          "l": 2186,
+          "w": 90
+        },
+        "value": "Row"
+      }
+    }
+  },
+  {
+    "field_area31": {
+      "bbox": {
+        "x": 161,
+        "y": 951,
+        "l": 2186,
+        "w": 585
+      },
+      "field_name": {
+        "bbox": {
+          "x": 161,
+          "y": 951,
+          "l": 2186,
+          "w": 132
+        },
+        "name": "Header"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 161,
+          "y": 1352,
+          "l": 2186,
+          "w": 90
+        },
+        "value": "Row"
+      }
+    }
+  },
+  {
+    "field_area32": {
+      "bbox": {
+        "x": 161,
+        "y": 951,
+        "l": 2186,
+        "w": 585
+      },
+      "field_name": {
+        "bbox": {
+          "x": 161,
+          "y": 951,
+          "l": 2186,
+          "w": 132
+        },
+        "name": "Header"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 161,
+          "y": 1440,
+          "l": 2186,
+          "w": 97
+        },
+        "value": "Row"
+      }
+    }
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "field_area1": {
+      "bbox": {
+        "x": 150,
+        "y": 1048,
+        "l": 1501,
+        "w": 94
+      },
+      "field_name": {
+        "bbox": {
+          "x": 155,
+          "y": 1082,
+          "l": 252,
+          "w": 58
+        },
+        "name": "My Spouse:"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 465,
+          "y": 1048,
+          "l": 538,
+          "w": 92
+        },
+        "value": "Clausen, Edith, S."
+      }
+    }
+  },
+  {
+    "field_area2": {
+      "bbox": {
+        "x": 1653,
+        "y": 1059,
+        "l": 522,
+        "w": 151
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1654,
+          "y": 1152,
+          "l": 435,
+          "w": 57
+        },
+        "name": "(Telephone Number)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1674,
+          "y": 1061,
+          "l": 460,
+          "w": 90
+        },
+        "value": "914-890-5521"
+      }
+    }
+  },
+  {
+    "field_area3": {
+      "bbox": {
+        "x": 150,
+        "y": 1206,
+        "l": 1501,
+        "w": 66
+      },
+      "field_name": {
+        "bbox": {
+          "x": 157,
+          "y": 1218,
+          "l": 476,
+          "w": 56
+        },
+        "name": "Other Family Member:"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area4": {
+      "bbox": {
+        "x": 1653,
+        "y": 1209,
+        "l": 531,
+        "w": 137
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1657,
+          "y": 1287,
+          "l": 437,
+          "w": 59
+        },
+        "name": "(Telephone Number)"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area5": {
+      "bbox": {
+        "x": 150,
+        "y": 1339,
+        "l": 1501,
+        "w": 66
+      },
+      "field_name": {
+        "bbox": {
+          "x": 154,
+          "y": 1350,
+          "l": 296,
+          "w": 59
+        },
+        "name": "Other person:"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area6": {
+      "bbox": {
+        "x": 1653,
+        "y": 1343,
+        "l": 535,
+        "w": 135
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1661,
+          "y": 1422,
+          "l": 432,
+          "w": 61
+        },
+        "name": "(Telephone Number)"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area7": {
+      "bbox": {
+        "x": 150,
+        "y": 2314,
+        "l": 1440,
+        "w": 163
+      },
+      "field_name": {
+        "bbox": {
+          "x": 154,
+          "y": 2418,
+          "l": 481,
+          "w": 59
+        },
+        "name": "Policyholder Signature"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 336,
+          "y": 2314,
+          "l": 268,
+          "w": 162
+        },
+        "value": "'S'"
+      }
+    }
+  },
+  {
+    "field_area8": {
+      "bbox": {
+        "x": 1653,
+        "y": 2345,
+        "l": 535,
+        "w": 129
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1654,
+          "y": 2425,
+          "l": 104,
+          "w": 49
+        },
+        "name": "Date"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1783,
+          "y": 2346,
+          "l": 280,
+          "w": 63
+        },
+        "value": "03-12-18"
+      }
+    }
+  },
+  {
+    "field_area9": {
+      "bbox": {
+        "x": 151,
+        "y": 2473,
+        "l": 1435,
+        "w": 133
+      },
+      "field_name": {
+        "bbox": {
+          "x": 153,
+          "y": 2555,
+          "l": 291,
+          "w": 52
+        },
+        "name": "Printed Name"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 274,
+          "y": 2474,
+          "l": 609,
+          "w": 74
+        },
+        "value": "CLAUSEN, JOSEPH N."
+      }
+    }
+  },
+  {
+    "field_area10": {
+      "bbox": {
+        "x": 1652,
+        "y": 2468,
+        "l": 536,
+        "w": 150
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1652,
+          "y": 2558,
+          "l": 506,
+          "w": 60
+        },
+        "name": "Social Security Number"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1701,
+          "y": 2466,
+          "l": 432,
+          "w": 78
+        },
+        "value": "617-54-1889"
+      }
+    }
+  },
+  {
+    "field_area11": {
+      "bbox": {
+        "x": 152,
+        "y": 2622,
+        "l": 1500,
+        "w": 58
+      },
+      "field_name": {
+        "bbox": {
+          "x": 153,
+          "y": 2624,
+          "l": 769,
+          "w": 52
+        },
+        "name": "I signed on behalf of the claimant as"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1002,
+          "y": 2625,
+          "l": 219,
+          "w": 54
+        },
+        "value": "HUSBAND"
+      }
+    }
+  }
+]

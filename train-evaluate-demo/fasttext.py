@@ -10,8 +10,8 @@ def extract_questions():
     """
     Extract questions for making word2vec model.
     """
-    df1 = pd.read_csv("./repo/train.csv", keep_default_na=False)
-    df2 = pd.read_csv("./repo/test.csv", keep_default_na=False)
+    df1 = pd.read_csv("./data/train.csv", keep_default_na=False)
+    df2 = pd.read_csv("./data/test.csv", keep_default_na=False)
 
     for dataset in [df1, df2]:
         for i, row in dataset.iterrows():
@@ -29,4 +29,4 @@ logging.info("Done reading data file")
 
 model = gensim.models.FastText(documents, size=300, iter=10)
 # model.train(documents, total_examples=len(documents), epochs=10)
-model.save("./repo/Quora-Question-Pairs.ft")
+model.save("./models/Quora-Question-Pairs.ft")

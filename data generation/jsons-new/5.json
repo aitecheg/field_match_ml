@@ -1,0 +1,142 @@
+[
+  {
+    "field_area1": {
+      "bbox": {
+        "x": 156,
+        "y": 2406,
+        "l": 1308,
+        "w": 168
+      },
+      "field_name": {
+        "bbox": {
+          "x": 156,
+          "y": 2524,
+          "l": 392,
+          "w": 50
+        },
+        "name": "Insured's Signature"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 302,
+          "y": 2414,
+          "l": 220,
+          "w": 132
+        },
+        "value": "'S'"
+      }
+    }
+  },
+  {
+    "field_area2": {
+      "bbox": {
+        "x": 1524,
+        "y": 2443,
+        "l": 626,
+        "w": 134
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1524,
+          "y": 2520,
+          "l": 249,
+          "w": 57
+        },
+        "name": "Date Signed"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1593,
+          "y": 2442,
+          "l": 318,
+          "w": 91
+        },
+        "value": "03-12-18"
+      }
+    }
+  },
+  {
+    "field_area3": {
+      "bbox": {
+        "x": 158,
+        "y": 2598,
+        "l": 1308,
+        "w": 119
+      },
+      "field_name": {
+        "bbox": {
+          "x": 158,
+          "y": 2671,
+          "l": 278,
+          "w": 42
+        },
+        "name": "Printed Name"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 274,
+          "y": 2598,
+          "l": 643,
+          "w": 87
+        },
+        "value": "CLAUSEN, JOSEPH N."
+      }
+    }
+  },
+  {
+    "field_area4": {
+      "bbox": {
+        "x": 1522,
+        "y": 2587,
+        "l": 630,
+        "w": 138
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1522,
+          "y": 2668,
+          "l": 476,
+          "w": 57
+        },
+        "name": "Social Security Number"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1581,
+          "y": 2584,
+          "l": 407,
+          "w": 82
+        },
+        "value": "617-54-1889"
+      }
+    }
+  },
+  {
+    "field_area5": {
+      "bbox": {
+        "x": 154,
+        "y": 2720,
+        "l": 1622,
+        "w": 70
+      },
+      "field_name": {
+        "bbox": {
+          "x": 154,
+          "y": 2736,
+          "l": 776,
+          "w": 54
+        },
+        "name": "I signed on behalf of the Insured as"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1000,
+          "y": 2721,
+          "l": 239,
+          "w": 70
+        },
+        "value": "HUSBAND"
+      }
+    }
+  }
+]

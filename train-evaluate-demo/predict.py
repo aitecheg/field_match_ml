@@ -1,16 +1,20 @@
+import argparse
+
 import numpy as np
 import pandas as pd
 import tensorflow as tf
-from sklearn.metrics import confusion_matrix
-from sklearn.metrics import precision_score
-from sklearn.metrics import recall_score
 
-from util import ManDist
+from util import ManDist, show_metrics
 from util import make_w2v_embeddings
 from util import split_and_zero_padding
 
+params_parser = argparse.ArgumentParser(description='repo')
+params_parser.add_argument('gpu', type=int)
+params_parser.add_argument('file', type=str)
+params = params_parser.parse_args()
+
 # File paths
-TEST_CSV = './repo/train.csv'
+TEST_CSV = './data/{}.csv'.format(params.file)
 
 # Load training set
 test_df = pd.read_csv(TEST_CSV, keep_default_na=False)
@@ -29,15 +33,15 @@ X_test = split_and_zero_padding(test_df, max_seq_length)
 assert X_test['left'].shape == X_test['right'].shape
 
 # --
-print(np.array(test_df["is_duplicate"]).shape)
+labels = np.array(test_df["is_duplicate"])
+print(labels.shape)
 print(X_test['left'].shape, X_test['right'].shape)
-with tf.device('/device:GPU:1'):
-    model = tf.keras.models.load_model('./repo/SiameseLSTM.h5', custom_objects={'ManDist': ManDist})
+with tf.device('/device:GPU:{}'.format(params.gpu)):
+    model = tf.keras.models.load_model('./models/SiameseLSTM.h5', custom_objects={'ManDist': ManDist})
     model.summary()
-    print(model.evaluate([X_test['left'], X_test['right']], batch_size=512, y=np.array(test_df["is_duplicate"])))  # [0.1433791877169883, 0.836463501020833] [0.09123201929869311, 0.8700960347451158]
+
+    print("loss,accuracy", model.evaluate([X_test['left'], X_test['right']], batch_size=512, y=labels))
 
     prediction = model.predict([X_test['left'], X_test['right']])
-    print(confusion_matrix(np.array(test_df["is_duplicate"]), prediction < .5))
-    print("recall", recall_score(np.array(test_df["is_duplicate"]), prediction < .5))
-    print("precision", precision_score(np.array(test_df["is_duplicate"]), prediction < .5))
+    show_metrics(labels, prediction)
     # print(prediction)

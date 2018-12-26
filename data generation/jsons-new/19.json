@@ -1,0 +1,688 @@
+[
+  {
+    "field_area1": {
+      "bbox": {
+        "x": 92,
+        "y": 460,
+        "l": 1771,
+        "w": 134
+      },
+      "field_name": {
+        "bbox": {
+          "x": 92,
+          "y": 460,
+          "l": 729,
+          "w": 40
+        },
+        "name": "Patient's Name (Last Name, First Name, MI, Suffix)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 92,
+          "y": 502,
+          "l": 1771,
+          "w": 74
+        },
+        "value": "ARANDA, ELMER, F"
+      }
+    }
+  },
+  {
+    "field_area2": {
+      "bbox": {
+        "x": 1913,
+        "y": 461,
+        "l": 476,
+        "w": 115
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1913,
+          "y": 463,
+          "l": 345,
+          "w": 35
+        },
+        "name": "Date of Birth (mm/dd/yy)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1913,
+          "y": 501,
+          "l": 475,
+          "w": 72
+        },
+        "value": "06 13 87"
+      }
+    }
+  },
+  {
+    "field_area3": {
+      "bbox": {
+        "x": 95,
+        "y": 599,
+        "l": 931,
+        "w": 152
+      },
+      "field_name": {
+        "bbox": {
+          "x": 95,
+          "y": 641,
+          "l": 669,
+          "w": 34
+        },
+        "name": "Have you advise the patient to return to work?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 787,
+          "y": 600,
+          "l": 104,
+          "w": 68
+        },
+        "value": "☑ Yes"
+      }
+    }
+  },
+  {
+    "field_area4": {
+      "bbox": {
+        "x": 1025,
+        "y": 580,
+        "l": 1120,
+        "w": 173
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1038,
+          "y": 638,
+          "l": 678,
+          "w": 39
+        },
+        "name": "If yes, expected return to work date (mm/dd/yy):"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1746,
+          "y": 579,
+          "l": 176,
+          "w": 91
+        },
+        "value": "☑ Full Time"
+      }
+    }
+  },
+  {
+    "field_area5": {
+      "bbox": {
+        "x": 1026,
+        "y": 628,
+        "l": 1120,
+        "w": 151
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1038,
+          "y": 638,
+          "l": 678,
+          "w": 39
+        },
+        "name": "If yes, expected return to work date (mm/dd/yy):"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1258,
+          "y": 676,
+          "l": 295,
+          "w": 103
+        },
+        "value": "04-20-17"
+      }
+    }
+  },
+  {
+    "field_area6": {
+      "bbox": {
+        "x": 2144,
+        "y": 626,
+        "l": 248,
+        "w": 126
+      },
+      "field_name": {
+        "bbox": {
+          "x": 2164,
+          "y": 643,
+          "l": 202,
+          "w": 33
+        },
+        "name": "Hours per day"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 2219,
+          "y": 685,
+          "l": 57,
+          "w": 60
+        },
+        "value": "8"
+      }
+    }
+  },
+  {
+    "field_area7": {
+      "bbox": {
+        "x": 94,
+        "y": 834,
+        "l": 2296,
+        "w": 342
+      },
+      "field_name": {
+        "bbox": {
+          "x": 93,
+          "y": 848,
+          "l": 863,
+          "w": 36
+        },
+        "name": "CURRENT RESTRICTIONS (activities patient should not do)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 332,
+          "y": 910,
+          "l": 1132,
+          "w": 168
+        },
+        "value": "No driving Limited use of Left Shoulder"
+      }
+    }
+  },
+  {
+    "field_area8": {
+      "bbox": {
+        "x": 92,
+        "y": 1172,
+        "l": 2300,
+        "w": 338
+      },
+      "field_name": {
+        "bbox": {
+          "x": 92,
+          "y": 1186,
+          "l": 769,
+          "w": 36
+        },
+        "name": "CURRENT LIMITATIONS (activities patient cannot do)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 290,
+          "y": 1250,
+          "l": 1186,
+          "w": 132
+        },
+        "value": "Limited Use of Left Shoulder"
+      }
+    }
+  },
+  {
+    "field_area9": {
+      "bbox": {
+        "x": 91,
+        "y": 1498,
+        "l": 1668,
+        "w": 100
+      },
+      "field_name": {
+        "bbox": {
+          "x": 93,
+          "y": 1523,
+          "l": 1350,
+          "w": 35
+        },
+        "name": "Do you support your patient's return to work within the restrictions and limitations you provided?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1464,
+          "y": 1493,
+          "l": 97,
+          "w": 80
+        },
+        "value": "☑ Yes"
+      }
+    }
+  },
+  {
+    "field_area10": {
+      "bbox": {
+        "x": 1755,
+        "y": 1509,
+        "l": 660,
+        "w": 110
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1765,
+          "y": 1522,
+          "l": 348,
+          "w": 35
+        },
+        "name": "If yes, as of (mm/dd/yy):"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 2120,
+          "y": 1527,
+          "l": 298,
+          "w": 92
+        },
+        "value": "04-20-17"
+      }
+    }
+  },
+  {
+    "field_area11": {
+      "bbox": {
+        "x": 90,
+        "y": 1601,
+        "l": 2303,
+        "w": 95
+      },
+      "field_name": {
+        "bbox": {
+          "x": 90,
+          "y": 1601,
+          "l": 1064,
+          "w": 46
+        },
+        "name": "If no, when do you expect improvement in the patient's functional capacity?"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area12": {
+      "bbox": {
+        "x": 94,
+        "y": 2023,
+        "l": 2309,
+        "w": 130
+      },
+      "field_name": {
+        "bbox": {
+          "x": 92,
+          "y": 2024,
+          "l": 924,
+          "w": 34
+        },
+        "name": "Physical Name (Last Name, First Name, MI, Suffix) Please Print"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 198,
+          "y": 2070,
+          "l": 693,
+          "w": 97
+        },
+        "value": "Champman, Roger, J."
+      }
+    }
+  },
+  {
+    "field_area13": {
+      "bbox": {
+        "x": 92,
+        "y": 2138,
+        "l": 1146,
+        "w": 155
+      },
+      "field_name": {
+        "bbox": {
+          "x": 92,
+          "y": 2150,
+          "l": 252,
+          "w": 38
+        },
+        "name": "Medical Specialty"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 368,
+          "y": 2190,
+          "l": 358,
+          "w": 108
+        },
+        "value": "Orthopedic"
+      }
+    }
+  },
+  {
+    "field_area14": {
+      "bbox": {
+        "x": 1236,
+        "y": 2141,
+        "l": 1157,
+        "w": 125
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1244,
+          "y": 2153,
+          "l": 108,
+          "w": 35
+        },
+        "name": "Degree"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1362,
+          "y": 2194,
+          "l": 77,
+          "w": 57
+        },
+        "value": "MD"
+      }
+    }
+  },
+  {
+    "field_area15": {
+      "bbox": {
+        "x": 92,
+        "y": 2266,
+        "l": 2297,
+        "w": 127
+      },
+      "field_name": {
+        "bbox": {
+          "x": 91,
+          "y": 2278,
+          "l": 121,
+          "w": 30
+        },
+        "name": "Address"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 243,
+          "y": 2299,
+          "l": 687,
+          "w": 96
+        },
+        "value": "4462 Ritter Street"
+      }
+    }
+  },
+  {
+    "field_area16": {
+      "bbox": {
+        "x": 91,
+        "y": 2391,
+        "l": 1459,
+        "w": 131
+      },
+      "field_name": {
+        "bbox": {
+          "x": 91,
+          "y": 2405,
+          "l": 58,
+          "w": 36
+        },
+        "name": "City"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 212,
+          "y": 2428,
+          "l": 366,
+          "w": 97
+        },
+        "value": "Birmingham"
+      }
+    }
+  },
+  {
+    "field_area17": {
+      "bbox": {
+        "x": 1549,
+        "y": 2393,
+        "l": 172,
+        "w": 131
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1561,
+          "y": 2407,
+          "l": 76,
+          "w": 27
+        },
+        "name": "State"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1620,
+          "y": 2444,
+          "l": 96,
+          "w": 62
+        },
+        "value": "AL"
+      }
+    }
+  },
+  {
+    "field_area18": {
+      "bbox": {
+        "x": 1719,
+        "y": 2392,
+        "l": 673,
+        "w": 132
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1730,
+          "y": 2408,
+          "l": 47,
+          "w": 32
+        },
+        "name": "Zip"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1796,
+          "y": 2429,
+          "l": 193,
+          "w": 72
+        },
+        "value": "35203"
+      }
+    }
+  },
+  {
+    "field_area19": {
+      "bbox": {
+        "x": 94,
+        "y": 2523,
+        "l": 898,
+        "w": 138
+      },
+      "field_name": {
+        "bbox": {
+          "x": 94,
+          "y": 2532,
+          "l": 272,
+          "w": 35
+        },
+        "name": "Telephone Number"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 386,
+          "y": 2573,
+          "l": 507,
+          "w": 68
+        },
+        "value": "256-293-5095"
+      }
+    }
+  },
+  {
+    "field_area20": {
+      "bbox": {
+        "x": 989,
+        "y": 2522,
+        "l": 768,
+        "w": 141
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1002,
+          "y": 2532,
+          "l": 185,
+          "w": 32
+        },
+        "name": "Fax Number"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1085,
+          "y": 2571,
+          "l": 513,
+          "w": 90
+        },
+        "value": "456-672-5040"
+      }
+    }
+  },
+  {
+    "field_area21": {
+      "bbox": {
+        "x": 1752,
+        "y": 2522,
+        "l": 638,
+        "w": 152
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1768,
+          "y": 2530,
+          "l": 388,
+          "w": 39
+        },
+        "name": "Physician's Tax ID Number:"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1828,
+          "y": 2576,
+          "l": 382,
+          "w": 101
+        },
+        "value": "958976877"
+      }
+    }
+  },
+  {
+    "field_area22": {
+      "bbox": {
+        "x": 92,
+        "y": 2660,
+        "l": 2260,
+        "w": 208
+      },
+      "field_name": {
+        "bbox": {
+          "x": 90,
+          "y": 2671,
+          "l": 439,
+          "w": 36
+        },
+        "name": "Are you related to this patient?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 686,
+          "y": 2630,
+          "l": 86,
+          "w": 85
+        },
+        "value": "☑ No"
+      }
+    }
+  },
+  {
+    "field_area23": {
+      "bbox": {
+        "x": 94,
+        "y": 2714,
+        "l": 594,
+        "w": 29
+      },
+      "field_name": {
+        "bbox": {
+          "x": 94,
+          "y": 2714,
+          "l": 439,
+          "w": 29
+        },
+        "name": "If yes, what is the relationship"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area24": {
+      "bbox": {
+        "x": 92,
+        "y": 2728,
+        "l": 1809,
+        "w": 186
+      },
+      "field_name": {
+        "bbox": {
+          "x": 91,
+          "y": 2871,
+          "l": 432,
+          "w": 43
+        },
+        "name": "Signature of Physician"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 245,
+          "y": 2727,
+          "l": 528,
+          "w": 169
+        },
+        "value": "'S'"
+      }
+    }
+  },
+  {
+    "field_area25": {
+      "bbox": {
+        "x": 1902,
+        "y": 2867,
+        "l": 492,
+        "w": 160
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1914,
+          "y": 2873,
+          "l": 91,
+          "w": 34
+        },
+        "name": "Date"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 2013,
+          "y": 2905,
+          "l": 371,
+          "w": 109
+        },
+        "value": "04-15-17"
+      }
+    }
+  }
+]

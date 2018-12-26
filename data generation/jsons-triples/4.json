@@ -1,1 +1,66 @@
-[{"left":232,"top":143,"width":734,"height":78,"label":"field_area","text":""},{"left":235,"top":175,"width":306,"height":41,"label":"field_name","text":"Employee Name:"},{"left":553,"top":155,"width":409,"height":56,"label":"field_value","text":"DENNIS WHITE"},{"left":1652,"top":163,"width":719,"height":78,"label":"field_area","text":""},{"left":1661,"top":170,"width":285,"height":50,"label":"field_name","text":"Employee SSN:"},{"left":1973,"top":167,"width":392,"height":74,"label":"field_value","text":"704-538-8617"},{"left":238,"top":293,"width":2137,"height":80,"label":"field_area","text":""},{"left":239,"top":296,"width":597,"height":35,"label":"field_name","text":"Additional Beneficiary Information:"}]
+[
+  {
+    "left": 232,
+    "top": 143,
+    "width": 734,
+    "height": 78,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 235,
+    "top": 175,
+    "width": 306,
+    "height": 41,
+    "label": "field_name",
+    "text": "Employee Name:"
+  },
+  {
+    "left": 553,
+    "top": 155,
+    "width": 409,
+    "height": 56,
+    "label": "field_value",
+    "text": "DENNIS WHITE"
+  },
+  {
+    "left": 1652,
+    "top": 163,
+    "width": 719,
+    "height": 78,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 1661,
+    "top": 170,
+    "width": 285,
+    "height": 50,
+    "label": "field_name",
+    "text": "Employee SSN:"
+  },
+  {
+    "left": 1973,
+    "top": 167,
+    "width": 392,
+    "height": 74,
+    "label": "field_value",
+    "text": "704-538-8617"
+  },
+  {
+    "left": 238,
+    "top": 293,
+    "width": 2137,
+    "height": 80,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 239,
+    "top": 296,
+    "width": 597,
+    "height": 35,
+    "label": "field_name",
+    "text": "Additional Beneficiary Information:"
+  }
+]

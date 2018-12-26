@@ -1,0 +1,282 @@
+[
+  {
+    "field_area1": {
+      "bbox": {
+        "x": 106,
+        "y": 997,
+        "l": 1599,
+        "w": 68
+      },
+      "field_name": {
+        "bbox": {
+          "x": 106,
+          "y": 1012,
+          "l": 271,
+          "w": 59
+        },
+        "name": "My Spouse:"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 389,
+          "y": 997,
+          "l": 1316,
+          "w": 68
+        },
+        "value": "MARCUS MAROUN"
+      }
+    }
+  },
+  {
+    "field_area2": {
+      "bbox": {
+        "x": 1709,
+        "y": 989,
+        "l": 560,
+        "w": 168
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1709,
+          "y": 1093,
+          "l": 466,
+          "w": 64
+        },
+        "name": "(Telephone Number)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1721,
+          "y": 988,
+          "l": 425,
+          "w": 82
+        },
+        "value": "910-734-7634"
+      }
+    }
+  },
+  {
+    "field_area3": {
+      "bbox": {
+        "x": 105,
+        "y": 1160,
+        "l": 1595,
+        "w": 64
+      },
+      "field_name": {
+        "bbox": {
+          "x": 105,
+          "y": 1160,
+          "l": 513,
+          "w": 64
+        },
+        "name": "Other Family Member:"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area4": {
+      "bbox": {
+        "x": 1709,
+        "y": 1154,
+        "l": 573,
+        "w": 154
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1709,
+          "y": 1251,
+          "l": 472,
+          "w": 57
+        },
+        "name": "(Telephone Number)"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area5": {
+      "bbox": {
+        "x": 105,
+        "y": 1317,
+        "l": 1598,
+        "w": 59
+      },
+      "field_name": {
+        "bbox": {
+          "x": 105,
+          "y": 1317,
+          "l": 313,
+          "w": 59
+        },
+        "name": "Other person"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area6": {
+      "bbox": {
+        "x": 1701,
+        "y": 1312,
+        "l": 581,
+        "w": 150
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1701,
+          "y": 1404,
+          "l": 481,
+          "w": 58
+        },
+        "name": "(Telephone Number)"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area7": {
+      "bbox": {
+        "x": 102,
+        "y": 2317,
+        "l": 1535,
+        "w": 196
+      },
+      "field_name": {
+        "bbox": {
+          "x": 103,
+          "y": 2452,
+          "l": 436,
+          "w": 58
+        },
+        "name": "Claimant Signature"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 225,
+          "y": 2317,
+          "l": 266,
+          "w": 149
+        },
+        "value": "'S'"
+      }
+    }
+  },
+  {
+    "field_area8": {
+      "bbox": {
+        "x": 1705,
+        "y": 2358,
+        "l": 573,
+        "w": 146
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1705,
+          "y": 2458,
+          "l": 111,
+          "w": 46
+        },
+        "name": "Date"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1746,
+          "y": 2358,
+          "l": 278,
+          "w": 69
+        },
+        "value": "09-19-18"
+      }
+    }
+  },
+  {
+    "field_area9": {
+      "bbox": {
+        "x": 102,
+        "y": 2515,
+        "l": 1537,
+        "w": 146
+      },
+      "field_name": {
+        "bbox": {
+          "x": 103,
+          "y": 2608,
+          "l": 311,
+          "w": 49
+        },
+        "name": "Printed Name"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 184,
+          "y": 2518,
+          "l": 548,
+          "w": 72
+        },
+        "value": "MARGARITA MAROUN"
+      }
+    }
+  },
+  {
+    "field_area10": {
+      "bbox": {
+        "x": 1705,
+        "y": 2517,
+        "l": 572,
+        "w": 158
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1705,
+          "y": 2611,
+          "l": 539,
+          "w": 62
+        },
+        "name": "Social Security Number"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1750,
+          "y": 2522,
+          "l": 357,
+          "w": 68
+        },
+        "value": "104028783"
+      }
+    }
+  },
+  {
+    "field_area11": {
+      "bbox": {
+        "x": 98,
+        "y": 2672,
+        "l": 1602,
+        "w": 99
+      },
+      "field_name": {
+        "bbox": {
+          "x": 98,
+          "y": 2684,
+          "l": 824,
+          "w": 61
+        },
+        "name": "I signed on behalf of the claimant as"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 998,
+          "y": 2680,
+          "l": 118,
+          "w": 92
+        },
+        "value": "Self"
+      }
+    }
+  }
+]

@@ -1,0 +1,1374 @@
+[
+  {
+    "field_area1": {
+      "bbox": {
+        "x": 95,
+        "y": 576,
+        "l": 1523,
+        "w": 118
+      },
+      "field_name": {
+        "bbox": {
+          "x": 97,
+          "y": 581,
+          "l": 233,
+          "w": 34
+        },
+        "name": "Employer Name"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 97,
+          "y": 616,
+          "l": 1523,
+          "w": 76
+        },
+        "value": "Craig, Thomas G"
+      }
+    }
+  },
+  {
+    "field_area2": {
+      "bbox": {
+        "x": 1698,
+        "y": 575,
+        "l": 738,
+        "w": 123
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1702,
+          "y": 583,
+          "l": 425,
+          "w": 38
+        },
+        "name": "Employer Telephone Number"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1698,
+          "y": 623,
+          "l": 738,
+          "w": 75
+        },
+        "value": "495 202 8689"
+      }
+    }
+  },
+  {
+    "field_area3": {
+      "bbox": {
+        "x": 96,
+        "y": 691,
+        "l": 2357,
+        "w": 116
+      },
+      "field_name": {
+        "bbox": {
+          "x": 95,
+          "y": 691,
+          "l": 267,
+          "w": 37
+        },
+        "name": "Employer Address"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 95,
+          "y": 733,
+          "l": 2357,
+          "w": 70
+        },
+        "value": "67 S Laramie Ave"
+      }
+    }
+  },
+  {
+    "field_area4": {
+      "bbox": {
+        "x": 96,
+        "y": 805,
+        "l": 1455,
+        "w": 136
+      },
+      "field_name": {
+        "bbox": {
+          "x": 95,
+          "y": 807,
+          "l": 58,
+          "w": 35
+        },
+        "name": "City"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 96,
+          "y": 849,
+          "l": 1455,
+          "w": 91
+        },
+        "value": "Chicago"
+      }
+    }
+  },
+  {
+    "field_area5": {
+      "bbox": {
+        "x": 1586,
+        "y": 812,
+        "l": 144,
+        "w": 116
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1586,
+          "y": 812,
+          "l": 79,
+          "w": 30
+        },
+        "name": "State"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1587,
+          "y": 856,
+          "l": 143,
+          "w": 73
+        },
+        "value": "IL"
+      }
+    }
+  },
+  {
+    "field_area6": {
+      "bbox": {
+        "x": 1763,
+        "y": 809,
+        "l": 672,
+        "w": 120
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1760,
+          "y": 812,
+          "l": 48,
+          "w": 37
+        },
+        "name": "Zip"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1763,
+          "y": 857,
+          "l": 672,
+          "w": 72
+        },
+        "value": "60644"
+      }
+    }
+  },
+  {
+    "field_area7": {
+      "bbox": {
+        "x": 97,
+        "y": 1000,
+        "l": 2353,
+        "w": 125
+      },
+      "field_name": {
+        "bbox": {
+          "x": 96,
+          "y": 999,
+          "l": 760,
+          "w": 36
+        },
+        "name": "Employee Name (Last Name, Suffix, First Name, MI)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 95,
+          "y": 1040,
+          "l": 2353,
+          "w": 83
+        },
+        "value": "Maroun, Margarita B"
+      }
+    }
+  },
+  {
+    "field_area8": {
+      "bbox": {
+        "x": 95,
+        "y": 1113,
+        "l": 2351,
+        "w": 113
+      },
+      "field_name": {
+        "bbox": {
+          "x": 95,
+          "y": 1112,
+          "l": 270,
+          "w": 35
+        },
+        "name": "Employee Address"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 95,
+          "y": 1145,
+          "l": 2351,
+          "w": 76
+        },
+        "value": "97 Main Street"
+      }
+    }
+  },
+  {
+    "field_area9": {
+      "bbox": {
+        "x": 94,
+        "y": 1227,
+        "l": 1454,
+        "w": 111
+      },
+      "field_name": {
+        "bbox": {
+          "x": 93,
+          "y": 1227,
+          "l": 58,
+          "w": 37
+        },
+        "name": "City"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 94,
+          "y": 1264,
+          "l": 1454,
+          "w": 72
+        },
+        "value": "Marshall"
+      }
+    }
+  },
+  {
+    "field_area10": {
+      "bbox": {
+        "x": 1585,
+        "y": 1232,
+        "l": 144,
+        "w": 112
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1587,
+          "y": 1233,
+          "l": 76,
+          "w": 28
+        },
+        "name": "State"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1585,
+          "y": 1270,
+          "l": 143,
+          "w": 75
+        },
+        "value": "VA"
+      }
+    }
+  },
+  {
+    "field_area11": {
+      "bbox": {
+        "x": 1760,
+        "y": 1233,
+        "l": 673,
+        "w": 113
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1760,
+          "y": 1233,
+          "l": 47,
+          "w": 35
+        },
+        "name": "Zip"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1761,
+          "y": 1272,
+          "l": 673,
+          "w": 73
+        },
+        "value": "20115"
+      }
+    }
+  },
+  {
+    "field_area12": {
+      "bbox": {
+        "x": 91,
+        "y": 1340,
+        "l": 739,
+        "w": 114
+      },
+      "field_name": {
+        "bbox": {
+          "x": 93,
+          "y": 1336,
+          "l": 430,
+          "w": 40
+        },
+        "name": "Employee Telephone Number"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 95,
+          "y": 1379,
+          "l": 735,
+          "w": 75
+        },
+        "value": "905 331 8089"
+      }
+    }
+  },
+  {
+    "field_area13": {
+      "bbox": {
+        "x": 947,
+        "y": 1338,
+        "l": 672,
+        "w": 120
+      },
+      "field_name": {
+        "bbox": {
+          "x": 950,
+          "y": 1343,
+          "l": 340,
+          "w": 36
+        },
+        "name": "Social Security Number"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 947,
+          "y": 1382,
+          "l": 672,
+          "w": 73
+        },
+        "value": "104 02 8783"
+      }
+    }
+  },
+  {
+    "field_area14": {
+      "bbox": {
+        "x": 1732,
+        "y": 1346,
+        "l": 486,
+        "w": 115
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1732,
+          "y": 1346,
+          "l": 344,
+          "w": 36
+        },
+        "name": "Date of Hire (mm/dd/yy)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1733,
+          "y": 1385,
+          "l": 485,
+          "w": 74
+        },
+        "value": "02 01 99"
+      }
+    }
+  },
+  {
+    "field_area15": {
+      "bbox": {
+        "x": 90,
+        "y": 1480,
+        "l": 2340,
+        "w": 176
+      },
+      "field_name": {
+        "bbox": {
+          "x": 93,
+          "y": 1481,
+          "l": 1498,
+          "w": 42
+        },
+        "name": "Please check all type of coverage this employee has with Unum and provide the information requested."
+      },
+      "field_value": {
+        "bbox": {
+          "x": 92,
+          "y": 1517,
+          "l": 347,
+          "w": 46
+        },
+        "value": "☑ Short Term Disability"
+      }
+    }
+  },
+  {
+    "field_area16": {
+      "bbox": {
+        "x": 90,
+        "y": 1480,
+        "l": 2340,
+        "w": 176
+      },
+      "field_name": {
+        "bbox": {
+          "x": 93,
+          "y": 1481,
+          "l": 1498,
+          "w": 42
+        },
+        "name": "Please check all type of coverage this employee has with Unum and provide the information requested."
+      },
+      "field_value": {
+        "bbox": {
+          "x": 94,
+          "y": 1562,
+          "l": 340,
+          "w": 45
+        },
+        "value": "☑ Long Term Disibility"
+      }
+    }
+  },
+  {
+    "field_area17": {
+      "bbox": {
+        "x": 90,
+        "y": 1480,
+        "l": 2340,
+        "w": 176
+      },
+      "field_name": {
+        "bbox": {
+          "x": 93,
+          "y": 1481,
+          "l": 1498,
+          "w": 42
+        },
+        "name": "Please check all type of coverage this employee has with Unum and provide the information requested."
+      },
+      "field_value": {
+        "bbox": {
+          "x": 94,
+          "y": 1602,
+          "l": 449,
+          "w": 48
+        },
+        "value": "☑ Voluntary Benefits Disability"
+      }
+    }
+  },
+  {
+    "field_area18": {
+      "bbox": {
+        "x": 89,
+        "y": 1653,
+        "l": 1081,
+        "w": 46
+      },
+      "field_name": {
+        "bbox": {
+          "x": 89,
+          "y": 1653,
+          "l": 786,
+          "w": 46
+        },
+        "name": "Voluntary Benefits Disability Benefit Election Amount $"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area19": {
+      "bbox": {
+        "x": 92,
+        "y": 1714,
+        "l": 1633,
+        "w": 45
+      },
+      "field_name": {
+        "bbox": {
+          "x": 92,
+          "y": 1719,
+          "l": 243,
+          "w": 36
+        },
+        "name": "Is this employee:"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 369,
+          "y": 1705,
+          "l": 169,
+          "w": 42
+        },
+        "value": "☑ Full-time"
+      }
+    }
+  },
+  {
+    "field_area20": {
+      "bbox": {
+        "x": 90,
+        "y": 1790,
+        "l": 1413,
+        "w": 61
+      },
+      "field_name": {
+        "bbox": {
+          "x": 90,
+          "y": 1790,
+          "l": 436,
+          "w": 61
+        },
+        "name": "Date Last Worked (mm/dd/yy)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 550,
+          "y": 1791,
+          "l": 295,
+          "w": 61
+        },
+        "value": "09-10-18"
+      }
+    }
+  },
+  {
+    "field_area21": {
+      "bbox": {
+        "x": 1506,
+        "y": 1794,
+        "l": 928,
+        "w": 60
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1506,
+          "y": 1794,
+          "l": 670,
+          "w": 60
+        },
+        "name": "Number of hours worked on date last worked"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area22": {
+      "bbox": {
+        "x": 89,
+        "y": 1853,
+        "l": 1418,
+        "w": 79
+      },
+      "field_name": {
+        "bbox": {
+          "x": 89,
+          "y": 1862,
+          "l": 414,
+          "w": 37
+        },
+        "name": "Check off regular work days:"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 665,
+          "y": 1858,
+          "l": 116,
+          "w": 36
+        },
+        "value": "☑ Mon"
+      }
+    }
+  },
+  {
+    "field_area23": {
+      "bbox": {
+        "x": 89,
+        "y": 1853,
+        "l": 1418,
+        "w": 79
+      },
+      "field_name": {
+        "bbox": {
+          "x": 89,
+          "y": 1862,
+          "l": 414,
+          "w": 37
+        },
+        "name": "Check off regular work days:"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 812,
+          "y": 1859,
+          "l": 117,
+          "w": 34
+        },
+        "value": "☑ Tues"
+      }
+    }
+  },
+  {
+    "field_area24": {
+      "bbox": {
+        "x": 89,
+        "y": 1853,
+        "l": 1418,
+        "w": 79
+      },
+      "field_name": {
+        "bbox": {
+          "x": 89,
+          "y": 1862,
+          "l": 414,
+          "w": 37
+        },
+        "name": "Check off regular work days:"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 958,
+          "y": 1858,
+          "l": 113,
+          "w": 38
+        },
+        "value": "☑ Wed Thurs"
+      }
+    }
+  },
+  {
+    "field_area25": {
+      "bbox": {
+        "x": 89,
+        "y": 1853,
+        "l": 1418,
+        "w": 79
+      },
+      "field_name": {
+        "bbox": {
+          "x": 89,
+          "y": 1862,
+          "l": 414,
+          "w": 37
+        },
+        "name": "Check off regular work days:"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1101,
+          "y": 1858,
+          "l": 136,
+          "w": 38
+        },
+        "value": "☑ Thurs"
+      }
+    }
+  },
+  {
+    "field_area26": {
+      "bbox": {
+        "x": 1505,
+        "y": 1857,
+        "l": 926,
+        "w": 79
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1518,
+          "y": 1868,
+          "l": 509,
+          "w": 36
+        },
+        "name": "Hours scheduled to work per week:"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 2060,
+          "y": 1873,
+          "l": 37,
+          "w": 62
+        },
+        "value": "8"
+      }
+    }
+  },
+  {
+    "field_area27": {
+      "bbox": {
+        "x": 86,
+        "y": 1928,
+        "l": 2363,
+        "w": 73
+      },
+      "field_name": {
+        "bbox": {
+          "x": 92,
+          "y": 1940,
+          "l": 1460,
+          "w": 40
+        },
+        "name": "Did this employee reduced his/her hours prior to his/her last day worked due to this medical condition?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1703,
+          "y": 1927,
+          "l": 83,
+          "w": 49
+        },
+        "value": "☑ No"
+      }
+    }
+  },
+  {
+    "field_area28": {
+      "bbox": {
+        "x": 89,
+        "y": 2011,
+        "l": 2345,
+        "w": 94
+      },
+      "field_name": {
+        "bbox": {
+          "x": 89,
+          "y": 2011,
+          "l": 795,
+          "w": 38
+        },
+        "name": "If yes, please provide specific dates and hours worked"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area29": {
+      "bbox": {
+        "x": 86,
+        "y": 2106,
+        "l": 2340,
+        "w": 88
+      },
+      "field_name": {
+        "bbox": {
+          "x": 90,
+          "y": 2105,
+          "l": 1042,
+          "w": 55
+        },
+        "name": "Occupation Title (Please attach a copy of the employee's job description)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1165,
+          "y": 2126,
+          "l": 489,
+          "w": 68
+        },
+        "value": "Master Craftsman"
+      }
+    }
+  },
+  {
+    "field_area30": {
+      "bbox": {
+        "x": 86,
+        "y": 2186,
+        "l": 985,
+        "w": 64
+      },
+      "field_name": {
+        "bbox": {
+          "x": 90,
+          "y": 2200,
+          "l": 736,
+          "w": 38
+        },
+        "name": "Has the employee's employment been terminated?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 971,
+          "y": 2189,
+          "l": 84,
+          "w": 43
+        },
+        "value": "☑ No"
+      }
+    }
+  },
+  {
+    "field_area31": {
+      "bbox": {
+        "x": 1071,
+        "y": 2194,
+        "l": 1358,
+        "w": 56
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1071,
+          "y": 2194,
+          "l": 527,
+          "w": 56
+        },
+        "name": "If yes, termination date (mm/dd/yy)"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area32": {
+      "bbox": {
+        "x": 86,
+        "y": 2248,
+        "l": 1275,
+        "w": 105
+      },
+      "field_name": {
+        "bbox": {
+          "x": 89,
+          "y": 2261,
+          "l": 837,
+          "w": 38
+        },
+        "name": "How was the employee paid? (please check all the that apply)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 258,
+          "y": 2300,
+          "l": 142,
+          "w": 41
+        },
+        "value": "☑ Salary"
+      }
+    }
+  },
+  {
+    "field_area33": {
+      "bbox": {
+        "x": 86,
+        "y": 2248,
+        "l": 1275,
+        "w": 105
+      },
+      "field_name": {
+        "bbox": {
+          "x": 89,
+          "y": 2261,
+          "l": 837,
+          "w": 38
+        },
+        "name": "How was the employee paid? (please check all the that apply)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 425,
+          "y": 2300,
+          "l": 966,
+          "w": 43
+        },
+        "value": "☑ Overtime"
+      }
+    }
+  },
+  {
+    "field_area34": {
+      "bbox": {
+        "x": 86,
+        "y": 2248,
+        "l": 1275,
+        "w": 105
+      },
+      "field_name": {
+        "bbox": {
+          "x": 89,
+          "y": 2261,
+          "l": 837,
+          "w": 38
+        },
+        "name": "How was the employee paid? (please check all the that apply)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 637,
+          "y": 2300,
+          "l": 144,
+          "w": 43
+        },
+        "value": "☑ Bonus"
+      }
+    }
+  },
+  {
+    "field_area35": {
+      "bbox": {
+        "x": 86,
+        "y": 2248,
+        "l": 1275,
+        "w": 105
+      },
+      "field_name": {
+        "bbox": {
+          "x": 89,
+          "y": 2261,
+          "l": 837,
+          "w": 38
+        },
+        "name": "How was the employee paid? (please check all the that apply)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 808,
+          "y": 2296,
+          "l": 245,
+          "w": 42
+        },
+        "value": "☑ Commissions"
+      }
+    }
+  },
+  {
+    "field_area36": {
+      "bbox": {
+        "x": 86,
+        "y": 2248,
+        "l": 1275,
+        "w": 105
+      },
+      "field_name": {
+        "bbox": {
+          "x": 89,
+          "y": 2261,
+          "l": 837,
+          "w": 38
+        },
+        "name": "How was the employee paid? (please check all the that apply)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1096,
+          "y": 2297,
+          "l": 134,
+          "w": 42
+        },
+        "value": "☑ Other"
+      }
+    }
+  },
+  {
+    "field_area37": {
+      "bbox": {
+        "x": 88,
+        "y": 2357,
+        "l": 826,
+        "w": 96
+      },
+      "field_name": {
+        "bbox": {
+          "x": 88,
+          "y": 2366,
+          "l": 542,
+          "w": 38
+        },
+        "name": "Salary/Wage prior to date last worked"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 260,
+          "y": 2398,
+          "l": 153,
+          "w": 52
+        },
+        "value": "Weekly"
+      }
+    }
+  },
+  {
+    "field_area38": {
+      "bbox": {
+        "x": 87,
+        "y": 2432,
+        "l": 536,
+        "w": 73
+      },
+      "field_name": {
+        "bbox": {
+          "x": 87,
+          "y": 2452,
+          "l": 23,
+          "w": 37
+        },
+        "name": "$"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 206,
+          "y": 2440,
+          "l": 104,
+          "w": 64
+        },
+        "value": "N/A"
+      }
+    }
+  },
+  {
+    "field_area39": {
+      "bbox": {
+        "x": 1010,
+        "y": 2380,
+        "l": 913,
+        "w": 70
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1010,
+          "y": 2410,
+          "l": 397,
+          "w": 36
+        },
+        "name": "Bonuses (per week) $"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1496,
+          "y": 2380,
+          "l": 84,
+          "w": 66
+        },
+        "value": "N/A"
+      }
+    }
+  },
+  {
+    "field_area40": {
+      "bbox": {
+        "x": 1010,
+        "y": 2444,
+        "l": 1029,
+        "w": 67
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1010,
+          "y": 2460,
+          "l": 397,
+          "w": 36
+        },
+        "name": "Commissions (per week)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1455,
+          "y": 2443,
+          "l": 583,
+          "w": 63
+        },
+        "value": "depends on the job order"
+      }
+    }
+  },
+  {
+    "field_area41": {
+      "bbox": {
+        "x": 86,
+        "y": 2575,
+        "l": 212,
+        "w": 84
+      },
+      "field_name": {
+        "bbox": {
+          "x": 86,
+          "y": 2575,
+          "l": 199,
+          "w": 38
+        },
+        "name": "401(k)/403(b)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 153,
+          "y": 2610,
+          "l": 71,
+          "w": 52
+        },
+        "value": "50"
+      }
+    }
+  },
+  {
+    "field_area42": {
+      "bbox": {
+        "x": 489,
+        "y": 2577,
+        "l": 620,
+        "w": 84
+      },
+      "field_name": {
+        "bbox": {
+          "x": 519,
+          "y": 2577,
+          "l": 522,
+          "w": 33
+        },
+        "name": "Pre-tax medical and other insurance"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 656,
+          "y": 2609,
+          "l": 62,
+          "w": 46
+        },
+        "value": "20"
+      }
+    }
+  },
+  {
+    "field_area43": {
+      "bbox": {
+        "x": 1482,
+        "y": 2582,
+        "l": 622,
+        "w": 82
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1510,
+          "y": 2582,
+          "l": 382,
+          "w": 36
+        },
+        "name": "Flexible spending account"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1551,
+          "y": 2618,
+          "l": 92,
+          "w": 44
+        },
+        "value": "200"
+      }
+    }
+  },
+  {
+    "field_area44": {
+      "bbox": {
+        "x": 76,
+        "y": 2672,
+        "l": 642,
+        "w": 106
+      },
+      "field_name": {
+        "bbox": {
+          "x": 88,
+          "y": 2681,
+          "l": 440,
+          "w": 39
+        },
+        "name": "Date paid through (mm/dd/yy):"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 165,
+          "y": 2721,
+          "l": 275,
+          "w": 55
+        },
+        "value": "09-19-18"
+      }
+    }
+  },
+  {
+    "field_area45": {
+      "bbox": {
+        "x": 718,
+        "y": 2672,
+        "l": 1726,
+        "w": 112
+      },
+      "field_name": {
+        "bbox": {
+          "x": 737,
+          "y": 2683,
+          "l": 58,
+          "w": 31
+        },
+        "name": "For:"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1458,
+          "y": 2677,
+          "l": 298,
+          "w": 46
+        },
+        "value": "☑ Accrued Sick pay"
+      }
+    }
+  },
+  {
+    "field_area46": {
+      "bbox": {
+        "x": 718,
+        "y": 2672,
+        "l": 1726,
+        "w": 112
+      },
+      "field_name": {
+        "bbox": {
+          "x": 737,
+          "y": 2683,
+          "l": 58,
+          "w": 31
+        },
+        "name": "For:"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1780,
+          "y": 2677,
+          "l": 135,
+          "w": 41
+        },
+        "value": "☑ Other"
+      }
+    }
+  },
+  {
+    "field_area47": {
+      "bbox": {
+        "x": 89,
+        "y": 2778,
+        "l": 1160,
+        "w": 46
+      },
+      "field_name": {
+        "bbox": {
+          "x": 89,
+          "y": 2783,
+          "l": 927,
+          "w": 41
+        },
+        "name": "Does the employee have an ownership interest in this business?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1030,
+          "y": 2777,
+          "l": 99,
+          "w": 43
+        },
+        "value": "☑ Yes"
+      }
+    }
+  },
+  {
+    "field_area48": {
+      "bbox": {
+        "x": 1273,
+        "y": 2780,
+        "l": 759,
+        "w": 49
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1273,
+          "y": 2792,
+          "l": 506,
+          "w": 37
+        },
+        "name": "If Yes, what is the % of ownership?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1818,
+          "y": 2780,
+          "l": 61,
+          "w": 42
+        },
+        "value": "10"
+      }
+    }
+  },
+  {
+    "field_area49": {
+      "bbox": {
+        "x": 82,
+        "y": 2825,
+        "l": 1510,
+        "w": 57
+      },
+      "field_name": {
+        "bbox": {
+          "x": 86,
+          "y": 2832,
+          "l": 255,
+          "w": 37
+        },
+        "name": "Type of business:"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1022,
+          "y": 2815,
+          "l": 212,
+          "w": 57
+        },
+        "value": "☑ Partnership"
+      }
+    }
+  },
+  {
+    "field_area50": {
+      "bbox": {
+        "x": 80,
+        "y": 2883,
+        "l": 2346,
+        "w": 90
+      },
+      "field_name": {
+        "bbox": {
+          "x": 84,
+          "y": 2892,
+          "l": 2168,
+          "w": 76
+        },
+        "name": "Other than payments under this policy, will the employee be receiving any other income from you, such as K-1 earnings, bonuses, commissions, salary continuation, PTO?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 380,
+          "y": 2922,
+          "l": 100,
+          "w": 45
+        },
+        "value": "☑ Yes"
+      }
+    }
+  }
+]

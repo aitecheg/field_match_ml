@@ -1,0 +1,1136 @@
+[
+  {
+    "field_area1": {
+      "bbox": {
+        "x": 86,
+        "y": 460,
+        "l": 1774,
+        "w": 130
+      },
+      "field_name": {
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "l": 0,
+          "w": 86
+        },
+        "name": "Employee's Name (Last Name"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 86,
+          "y": 513,
+          "l": 1774,
+          "w": 77
+        },
+        "value": "ARANDA,ELMER,F"
+      }
+    }
+  },
+  {
+    "field_area2": {
+      "bbox": {
+        "x": 1905,
+        "y": 461,
+        "l": 482,
+        "w": 130
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1910,
+          "y": 461,
+          "l": 348,
+          "w": 32
+        },
+        "name": "Date of Birth (mm/dd/yy)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1905,
+          "y": 509,
+          "l": 482,
+          "w": 82
+        },
+        "value": "06 13 83"
+      }
+    }
+  },
+  {
+    "field_area3": {
+      "bbox": {
+        "x": 89,
+        "y": 666,
+        "l": 694,
+        "w": 108
+      },
+      "field_name": {
+        "bbox": {
+          "x": 89,
+          "y": 667,
+          "l": 694,
+          "w": 42
+        },
+        "name": "What is your expected delivery date? (mm/dd/yy)"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area4": {
+      "bbox": {
+        "x": 86,
+        "y": 779,
+        "l": 1543,
+        "w": 111
+      },
+      "field_name": {
+        "bbox": {
+          "x": 84,
+          "y": 785,
+          "l": 1310,
+          "w": 46
+        },
+        "name": "Where there any complications causing you to stop work prior to your expected delivery date?"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area5": {
+      "bbox": {
+        "x": 1655,
+        "y": 783,
+        "l": 730,
+        "w": 104
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1655,
+          "y": 783,
+          "l": 312,
+          "w": 48
+        },
+        "name": "If yes, please explain:"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area6": {
+      "bbox": {
+        "x": 87,
+        "y": 899,
+        "l": 649,
+        "w": 101
+      },
+      "field_name": {
+        "bbox": {
+          "x": 88,
+          "y": 904,
+          "l": 408,
+          "w": 34
+        },
+        "name": "Have you already delivered?"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area7": {
+      "bbox": {
+        "x": 745,
+        "y": 897,
+        "l": 575,
+        "w": 104
+      },
+      "field_name": {
+        "bbox": {
+          "x": 748,
+          "y": 904,
+          "l": 501,
+          "w": 38
+        },
+        "name": "If yes, date of delivery (mm/dd/yy):"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area8": {
+      "bbox": {
+        "x": 1323,
+        "y": 894,
+        "l": 806,
+        "w": 105
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1329,
+          "y": 898,
+          "l": 412,
+          "w": 44
+        },
+        "name": "If yes, what type of delivery?"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area9": {
+      "bbox": {
+        "x": 88,
+        "y": 1078,
+        "l": 2302,
+        "w": 124
+      },
+      "field_name": {
+        "bbox": {
+          "x": 88,
+          "y": 1077,
+          "l": 1551,
+          "w": 40
+        },
+        "name": "Please list specific duties of your accupation/job are you unable to perform due to your medical condition?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 88,
+          "y": 1114,
+          "l": 2302,
+          "w": 88
+        },
+        "value": "Lifting heavy objects"
+      }
+    }
+  },
+  {
+    "field_area10": {
+      "bbox": {
+        "x": 86,
+        "y": 1222,
+        "l": 813,
+        "w": 45
+      },
+      "field_name": {
+        "bbox": {
+          "x": 86,
+          "y": 1222,
+          "l": 565,
+          "w": 45
+        },
+        "name": "Is this a work related injury or accident?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 676,
+          "y": 1207,
+          "l": 104,
+          "w": 60
+        },
+        "value": "☑ Yes"
+      }
+    }
+  },
+  {
+    "field_area11": {
+      "bbox": {
+        "x": 913,
+        "y": 1210,
+        "l": 1475,
+        "w": 159
+      },
+      "field_name": {
+        "bbox": {
+          "x": 924,
+          "y": 1218,
+          "l": 380,
+          "w": 45
+        },
+        "name": "If yes, please explain how:"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 913,
+          "y": 1274,
+          "l": 1475,
+          "w": 95
+        },
+        "value": "Got hurt on the job"
+      }
+    }
+  },
+  {
+    "field_area12": {
+      "bbox": {
+        "x": 85,
+        "y": 1353,
+        "l": 933,
+        "w": 44
+      },
+      "field_name": {
+        "bbox": {
+          "x": 85,
+          "y": 1353,
+          "l": 683,
+          "w": 44
+        },
+        "name": "Have you filed a Workers' Compensation claim?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 795,
+          "y": 1349,
+          "l": 98,
+          "w": 47
+        },
+        "value": "☑ Yes"
+      }
+    }
+  },
+  {
+    "field_area13": {
+      "bbox": {
+        "x": 86,
+        "y": 1410,
+        "l": 1094,
+        "w": 48
+      },
+      "field_name": {
+        "bbox": {
+          "x": 86,
+          "y": 1417,
+          "l": 835,
+          "w": 37
+        },
+        "name": "If no, do you intend to file a Workers' Compensation claim?"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area14": {
+      "bbox": {
+        "x": 1191,
+        "y": 1405,
+        "l": 1193,
+        "w": 140
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1191,
+          "y": 1405,
+          "l": 1069,
+          "w": 46
+        },
+        "name": "If no, please explain why you are not filing a Workers' Compensation claim"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area15": {
+      "bbox": {
+        "x": 117,
+        "y": 1705,
+        "l": 639,
+        "w": 92
+      },
+      "field_name": {
+        "bbox": {
+          "x": 117,
+          "y": 1765,
+          "l": 224,
+          "w": 29
+        },
+        "name": "Provider Name"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 117,
+          "y": 1705,
+          "l": 639,
+          "w": 85
+        },
+        "value": "Roger Champman"
+      }
+    }
+  },
+  {
+    "field_area16": {
+      "bbox": {
+        "x": 850,
+        "y": 1696,
+        "l": 857,
+        "w": 105
+      },
+      "field_name": {
+        "bbox": {
+          "x": 850,
+          "y": 1758,
+          "l": 231,
+          "w": 43
+        },
+        "name": "Mailing Address"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 850,
+          "y": 1690,
+          "l": 860,
+          "w": 68
+        },
+        "value": "4462 Ritter Street"
+      }
+    }
+  },
+  {
+    "field_area17": {
+      "bbox": {
+        "x": 1760,
+        "y": 1698,
+        "l": 553,
+        "w": 103
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1761,
+          "y": 1762,
+          "l": 207,
+          "w": 35
+        },
+        "name": "Telephone No."
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1761,
+          "y": 1693,
+          "l": 545,
+          "w": 65
+        },
+        "value": "(256) 293-5095"
+      }
+    }
+  },
+  {
+    "field_area18": {
+      "bbox": {
+        "x": 116,
+        "y": 1801,
+        "l": 644,
+        "w": 98
+      },
+      "field_name": {
+        "bbox": {
+          "x": 116,
+          "y": 1861,
+          "l": 140,
+          "w": 38
+        },
+        "name": "Specialty"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 116,
+          "y": 1801,
+          "l": 644,
+          "w": 74
+        },
+        "value": "Orthopedic"
+      }
+    }
+  },
+  {
+    "field_area19": {
+      "bbox": {
+        "x": 851,
+        "y": 1802,
+        "l": 403,
+        "w": 99
+      },
+      "field_name": {
+        "bbox": {
+          "x": 851,
+          "y": 1864,
+          "l": 62,
+          "w": 34
+        },
+        "name": "City"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 851,
+          "y": 1802,
+          "l": 403,
+          "w": 93
+        },
+        "value": "Birmingham"
+      }
+    }
+  },
+  {
+    "field_area20": {
+      "bbox": {
+        "x": 1257,
+        "y": 1794,
+        "l": 95,
+        "w": 99
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1257,
+          "y": 1864,
+          "l": 95,
+          "w": 29
+        },
+        "name": "State"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1257,
+          "y": 1790,
+          "l": 95,
+          "w": 62
+        },
+        "value": "AL"
+      }
+    }
+  },
+  {
+    "field_area21": {
+      "bbox": {
+        "x": 1486,
+        "y": 1793,
+        "l": 219,
+        "w": 107
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1520,
+          "y": 1862,
+          "l": 52,
+          "w": 38
+        },
+        "name": "Zip"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1490,
+          "y": 1794,
+          "l": 216,
+          "w": 66
+        },
+        "value": "35203"
+      }
+    }
+  },
+  {
+    "field_area22": {
+      "bbox": {
+        "x": 1761,
+        "y": 1796,
+        "l": 553,
+        "w": 101
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1762,
+          "y": 1862,
+          "l": 115,
+          "w": 32
+        },
+        "name": "Fax No."
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1762,
+          "y": 1793,
+          "l": 548,
+          "w": 101
+        },
+        "value": "(456) 672-5040"
+      }
+    }
+  },
+  {
+    "field_area23": {
+      "bbox": {
+        "x": 118,
+        "y": 1897,
+        "l": 641,
+        "w": 104
+      },
+      "field_name": {
+        "bbox": {
+          "x": 118,
+          "y": 1959,
+          "l": 641,
+          "w": 42
+        },
+        "name": "Date of Visit for this condition (mm/dd/yy)"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area24": {
+      "bbox": {
+        "x": 849,
+        "y": 1898,
+        "l": 860,
+        "w": 100
+      },
+      "field_name": {
+        "bbox": {
+          "x": 849,
+          "y": 1964,
+          "l": 656,
+          "w": 34
+        },
+        "name": "Date of next visit for this condition (mm/dd/yy)"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area25": {
+      "bbox": {
+        "x": 115,
+        "y": 1998,
+        "l": 639,
+        "w": 106
+      },
+      "field_name": {
+        "bbox": {
+          "x": 115,
+          "y": 2063,
+          "l": 223,
+          "w": 41
+        },
+        "name": "Provider Name"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area26": {
+      "bbox": {
+        "x": 852,
+        "y": 1999,
+        "l": 855,
+        "w": 103
+      },
+      "field_name": {
+        "bbox": {
+          "x": 852,
+          "y": 2065,
+          "l": 229,
+          "w": 37
+        },
+        "name": "Mailing Address"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area27": {
+      "bbox": {
+        "x": 1756,
+        "y": 1985,
+        "l": 559,
+        "w": 116
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1756,
+          "y": 2066,
+          "l": 220,
+          "w": 35
+        },
+        "name": "Telephone No."
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area28": {
+      "bbox": {
+        "x": 117,
+        "y": 2102,
+        "l": 646,
+        "w": 100
+      },
+      "field_name": {
+        "bbox": {
+          "x": 117,
+          "y": 2162,
+          "l": 138,
+          "w": 40
+        },
+        "name": "Specialty"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area29": {
+      "bbox": {
+        "x": 849,
+        "y": 2103,
+        "l": 401,
+        "w": 107
+      },
+      "field_name": {
+        "bbox": {
+          "x": 849,
+          "y": 2163,
+          "l": 66,
+          "w": 47
+        },
+        "name": "City"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area30": {
+      "bbox": {
+        "x": 1255,
+        "y": 2105,
+        "l": 94,
+        "w": 101
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1255,
+          "y": 2162,
+          "l": 94,
+          "w": 44
+        },
+        "name": "State"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area31": {
+      "bbox": {
+        "x": 1504,
+        "y": 2110,
+        "l": 208,
+        "w": 87
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1504,
+          "y": 2162,
+          "l": 81,
+          "w": 35
+        },
+        "name": "Zip"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area32": {
+      "bbox": {
+        "x": 1756,
+        "y": 2095,
+        "l": 561,
+        "w": 103
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1756,
+          "y": 2164,
+          "l": 126,
+          "w": 34
+        },
+        "name": "Fax No."
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area33": {
+      "bbox": {
+        "x": 118,
+        "y": 2204,
+        "l": 644,
+        "w": 105
+      },
+      "field_name": {
+        "bbox": {
+          "x": 118,
+          "y": 2260,
+          "l": 644,
+          "w": 49
+        },
+        "name": "Date of first visit for this condition (mm/dd/yy)"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area34": {
+      "bbox": {
+        "x": 848,
+        "y": 2208,
+        "l": 859,
+        "w": 93
+      },
+      "field_name": {
+        "bbox": {
+          "x": 848,
+          "y": 2264,
+          "l": 660,
+          "w": 37
+        },
+        "name": "Date of next visit for this condition (mm/dd/yy)"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area35": {
+      "bbox": {
+        "x": 113,
+        "y": 2391,
+        "l": 640,
+        "w": 100
+      },
+      "field_name": {
+        "bbox": {
+          "x": 117,
+          "y": 2457,
+          "l": 332,
+          "w": 30
+        },
+        "name": "Hospital/Facility Name"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 117,
+          "y": 2392,
+          "l": 639,
+          "w": 65
+        },
+        "value": "Jefferson Hospital"
+      }
+    }
+  },
+  {
+    "field_area36": {
+      "bbox": {
+        "x": 846,
+        "y": 2391,
+        "l": 863,
+        "w": 98
+      },
+      "field_name": {
+        "bbox": {
+          "x": 846,
+          "y": 2458,
+          "l": 136,
+          "w": 31
+        },
+        "name": "Address"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 848,
+          "y": 2392,
+          "l": 857,
+          "w": 60
+        },
+        "value": "565 Coal Valley Rd"
+      }
+    }
+  },
+  {
+    "field_area37": {
+      "bbox": {
+        "x": 1748,
+        "y": 2374,
+        "l": 566,
+        "w": 116
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1748,
+          "y": 2460,
+          "l": 519,
+          "w": 30
+        },
+        "name": "Date of Visit/Admission (mm/dd/yy)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1792,
+          "y": 2371,
+          "l": 324,
+          "w": 87
+        },
+        "value": "04-13-17"
+      }
+    }
+  },
+  {
+    "field_area38": {
+      "bbox": {
+        "x": 108,
+        "y": 2488,
+        "l": 650,
+        "w": 99
+      },
+      "field_name": {
+        "bbox": {
+          "x": 108,
+          "y": 2555,
+          "l": 163,
+          "w": 32
+        },
+        "name": "Procedure"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 179,
+          "y": 2485,
+          "l": 254,
+          "w": 80
+        },
+        "value": "Pre Opt"
+      }
+    }
+  },
+  {
+    "field_area39": {
+      "bbox": {
+        "x": 835,
+        "y": 2483,
+        "l": 382,
+        "w": 109
+      },
+      "field_name": {
+        "bbox": {
+          "x": 835,
+          "y": 2553,
+          "l": 93,
+          "w": 39
+        },
+        "name": "City"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 836,
+          "y": 2480,
+          "l": 376,
+          "w": 69
+        },
+        "value": "Jefferson Hills"
+      }
+    }
+  },
+  {
+    "field_area40": {
+      "bbox": {
+        "x": 1255,
+        "y": 2476,
+        "l": 107,
+        "w": 118
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1255,
+          "y": 2553,
+          "l": 107,
+          "w": 41
+        },
+        "name": "State"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1259,
+          "y": 2482,
+          "l": 82,
+          "w": 66
+        },
+        "value": "PA"
+      }
+    }
+  },
+  {
+    "field_area41": {
+      "bbox": {
+        "x": 1425,
+        "y": 2462,
+        "l": 287,
+        "w": 131
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1508,
+          "y": 2553,
+          "l": 73,
+          "w": 40
+        },
+        "name": "Zip"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1464,
+          "y": 2474,
+          "l": 178,
+          "w": 74
+        },
+        "value": "15025"
+      }
+    }
+  },
+  {
+    "field_area42": {
+      "bbox": {
+        "x": 1755,
+        "y": 2482,
+        "l": 558,
+        "w": 108
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1755,
+          "y": 2553,
+          "l": 435,
+          "w": 37
+        },
+        "name": "Date of Discharge (mm/dd/yy)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1800,
+          "y": 2486,
+          "l": 359,
+          "w": 64
+        },
+        "value": "04-15-17"
+      }
+    }
+  },
+  {
+    "field_area43": {
+      "bbox": {
+        "x": 87,
+        "y": 2679,
+        "l": 634,
+        "w": 46
+      },
+      "field_name": {
+        "bbox": {
+          "x": 87,
+          "y": 2679,
+          "l": 399,
+          "w": 46
+        },
+        "name": "Have you returned to work?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 496,
+          "y": 2679,
+          "l": 107,
+          "w": 46
+        },
+        "value": "☑ Yes"
+      }
+    }
+  },
+  {
+    "field_area44": {
+      "bbox": {
+        "x": 745,
+        "y": 2681,
+        "l": 1638,
+        "w": 80
+      },
+      "field_name": {
+        "bbox": {
+          "x": 745,
+          "y": 2681,
+          "l": 464,
+          "w": 47
+        },
+        "name": "If yes, indicate date (mm/dd/yy):"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1305,
+          "y": 2681,
+          "l": 451,
+          "w": 78
+        },
+        "value": "04-18-17"
+      }
+    }
+  },
+  {
+    "field_area45": {
+      "bbox": {
+        "x": 81,
+        "y": 2772,
+        "l": 1122,
+        "w": 48
+      },
+      "field_name": {
+        "bbox": {
+          "x": 81,
+          "y": 2772,
+          "l": 907,
+          "w": 48
+        },
+        "name": "If you have not returned to work, when do you expect to return?"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area46": {
+      "bbox": {
+        "x": 1224,
+        "y": 2773,
+        "l": 1159,
+        "w": 122
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1224,
+          "y": 2773,
+          "l": 594,
+          "w": 46
+        },
+        "name": "Expected return to work date (mm/dd/yy):"
+      },
+      "field_value": {
+      }
+    }
+  }
+]

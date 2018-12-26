@@ -1,0 +1,282 @@
+[
+  {
+    "field_area1": {
+      "bbox": {
+        "x": 166,
+        "y": 1006,
+        "l": 1578,
+        "w": 132
+      },
+      "field_name": {
+        "bbox": {
+          "x": 166,
+          "y": 1006,
+          "l": 264,
+          "w": 54
+        },
+        "name": "My Spouse:"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area2": {
+      "bbox": {
+        "x": 1744,
+        "y": 1006,
+        "l": 550,
+        "w": 132
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1744,
+          "y": 1076,
+          "l": 460,
+          "w": 62
+        },
+        "name": "(Telephone Number)"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area3": {
+      "bbox": {
+        "x": 168,
+        "y": 1108,
+        "l": 1580,
+        "w": 174
+      },
+      "field_name": {
+        "bbox": {
+          "x": 170,
+          "y": 1148,
+          "l": 498,
+          "w": 62
+        },
+        "name": "Other Family Member:"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 728,
+          "y": 1108,
+          "l": 786,
+          "w": 148
+        },
+        "value": "ARANDA, LINA / MOTHER"
+      }
+    }
+  },
+  {
+    "field_area4": {
+      "bbox": {
+        "x": 1750,
+        "y": 1132,
+        "l": 558,
+        "w": 146
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1750,
+          "y": 1218,
+          "l": 458,
+          "w": 58
+        },
+        "name": "(Telephone Number)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1782,
+          "y": 1132,
+          "l": 480,
+          "w": 92
+        },
+        "value": "432-561-1937"
+      }
+    }
+  },
+  {
+    "field_area5": {
+      "bbox": {
+        "x": 166,
+        "y": 1292,
+        "l": 1580,
+        "w": 130
+      },
+      "field_name": {
+        "bbox": {
+          "x": 170,
+          "y": 1292,
+          "l": 308,
+          "w": 54
+        },
+        "name": "Other person:"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area6": {
+      "bbox": {
+        "x": 1746,
+        "y": 1290,
+        "l": 564,
+        "w": 128
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1750,
+          "y": 1358,
+          "l": 458,
+          "w": 60
+        },
+        "name": "(Telephone Number)"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area7": {
+      "bbox": {
+        "x": 169,
+        "y": 2317,
+        "l": 1513,
+        "w": 163
+      },
+      "field_name": {
+        "bbox": {
+          "x": 169,
+          "y": 2419,
+          "l": 505,
+          "w": 61
+        },
+        "name": "Policyholder Signature"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 373,
+          "y": 2315,
+          "l": 411,
+          "w": 113
+        },
+        "value": "'S'"
+      }
+    }
+  },
+  {
+    "field_area8": {
+      "bbox": {
+        "x": 1748,
+        "y": 2332,
+        "l": 564,
+        "w": 134
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1748,
+          "y": 2420,
+          "l": 110,
+          "w": 46
+        },
+        "name": "Date"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1796,
+          "y": 2332,
+          "l": 302,
+          "w": 98
+        },
+        "value": "04-15-17"
+      }
+    }
+  },
+  {
+    "field_area9": {
+      "bbox": {
+        "x": 166,
+        "y": 2482,
+        "l": 1518,
+        "w": 126
+      },
+      "field_name": {
+        "bbox": {
+          "x": 166,
+          "y": 2560,
+          "l": 318,
+          "w": 48
+        },
+        "name": "Printed Name"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 259,
+          "y": 2483,
+          "l": 673,
+          "w": 81
+        },
+        "value": "ARANDA, ELMER, F"
+      }
+    }
+  },
+  {
+    "field_area10": {
+      "bbox": {
+        "x": 1749,
+        "y": 2465,
+        "l": 561,
+        "w": 153
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1749,
+          "y": 2559,
+          "l": 529,
+          "w": 59
+        },
+        "name": "Social Security Number"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1775,
+          "y": 2465,
+          "l": 440,
+          "w": 89
+        },
+        "value": "559-65-7651"
+      }
+    }
+  },
+  {
+    "field_area11": {
+      "bbox": {
+        "x": 170,
+        "y": 2622,
+        "l": 1574,
+        "w": 66
+      },
+      "field_name": {
+        "bbox": {
+          "x": 170,
+          "y": 2628,
+          "l": 808,
+          "w": 60
+        },
+        "name": "I signed on behalf of the claimant as"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1044,
+          "y": 2620,
+          "l": 144,
+          "w": 60
+        },
+        "value": "SELF"
+      }
+    }
+  }
+]

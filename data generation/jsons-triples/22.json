@@ -1,1 +1,122 @@
-[{"left":1696,"top":722,"width":499,"height":66,"label":"field_area","text":""},{"left":1698,"top":737,"width":257,"height":43,"label":"field_name","text":"Customer #:"},{"left":1965,"top":727,"width":225,"height":58,"label":"field_value","text":"867341"},{"left":1696,"top":789,"width":493,"height":48,"label":"field_area","text":""},{"left":1699,"top":791,"width":124,"height":33,"label":"field_name","text":"SS #:"},{"left":1833,"top":788,"width":335,"height":49,"label":"field_value","text":"572617254"},{"left":1700,"top":827,"width":694,"height":59,"label":"field_area","text":""},{"left":1702,"top":835,"width":197,"height":34,"label":"field_name","text":"EE Name:"},{"left":1913,"top":833,"width":476,"height":54,"label":"field_value","text":"HAYES, PAMELA, A"},{"left":1699,"top":878,"width":504,"height":52,"label":"field_area","text":""},{"left":1700,"top":878,"width":172,"height":35,"label":"field_name","text":"EE DOB:"},{"left":1916,"top":887,"width":275,"height":41,"label":"field_value","text":"02-27-79"},{"left":1699,"top":919,"width":557,"height":78,"label":"field_area","text":""},{"left":1700,"top":920,"width":260,"height":45,"label":"field_name","text":"Spouse DOB:"},{"left":1966,"top":936,"width":272,"height":55,"label":"field_value","text":"04-26-76"}]
+[
+  {
+    "left": 1696,
+    "top": 722,
+    "width": 499,
+    "height": 66,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 1698,
+    "top": 737,
+    "width": 257,
+    "height": 43,
+    "label": "field_name",
+    "text": "Customer #:"
+  },
+  {
+    "left": 1965,
+    "top": 727,
+    "width": 225,
+    "height": 58,
+    "label": "field_value",
+    "text": "867341"
+  },
+  {
+    "left": 1696,
+    "top": 789,
+    "width": 493,
+    "height": 48,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 1699,
+    "top": 791,
+    "width": 124,
+    "height": 33,
+    "label": "field_name",
+    "text": "SS #:"
+  },
+  {
+    "left": 1833,
+    "top": 788,
+    "width": 335,
+    "height": 49,
+    "label": "field_value",
+    "text": "572617254"
+  },
+  {
+    "left": 1700,
+    "top": 827,
+    "width": 694,
+    "height": 59,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 1702,
+    "top": 835,
+    "width": 197,
+    "height": 34,
+    "label": "field_name",
+    "text": "EE Name:"
+  },
+  {
+    "left": 1913,
+    "top": 833,
+    "width": 476,
+    "height": 54,
+    "label": "field_value",
+    "text": "HAYES, PAMELA, A"
+  },
+  {
+    "left": 1699,
+    "top": 878,
+    "width": 504,
+    "height": 52,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 1700,
+    "top": 878,
+    "width": 172,
+    "height": 35,
+    "label": "field_name",
+    "text": "EE DOB:"
+  },
+  {
+    "left": 1916,
+    "top": 887,
+    "width": 275,
+    "height": 41,
+    "label": "field_value",
+    "text": "02-27-79"
+  },
+  {
+    "left": 1699,
+    "top": 919,
+    "width": 557,
+    "height": 78,
+    "label": "field_area",
+    "text": ""
+  },
+  {
+    "left": 1700,
+    "top": 920,
+    "width": 260,
+    "height": 45,
+    "label": "field_name",
+    "text": "Spouse DOB:"
+  },
+  {
+    "left": 1966,
+    "top": 936,
+    "width": 272,
+    "height": 55,
+    "label": "field_value",
+    "text": "04-26-76"
+  }
+]

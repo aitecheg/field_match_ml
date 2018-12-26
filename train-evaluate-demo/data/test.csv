@@ -1,0 +1,318 @@
+id,question1,question2,is_duplicate
+4,Social Security Number,'S',0
+1,Insured's Signature,,0
+125,Insured's Signature,'S',1
+5,Printed Name,,0
+129,I signed on behalf of the Insured as,HUSBAND,1
+127,Printed Name,"CLAUSEN, JOSEPH N.",1
+127,Printed Name,"CLAUSEN, JOSEPH N.",1
+6,Social Security Number,03-12-18,0
+1,Date Signed,"CLAUSEN, JOSEPH N.",0
+4,Social Security Number,03-12-18,0
+3,Printed Name,617-54-1889,0
+7,I signed on behalf of the Insured as,,0
+126,Date Signed,03-12-18,1
+126,Date Signed,03-12-18,1
+1,Date Signed,HUSBAND,0
+0,Insured's Signature,'S',0
+128,Social Security Number,617-54-1889,1
+7,I signed on behalf of the Insured as,,0
+2,Printed Name,03-12-18,0
+5,Printed Name,,0
+6,I signed on behalf of the Insured as,,0
+2,Printed Name,'S',0
+127,Printed Name,"CLAUSEN, JOSEPH N.",1
+127,Printed Name,"CLAUSEN, JOSEPH N.",1
+128,Social Security Number,617-54-1889,1
+4,Printed Name,,0
+127,Printed Name,"CLAUSEN, JOSEPH N.",1
+129,I signed on behalf of the Insured as,HUSBAND,1
+127,Printed Name,"CLAUSEN, JOSEPH N.",1
+127,Printed Name,"CLAUSEN, JOSEPH N.",1
+7,I signed on behalf of the Insured as,,0
+128,Social Security Number,617-54-1889,1
+127,Printed Name,"CLAUSEN, JOSEPH N.",1
+6,I signed on behalf of the Insured as,617-54-1889,0
+1,Insured's Signature,,0
+126,Date Signed,03-12-18,1
+125,Insured's Signature,'S',1
+0,Insured's Signature,03-12-18,0
+125,Insured's Signature,'S',1
+127,Printed Name,"CLAUSEN, JOSEPH N.",1
+0,Insured's Signature,'S',0
+0,Insured's Signature,617-54-1889,0
+4,Social Security Number,617-54-1889,0
+127,Printed Name,"CLAUSEN, JOSEPH N.",1
+6,Social Security Number,,0
+3,Printed Name,'S',0
+4,Printed Name,"CLAUSEN, JOSEPH N.",0
+127,Printed Name,"CLAUSEN, JOSEPH N.",1
+4,Social Security Number,HUSBAND,0
+129,I signed on behalf of the Insured as,HUSBAND,1
+126,Date Signed,03-12-18,1
+7,I signed on behalf of the Insured as,03-12-18,0
+126,Date Signed,03-12-18,1
+125,Insured's Signature,'S',1
+125,Insured's Signature,'S',1
+2,Date Signed,,0
+3,Printed Name,617-54-1889,0
+127,Printed Name,"CLAUSEN, JOSEPH N.",1
+5,Social Security Number,'S',0
+7,I signed on behalf of the Insured as,'S',0
+128,Social Security Number,617-54-1889,1
+126,Date Signed,03-12-18,1
+125,Insured's Signature,'S',1
+7,I signed on behalf of the Insured as,,0
+129,I signed on behalf of the Insured as,HUSBAND,1
+2,Printed Name,HUSBAND,0
+126,Date Signed,03-12-18,1
+3,Printed Name,'S',0
+126,Date Signed,03-12-18,1
+6,I signed on behalf of the Insured as,"CLAUSEN, JOSEPH N.",0
+3,Date Signed,,0
+8,I signed on behalf of the Insured as,,0
+4,Printed Name,,0
+4,Printed Name,03-12-18,0
+126,Date Signed,03-12-18,1
+0,Insured's Signature,03-12-18,0
+2,Date Signed,"CLAUSEN, JOSEPH N.",0
+0,Insured's Signature,617-54-1889,0
+126,Date Signed,03-12-18,1
+6,I signed on behalf of the Insured as,HUSBAND,0
+1,Date Signed,617-54-1889,0
+0,Insured's Signature,HUSBAND,0
+2,Printed Name,"CLAUSEN, JOSEPH N.",0
+6,I signed on behalf of the Insured as,,0
+126,Date Signed,03-12-18,1
+129,I signed on behalf of the Insured as,HUSBAND,1
+6,I signed on behalf of the Insured as,,0
+0,Insured's Signature,617-54-1889,0
+128,Social Security Number,617-54-1889,1
+126,Date Signed,03-12-18,1
+127,Printed Name,"CLAUSEN, JOSEPH N.",1
+5,I signed on behalf of the Insured as,"CLAUSEN, JOSEPH N.",0
+129,I signed on behalf of the Insured as,HUSBAND,1
+129,I signed on behalf of the Insured as,HUSBAND,1
+5,Social Security Number,,0
+126,Date Signed,03-12-18,1
+125,Insured's Signature,'S',1
+128,Social Security Number,617-54-1889,1
+4,Social Security Number,,0
+1,Insured's Signature,,0
+2,Printed Name,03-12-18,0
+1,Date Signed,'S',0
+9,I signed on behalf of the Insured as,,0
+127,Printed Name,"CLAUSEN, JOSEPH N.",1
+128,Social Security Number,617-54-1889,1
+6,I signed on behalf of the Insured as,"CLAUSEN, JOSEPH N.",0
+3,Printed Name,,0
+129,I signed on behalf of the Insured as,HUSBAND,1
+7,I signed on behalf of the Insured as,"CLAUSEN, JOSEPH N.",0
+0,Insured's Signature,'S',0
+5,I signed on behalf of the Insured as,03-12-18,0
+0,Insured's Signature,617-54-1889,0
+2,Date Signed,03-12-18,0
+128,Social Security Number,617-54-1889,1
+2,Date Signed,03-12-18,0
+125,Insured's Signature,'S',1
+0,Insured's Signature,'S',0
+6,Social Security Number,"CLAUSEN, JOSEPH N.",0
+1,Date Signed,"CLAUSEN, JOSEPH N.",0
+5,I signed on behalf of the Insured as,'S',0
+125,Insured's Signature,'S',1
+4,Social Security Number,HUSBAND,0
+3,Date Signed,,0
+125,Insured's Signature,'S',1
+125,Insured's Signature,'S',1
+128,Social Security Number,617-54-1889,1
+127,Printed Name,"CLAUSEN, JOSEPH N.",1
+128,Social Security Number,617-54-1889,1
+1,Insured's Signature,,0
+125,Insured's Signature,'S',1
+1,Date Signed,03-12-18,0
+0,Insured's Signature,03-12-18,0
+129,I signed on behalf of the Insured as,HUSBAND,1
+7,Social Security Number,,0
+4,Social Security Number,617-54-1889,0
+128,Social Security Number,617-54-1889,1
+129,I signed on behalf of the Insured as,HUSBAND,1
+3,Printed Name,HUSBAND,0
+125,Insured's Signature,'S',1
+2,Date Signed,,0
+6,I signed on behalf of the Insured as,03-12-18,0
+8,I signed on behalf of the Insured as,,0
+125,Insured's Signature,'S',1
+2,Date Signed,"CLAUSEN, JOSEPH N.",0
+3,Printed Name,HUSBAND,0
+129,I signed on behalf of the Insured as,HUSBAND,1
+127,Printed Name,"CLAUSEN, JOSEPH N.",1
+4,Social Security Number,HUSBAND,0
+8,I signed on behalf of the Insured as,,0
+128,Social Security Number,617-54-1889,1
+7,I signed on behalf of the Insured as,'S',0
+2,Date Signed,HUSBAND,0
+126,Date Signed,03-12-18,1
+7,I signed on behalf of the Insured as,,0
+1,Insured's Signature,,0
+1,Date Signed,HUSBAND,0
+2,Date Signed,617-54-1889,0
+6,I signed on behalf of the Insured as,617-54-1889,0
+125,Insured's Signature,'S',1
+0,Insured's Signature,HUSBAND,0
+4,Social Security Number,'S',0
+0,Insured's Signature,03-12-18,0
+128,Social Security Number,617-54-1889,1
+1,Insured's Signature,,0
+4,Printed Name,"CLAUSEN, JOSEPH N.",0
+5,Social Security Number,03-12-18,0
+4,Social Security Number,03-12-18,0
+129,I signed on behalf of the Insured as,HUSBAND,1
+127,Printed Name,"CLAUSEN, JOSEPH N.",1
+126,Date Signed,03-12-18,1
+2,Date Signed,,0
+2,Date Signed,,0
+4,Printed Name,,0
+127,Printed Name,"CLAUSEN, JOSEPH N.",1
+6,I signed on behalf of the Insured as,03-12-18,0
+3,Social Security Number,"CLAUSEN, JOSEPH N.",0
+129,I signed on behalf of the Insured as,HUSBAND,1
+125,Insured's Signature,'S',1
+129,I signed on behalf of the Insured as,HUSBAND,1
+3,Date Signed,,0
+129,I signed on behalf of the Insured as,HUSBAND,1
+129,I signed on behalf of the Insured as,HUSBAND,1
+1,Date Signed,03-12-18,0
+4,Printed Name,,0
+4,Printed Name,'S',0
+128,Social Security Number,617-54-1889,1
+5,Printed Name,,0
+0,Insured's Signature,617-54-1889,0
+1,Date Signed,'S',0
+5,Printed Name,,0
+8,I signed on behalf of the Insured as,617-54-1889,0
+5,I signed on behalf of the Insured as,617-54-1889,0
+5,Social Security Number,'S',0
+6,I signed on behalf of the Insured as,"CLAUSEN, JOSEPH N.",0
+5,Social Security Number,"CLAUSEN, JOSEPH N.",0
+5,I signed on behalf of the Insured as,'S',0
+0,Insured's Signature,'S',0
+127,Printed Name,"CLAUSEN, JOSEPH N.",1
+4,Social Security Number,,0
+1,Insured's Signature,,0
+2,Date Signed,617-54-1889,0
+5,I signed on behalf of the Insured as,HUSBAND,0
+6,I signed on behalf of the Insured as,,0
+5,Social Security Number,03-12-18,0
+125,Insured's Signature,'S',1
+3,Date Signed,,0
+2,Date Signed,"CLAUSEN, JOSEPH N.",0
+128,Social Security Number,617-54-1889,1
+129,I signed on behalf of the Insured as,HUSBAND,1
+5,I signed on behalf of the Insured as,"CLAUSEN, JOSEPH N.",0
+129,I signed on behalf of the Insured as,HUSBAND,1
+2,Date Signed,,0
+1,Insured's Signature,,0
+128,Social Security Number,617-54-1889,1
+129,I signed on behalf of the Insured as,HUSBAND,1
+125,Insured's Signature,'S',1
+5,Social Security Number,'S',0
+1,Date Signed,'S',0
+3,Printed Name,03-12-18,0
+5,Social Security Number,'S',0
+2,Date Signed,HUSBAND,0
+0,Insured's Signature,HUSBAND,0
+2,Date Signed,'S',0
+128,Social Security Number,617-54-1889,1
+2,Date Signed,,0
+127,Printed Name,"CLAUSEN, JOSEPH N.",1
+129,I signed on behalf of the Insured as,HUSBAND,1
+126,Date Signed,03-12-18,1
+5,Social Security Number,"CLAUSEN, JOSEPH N.",0
+125,Insured's Signature,'S',1
+126,Date Signed,03-12-18,1
+3,Social Security Number,'S',0
+128,Social Security Number,617-54-1889,1
+126,Date Signed,03-12-18,1
+126,Date Signed,03-12-18,1
+2,Date Signed,'S',0
+3,Printed Name,HUSBAND,0
+127,Printed Name,"CLAUSEN, JOSEPH N.",1
+126,Date Signed,03-12-18,1
+0,Insured's Signature,"CLAUSEN, JOSEPH N.",0
+126,Date Signed,03-12-18,1
+3,Printed Name,03-12-18,0
+127,Printed Name,"CLAUSEN, JOSEPH N.",1
+3,Date Signed,,0
+3,Printed Name,617-54-1889,0
+0,Insured's Signature,'S',0
+6,Social Security Number,03-12-18,0
+1,Date Signed,617-54-1889,0
+128,Social Security Number,617-54-1889,1
+0,Insured's Signature,617-54-1889,0
+1,Date Signed,HUSBAND,0
+3,Printed Name,617-54-1889,0
+126,Date Signed,03-12-18,1
+0,Insured's Signature,"CLAUSEN, JOSEPH N.",0
+128,Social Security Number,617-54-1889,1
+5,Social Security Number,,0
+6,Social Security Number,,0
+3,Printed Name,617-54-1889,0
+126,Date Signed,03-12-18,1
+4,Printed Name,'S',0
+5,Social Security Number,,0
+2,Date Signed,,0
+3,Printed Name,'S',0
+4,Printed Name,,0
+1,Insured's Signature,,0
+5,I signed on behalf of the Insured as,'S',0
+6,Social Security Number,03-12-18,0
+4,Social Security Number,03-12-18,0
+125,Insured's Signature,'S',1
+129,I signed on behalf of the Insured as,HUSBAND,1
+128,Social Security Number,617-54-1889,1
+0,Insured's Signature,617-54-1889,0
+8,I signed on behalf of the Insured as,,0
+125,Insured's Signature,'S',1
+128,Social Security Number,617-54-1889,1
+125,Insured's Signature,'S',1
+126,Date Signed,03-12-18,1
+1,Insured's Signature,,0
+125,Insured's Signature,'S',1
+128,Social Security Number,617-54-1889,1
+6,I signed on behalf of the Insured as,,0
+2,Date Signed,03-12-18,0
+3,Printed Name,,0
+3,Date Signed,,0
+7,I signed on behalf of the Insured as,,0
+4,Social Security Number,'S',0
+127,Printed Name,"CLAUSEN, JOSEPH N.",1
+129,I signed on behalf of the Insured as,HUSBAND,1
+7,I signed on behalf of the Insured as,03-12-18,0
+129,I signed on behalf of the Insured as,HUSBAND,1
+125,Insured's Signature,'S',1
+2,Date Signed,617-54-1889,0
+128,Social Security Number,617-54-1889,1
+7,I signed on behalf of the Insured as,"CLAUSEN, JOSEPH N.",0
+4,Printed Name,03-12-18,0
+127,Printed Name,"CLAUSEN, JOSEPH N.",1
+128,Social Security Number,617-54-1889,1
+6,I signed on behalf of the Insured as,'S',0
+129,I signed on behalf of the Insured as,HUSBAND,1
+0,Insured's Signature,HUSBAND,0
+1,Insured's Signature,,0
+129,I signed on behalf of the Insured as,HUSBAND,1
+6,Social Security Number,,0
+125,Insured's Signature,'S',1
+0,Insured's Signature,03-12-18,0
+1,Insured's Signature,,0
+126,Date Signed,03-12-18,1
+3,Printed Name,,0
+5,Social Security Number,,0
+5,Social Security Number,,0
+4,Printed Name,,0
+127,Printed Name,"CLAUSEN, JOSEPH N.",1
+6,Social Security Number,,0
+0,Insured's Signature,03-12-18,0
+1,Insured's Signature,,0
+7,I signed on behalf of the Insured as,HUSBAND,0
+3,Printed Name,'S',0

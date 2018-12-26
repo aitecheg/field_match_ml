@@ -1,0 +1,562 @@
+[
+  {
+    "field_area1": {
+      "bbox": {
+        "x": 98,
+        "y": 498,
+        "l": 1810,
+        "w": 128
+      },
+      "field_name": {
+        "bbox": {
+          "x": 101,
+          "y": 506,
+          "l": 761,
+          "w": 38
+        },
+        "name": "Employee Name (Last Name, Suffix, First Name, MI)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 99,
+          "y": 547,
+          "l": 1805,
+          "w": 78
+        },
+        "value": "Maroun, Margarita B"
+      }
+    }
+  },
+  {
+    "field_area2": {
+      "bbox": {
+        "x": 1952,
+        "y": 496,
+        "l": 490,
+        "w": 137
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1952,
+          "y": 508,
+          "l": 356,
+          "w": 36
+        },
+        "name": "Date of Birth (mm/dd/yy)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1952,
+          "y": 548,
+          "l": 490,
+          "w": 78
+        },
+        "value": "08 10 68"
+      }
+    }
+  },
+  {
+    "field_area3": {
+      "bbox": {
+        "x": 100,
+        "y": 626,
+        "l": 2342,
+        "w": 130
+      },
+      "field_name": {
+        "bbox": {
+          "x": 101,
+          "y": 649,
+          "l": 437,
+          "w": 34
+        },
+        "name": "6. Have you retured to work?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 693,
+          "y": 624,
+          "l": 80,
+          "w": 54
+        },
+        "value": "☑ No"
+      }
+    }
+  },
+  {
+    "field_area4": {
+      "bbox": {
+        "x": 101,
+        "y": 685,
+        "l": 725,
+        "w": 53
+      },
+      "field_name": {
+        "bbox": {
+          "x": 101,
+          "y": 685,
+          "l": 321,
+          "w": 53
+        },
+        "name": "Part Time (mm/dd/yy)"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area5": {
+      "bbox": {
+        "x": 827,
+        "y": 697,
+        "l": 621,
+        "w": 39
+      },
+      "field_name": {
+        "bbox": {
+          "x": 827,
+          "y": 697,
+          "l": 376,
+          "w": 39
+        },
+        "name": "Part-time hours per week"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area6": {
+      "bbox": {
+        "x": 1441,
+        "y": 692,
+        "l": 1006,
+        "w": 42
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1441,
+          "y": 692,
+          "l": 312,
+          "w": 42
+        },
+        "name": "Full Time (mm/dd/yy)"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area7": {
+      "bbox": {
+        "x": 101,
+        "y": 763,
+        "l": 2342,
+        "w": 46
+      },
+      "field_name": {
+        "bbox": {
+          "x": 101,
+          "y": 763,
+          "l": 917,
+          "w": 46
+        },
+        "name": "If you have not returned to work, when do you expect to return?"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area8": {
+      "bbox": {
+        "x": 96,
+        "y": 804,
+        "l": 662,
+        "w": 54
+      },
+      "field_name": {
+        "bbox": {
+          "x": 96,
+          "y": 804,
+          "l": 332,
+          "w": 54
+        },
+        "name": "Part Time (mm/dd/yy)"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area9": {
+      "bbox": {
+        "x": 755,
+        "y": 812,
+        "l": 698,
+        "w": 42
+      },
+      "field_name": {
+        "bbox": {
+          "x": 755,
+          "y": 812,
+          "l": 698,
+          "w": 42
+        },
+        "name": "Part-time hours per week:"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area10": {
+      "bbox": {
+        "x": 1452,
+        "y": 805,
+        "l": 560,
+        "w": 49
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1452,
+          "y": 805,
+          "l": 313,
+          "w": 49
+        },
+        "name": "Full Time (mm/dd/yy):"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area11": {
+      "bbox": {
+        "x": 2010,
+        "y": 814,
+        "l": 183,
+        "w": 37
+      },
+      "field_name": {
+        "bbox": {
+          "x": 2010,
+          "y": 814,
+          "l": 183,
+          "w": 37
+        },
+        "name": "Unknown"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area12": {
+      "bbox": {
+        "x": 100,
+        "y": 1062,
+        "l": 656,
+        "w": 114
+      },
+      "field_name": {
+        "bbox": {
+          "x": 100,
+          "y": 1141,
+          "l": 218,
+          "w": 31
+        },
+        "name": "Provider Name"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 132,
+          "y": 1069,
+          "l": 550,
+          "w": 80
+        },
+        "value": "Jason Mullaney, MD"
+      }
+    }
+  },
+  {
+    "field_area13": {
+      "bbox": {
+        "x": 877,
+        "y": 1072,
+        "l": 640,
+        "w": 105
+      },
+      "field_name": {
+        "bbox": {
+          "x": 881,
+          "y": 1141,
+          "l": 210,
+          "w": 36
+        },
+        "name": "Telephone No."
+      },
+      "field_value": {
+        "bbox": {
+          "x": 878,
+          "y": 1075,
+          "l": 458,
+          "w": 59
+        },
+        "value": "(229) 460 6725"
+      }
+    }
+  },
+  {
+    "field_area14": {
+      "bbox": {
+        "x": 1805,
+        "y": 1069,
+        "l": 564,
+        "w": 105
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1805,
+          "y": 1142,
+          "l": 117,
+          "w": 32
+        },
+        "name": "Fax No."
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1807,
+          "y": 1070,
+          "l": 446,
+          "w": 60
+        },
+        "value": "(229) 460 6751"
+      }
+    }
+  },
+  {
+    "field_area15": {
+      "bbox": {
+        "x": 100,
+        "y": 1202,
+        "l": 655,
+        "w": 110
+      },
+      "field_name": {
+        "bbox": {
+          "x": 100,
+          "y": 1270,
+          "l": 651,
+          "w": 38
+        },
+        "name": "Date of first visit for this condition (mm/dd/yy)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 168,
+          "y": 1204,
+          "l": 297,
+          "w": 62
+        },
+        "value": "09-10-18"
+      }
+    }
+  },
+  {
+    "field_area16": {
+      "bbox": {
+        "x": 880,
+        "y": 1202,
+        "l": 659,
+        "w": 105
+      },
+      "field_name": {
+        "bbox": {
+          "x": 880,
+          "y": 1271,
+          "l": 658,
+          "w": 37
+        },
+        "name": "Date of next visit for this condition (mm/dd/yy)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 939,
+          "y": 1203,
+          "l": 295,
+          "w": 58
+        },
+        "value": "09-18-18"
+      }
+    }
+  },
+  {
+    "field_area17": {
+      "bbox": {
+        "x": 192,
+        "y": 1574,
+        "l": 555,
+        "w": 44
+      },
+      "field_name": {
+        "bbox": {
+          "x": 192,
+          "y": 1584,
+          "l": 318,
+          "w": 34
+        },
+        "name": "Federal Income Tax:"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 539,
+          "y": 1573,
+          "l": 92,
+          "w": 42
+        },
+        "value": "☑ Yes"
+      }
+    }
+  },
+  {
+    "field_area18": {
+      "bbox": {
+        "x": 775,
+        "y": 1580,
+        "l": 1505,
+        "w": 48
+      },
+      "field_name": {
+        "bbox": {
+          "x": 775,
+          "y": 1585,
+          "l": 1197,
+          "w": 38
+        },
+        "name": "If yes, how much do you want withheld from each check? (whole dollar amount)$"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1969,
+          "y": 1566,
+          "l": 314,
+          "w": 50
+        },
+        "value": "20"
+      }
+    }
+  },
+  {
+    "field_area19": {
+      "bbox": {
+        "x": 194,
+        "y": 1653,
+        "l": 517,
+        "w": 49
+      },
+      "field_name": {
+        "bbox": {
+          "x": 194,
+          "y": 1665,
+          "l": 279,
+          "w": 32
+        },
+        "name": "State Income Tax"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 504,
+          "y": 1651,
+          "l": 92,
+          "w": 44
+        },
+        "value": "☑ Yes"
+      }
+    }
+  },
+  {
+    "field_area20": {
+      "bbox": {
+        "x": 730,
+        "y": 1654,
+        "l": 1510,
+        "w": 65
+      },
+      "field_name": {
+        "bbox": {
+          "x": 738,
+          "y": 1664,
+          "l": 1197,
+          "w": 39
+        },
+        "name": "If yes, how much do you want withheld from each check? (whole dollar amount) $"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1933,
+          "y": 1650,
+          "l": 310,
+          "w": 47
+        },
+        "value": "20"
+      }
+    }
+  },
+  {
+    "field_area21": {
+      "bbox": {
+        "x": 96,
+        "y": 2857,
+        "l": 1520,
+        "w": 156
+      },
+      "field_name": {
+        "bbox": {
+          "x": 98,
+          "y": 2970,
+          "l": 192,
+          "w": 43
+        },
+        "name": "Signature"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 197,
+          "y": 2853,
+          "l": 250,
+          "w": 151
+        },
+        "value": "'S'"
+      }
+    }
+  },
+  {
+    "field_area22": {
+      "bbox": {
+        "x": 1706,
+        "y": 2892,
+        "l": 729,
+        "w": 121
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1707,
+          "y": 2971,
+          "l": 90,
+          "w": 37
+        },
+        "name": "Date"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1738,
+          "y": 2893,
+          "l": 293,
+          "w": 66
+        },
+        "value": "09-19-18"
+      }
+    }
+  }
+]

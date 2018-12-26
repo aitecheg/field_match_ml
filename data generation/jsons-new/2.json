@@ -1,0 +1,198 @@
+[
+  {
+    "field_area1": {
+      "bbox": {
+        "x": 165,
+        "y": 490,
+        "l": 1683,
+        "w": 125
+      },
+      "field_name": {
+        "bbox": {
+          "x": 165,
+          "y": 497,
+          "l": 696,
+          "w": 36
+        },
+        "name": "Insured's Name (Last Name, Suffix, First Name, MI)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 165,
+          "y": 545,
+          "l": 1683,
+          "w": 70
+        },
+        "value": "CLAUSEN JOSEPH N"
+      }
+    }
+  },
+  {
+    "field_area2": {
+      "bbox": {
+        "x": 1896,
+        "y": 501,
+        "l": 452,
+        "w": 116
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1900,
+          "y": 503,
+          "l": 329,
+          "w": 33
+        },
+        "name": "Date of Birth (mm/dd/yy)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1897,
+          "y": 547,
+          "l": 451,
+          "w": 70
+        },
+        "value": "02 18 67"
+      }
+    }
+  },
+  {
+    "field_area3": {
+      "bbox": {
+        "x": 163,
+        "y": 713,
+        "l": 746,
+        "w": 109
+      },
+      "field_name": {
+        "bbox": {
+          "x": 163,
+          "y": 787,
+          "l": 342,
+          "w": 35
+        },
+        "name": "Treating Physician Name"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 196,
+          "y": 726,
+          "l": 556,
+          "w": 52
+        },
+        "value": "MATTHEW J. LARKIN"
+      }
+    }
+  },
+  {
+    "field_area4": {
+      "bbox": {
+        "x": 1146,
+        "y": 729,
+        "l": 610,
+        "w": 96
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1146,
+          "y": 791,
+          "l": 516,
+          "w": 34
+        },
+        "name": "Treating Physician Telephone Number"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1200,
+          "y": 730,
+          "l": 417,
+          "w": 61
+        },
+        "value": "859-301-2663"
+      }
+    }
+  },
+  {
+    "field_area5": {
+      "bbox": {
+        "x": 159,
+        "y": 2278,
+        "l": 1458,
+        "w": 162
+      },
+      "field_name": {
+        "bbox": {
+          "x": 160,
+          "y": 2396,
+          "l": 176,
+          "w": 45
+        },
+        "name": "Signature"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 242,
+          "y": 2279,
+          "l": 283,
+          "w": 146
+        },
+        "value": "'S'"
+      }
+    }
+  },
+  {
+    "field_area6": {
+      "bbox": {
+        "x": 1663,
+        "y": 2334,
+        "l": 678,
+        "w": 105
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1662,
+          "y": 2404,
+          "l": 85,
+          "w": 35
+        },
+        "name": "Date"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1685,
+          "y": 2332,
+          "l": 281,
+          "w": 70
+        },
+        "value": "03-12-18"
+      }
+    }
+  },
+  {
+    "field_area7": {
+      "bbox": {
+        "x": 161,
+        "y": 2478,
+        "l": 1203,
+        "w": 55
+      },
+      "field_name": {
+        "bbox": {
+          "x": 161,
+          "y": 2495,
+          "l": 602,
+          "w": 40
+        },
+        "name": "I signed on behalf of the insured, as"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 819,
+          "y": 2478,
+          "l": 242,
+          "w": 55
+        },
+        "value": "HUSBAND"
+      }
+    }
+  }
+]

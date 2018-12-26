@@ -1,0 +1,26 @@
+id,question1,question2,is_duplicate
+0,Insured's Signature,'S',1
+1,Insured's Signature,"CLAUSEN, JOSEPH N.",0
+2,Insured's Signature,HUSBAND,0
+3,Insured's Signature,03-12-18,0
+4,Insured's Signature,617-54-1889,0
+5,Date Signed,03-12-18,1
+6,Date Signed,617-54-1889,0
+7,Date Signed,HUSBAND,0
+8,Date Signed,"CLAUSEN, JOSEPH N.",0
+9,Date Signed,'S',0
+10,Printed Name,"CLAUSEN, JOSEPH N.",1
+11,Printed Name,'S',0
+12,Printed Name,HUSBAND,0
+13,Printed Name,03-12-18,0
+14,Printed Name,617-54-1889,0
+15,Social Security Number,617-54-1889,1
+16,Social Security Number,03-12-18,0
+17,Social Security Number,HUSBAND,0
+18,Social Security Number,"CLAUSEN, JOSEPH N.",0
+19,Social Security Number,'S',0
+20,I signed on behalf of the Insured as,HUSBAND,1
+21,I signed on behalf of the Insured as,"CLAUSEN, JOSEPH N.",0
+22,I signed on behalf of the Insured as,'S',0
+23,I signed on behalf of the Insured as,03-12-18,0
+24,I signed on behalf of the Insured as,617-54-1889,0

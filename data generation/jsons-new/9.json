@@ -1,0 +1,352 @@
+[
+  {
+    "field_area1": {
+      "bbox": {
+        "x": 88,
+        "y": 496,
+        "l": 1802,
+        "w": 144
+      },
+      "field_name": {
+        "bbox": {
+          "x": 90,
+          "y": 504,
+          "l": 761,
+          "w": 39
+        },
+        "name": "Employee Name (Last Name, Suffix, First Name, MI)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 86,
+          "y": 548,
+          "l": 1805,
+          "w": 92
+        },
+        "value": "Maroun, Margarita B"
+      }
+    }
+  },
+  {
+    "field_area2": {
+      "bbox": {
+        "x": 1936,
+        "y": 507,
+        "l": 492,
+        "w": 120
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1936,
+          "y": 507,
+          "l": 350,
+          "w": 36
+        },
+        "name": "Date od Birth (mm/dd/yy)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1938,
+          "y": 550,
+          "l": 488,
+          "w": 78
+        },
+        "value": "08 10 68"
+      }
+    }
+  },
+  {
+    "field_area3": {
+      "bbox": {
+        "x": 88,
+        "y": 648,
+        "l": 1035,
+        "w": 56
+      },
+      "field_name": {
+        "bbox": {
+          "x": 89,
+          "y": 661,
+          "l": 800,
+          "w": 39
+        },
+        "name": "Is the claim the result of a work related injury or illness?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 920,
+          "y": 648,
+          "l": 91,
+          "w": 44
+        },
+        "value": "☑ Yes"
+      }
+    }
+  },
+  {
+    "field_area4": {
+      "bbox": {
+        "x": 90,
+        "y": 704,
+        "l": 1021,
+        "w": 56
+      },
+      "field_name": {
+        "bbox": {
+          "x": 89,
+          "y": 714,
+          "l": 784,
+          "w": 37
+        },
+        "name": "If yes, has a Workers' Compensation claim been filed?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 902,
+          "y": 704,
+          "l": 94,
+          "w": 42
+        },
+        "value": "☑ Yes"
+      }
+    }
+  },
+  {
+    "field_area5": {
+      "bbox": {
+        "x": 86,
+        "y": 1556,
+        "l": 1192,
+        "w": 66
+      },
+      "field_name": {
+        "bbox": {
+          "x": 86,
+          "y": 1581,
+          "l": 919,
+          "w": 34
+        },
+        "name": "What percentage of the Short Term Disability benefit is taxable?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1012,
+          "y": 1560,
+          "l": 265,
+          "w": 54
+        },
+        "value": "20 %"
+      }
+    }
+  },
+  {
+    "field_area6": {
+      "bbox": {
+        "x": 81,
+        "y": 1875,
+        "l": 1790,
+        "w": 45
+      },
+      "field_name": {
+        "bbox": {
+          "x": 81,
+          "y": 1875,
+          "l": 1538,
+          "w": 45
+        },
+        "name": "If the employee is released to return-to-work in restricted duty, are you willing to discuss accommodations?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1647,
+          "y": 1871,
+          "l": 105,
+          "w": 40
+        },
+        "value": "☑ Yes"
+      }
+    }
+  },
+  {
+    "field_area7": {
+      "bbox": {
+        "x": 86,
+        "y": 2014,
+        "l": 509,
+        "w": 110
+      },
+      "field_name": {
+        "bbox": {
+          "x": 86,
+          "y": 2016,
+          "l": 88,
+          "w": 30
+        },
+        "name": "Name"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 208,
+          "y": 2032,
+          "l": 386,
+          "w": 90
+        },
+        "value": "Thomas Craig"
+      }
+    }
+  },
+  {
+    "field_area8": {
+      "bbox": {
+        "x": 1817,
+        "y": 2014,
+        "l": 427,
+        "w": 101
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1817,
+          "y": 2019,
+          "l": 281,
+          "w": 36
+        },
+        "name": "Telephone Number"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1834,
+          "y": 2052,
+          "l": 412,
+          "w": 61
+        },
+        "value": "495 202 8689"
+      }
+    }
+  },
+  {
+    "field_area9": {
+      "bbox": {
+        "x": 87,
+        "y": 2416,
+        "l": 2341,
+        "w": 102
+      },
+      "field_name": {
+        "bbox": {
+          "x": 88,
+          "y": 2413,
+          "l": 497,
+          "w": 43
+        },
+        "name": "Name of Person Completing Form"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area10": {
+      "bbox": {
+        "x": 87,
+        "y": 2520,
+        "l": 925,
+        "w": 101
+      },
+      "field_name": {
+        "bbox": {
+          "x": 86,
+          "y": 2528,
+          "l": 282,
+          "w": 36
+        },
+        "name": "Telephone Number"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area11": {
+      "bbox": {
+        "x": 1016,
+        "y": 2520,
+        "l": 655,
+        "w": 104
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1023,
+          "y": 2527,
+          "l": 184,
+          "w": 41
+        },
+        "name": "Fax Number"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area12": {
+      "bbox": {
+        "x": 1676,
+        "y": 2524,
+        "l": 749,
+        "w": 96
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1676,
+          "y": 2524,
+          "l": 244,
+          "w": 45
+        },
+        "name": "E-mail Address"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area13": {
+      "bbox": {
+        "x": 84,
+        "y": 2630,
+        "l": 1587,
+        "w": 141
+      },
+      "field_name": {
+        "bbox": {
+          "x": 83,
+          "y": 2624,
+          "l": 196,
+          "w": 46
+        },
+        "name": "Signature"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area14": {
+      "bbox": {
+        "x": 1677,
+        "y": 2625,
+        "l": 746,
+        "w": 149
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1689,
+          "y": 2628,
+          "l": 237,
+          "w": 47
+        },
+        "name": "Date Signed"
+      },
+      "field_value": {
+      }
+    }
+  }
+]

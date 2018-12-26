@@ -1,0 +1,651 @@
+[
+  {
+    "field_area1": {
+      "bbox": {
+        "x": 102,
+        "y": 502,
+        "l": 1801,
+        "w": 134
+      },
+      "field_name": {
+        "bbox": {
+          "x": 102,
+          "y": 503,
+          "l": 717,
+          "w": 34
+        },
+        "name": "Patient Name (Last Name, First Name, MI, Suffix)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 101,
+          "y": 547,
+          "l": 1801,
+          "w": 92
+        },
+        "value": "Maroun, Margarita B"
+      }
+    }
+  },
+  {
+    "field_area2": {
+      "bbox": {
+        "x": 1953,
+        "y": 506,
+        "l": 487,
+        "w": 117
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1953,
+          "y": 506,
+          "l": 354,
+          "w": 34
+        },
+        "name": "Date of Birth (mm/dd/yy)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1954,
+          "y": 548,
+          "l": 485,
+          "w": 74
+        },
+        "value": "08 10 68"
+      }
+    }
+  },
+	{
+   	"number of columns": "4",
+   	"number of rows": "2",
+   	"header field names": "Name, Specialty, Address, Phone #",
+   	"columns positions": "100,840,1240,2118",
+   	"bbox_table_header": "100,723,1271,84",
+   	"bbox_table": "100,723,2412,230",
+   	"rows": [
+			{
+   			"row_bbox": "100,807,2412,73",
+   			"row_field_values": "John F. Grant, MD, Orthopaedics, 197 Scenic Way, Champaign IL, 217-493-9060"
+   		},
+   		{
+   			"row_bbox": "100,880,2412,73",
+   			"row_field_values": ",,,"
+   		}
+   	],
+   	"value_location": "below"
+  },
+  {
+    "field_area3": {
+      "bbox": {
+        "x": 99,
+        "y": 951,
+        "l": 951,
+        "w": 148
+      },
+      "field_name": {
+        "bbox": {
+          "x": 102,
+          "y": 963,
+          "l": 682,
+          "w": 36
+        },
+        "name": "Have you advised the patient to return to work?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 816,
+          "y": 952,
+          "l": 98,
+          "w": 41
+        },
+        "value": "☑ Yes"
+      }
+    }
+  },
+  {
+    "field_area4": {
+      "bbox": {
+        "x": 1048,
+        "y": 951,
+        "l": 613,
+        "w": 149
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1065,
+          "y": 965,
+          "l": 594,
+          "w": 34
+        },
+        "name": "Expected return to work date (mm/dd/yy):"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1075,
+          "y": 1010,
+          "l": 211,
+          "w": 90
+        },
+        "value": "09/20/18"
+      }
+    }
+  },
+  {
+    "field_area5": {
+      "bbox": {
+        "x": 1686,
+        "y": 958,
+        "l": 405,
+        "w": 39
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1686,
+          "y": 958,
+          "l": 405,
+          "w": 39
+        },
+        "name": "Full Time Part Time"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1902,
+          "y": 958,
+          "l": 189,
+          "w": 39
+        },
+        "value": "☑ Part Time"
+      }
+    }
+  },
+  {
+    "field_area6": {
+      "bbox": {
+        "x": 1683,
+        "y": 1037,
+        "l": 435,
+        "w": 54
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1683,
+          "y": 1037,
+          "l": 343,
+          "w": 38
+        },
+        "name": "Part-time hours per day"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 2055,
+          "y": 1037,
+          "l": 57,
+          "w": 54
+        },
+        "value": "2"
+      }
+    }
+  },
+  {
+    "field_area7": {
+      "bbox": {
+        "x": 578,
+        "y": 1221,
+        "l": 601,
+        "w": 41
+      },
+      "field_name": {
+        "bbox": {
+          "x": 578,
+          "y": 1226,
+          "l": 284,
+          "w": 36
+        },
+        "name": "please initial here"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area8": {
+      "bbox": {
+        "x": 102,
+        "y": 1544,
+        "l": 2340,
+        "w": 290
+      },
+      "field_name": {
+        "bbox": {
+          "x": 100,
+          "y": 1560,
+          "l": 2342,
+          "w": 124
+        },
+        "name": "If your patient has CURRENT RESTRICTIONS (activities patient should not do) and/or LIMITATIONS (activities patient cannot do) list below. Please be specific and understand that a reply of \"no work\" or \"totally disabled\" will not enable us to evaluate your patient's claim for benefits and may result in us having to contact you for clarification."
+      },
+      "field_value": {
+        "bbox": {
+          "x": 102,
+          "y": 1734,
+          "l": 2340,
+          "w": 94
+        },
+        "value": "LIFTING, BENDING, SQUATTING, SITTING TOO LONG."
+      }
+    }
+  },
+  {
+    "field_area9": {
+      "bbox": {
+        "x": 98,
+        "y": 1948,
+        "l": 1620,
+        "w": 102
+      },
+      "field_name": {
+        "bbox": {
+          "x": 100,
+          "y": 1994,
+          "l": 1324,
+          "w": 42
+        },
+        "name": "Please provide the duration of these restrictions and limitations. From (mm/dd/yy):"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1459,
+          "y": 1951,
+          "l": 223,
+          "w": 96
+        },
+        "value": "09/20/18"
+      }
+    }
+  },
+  {
+    "field_area10": {
+      "bbox": {
+        "x": 1724,
+        "y": 1949,
+        "l": 584,
+        "w": 103
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1726,
+          "y": 1998,
+          "l": 245,
+          "w": 41
+        },
+        "name": "To (mm/dd/yy):"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1999,
+          "y": 1949,
+          "l": 192,
+          "w": 104
+        },
+        "value": "11/20/18"
+      }
+    }
+  },
+  {
+    "field_area11": {
+      "bbox": {
+        "x": 100,
+        "y": 2445,
+        "l": 1557,
+        "w": 148
+      },
+      "field_name": {
+        "bbox": {
+          "x": 101,
+          "y": 2457,
+          "l": 940,
+          "w": 35
+        },
+        "name": "Physical Name (Last Name, First Name, MI, Suffix) Please Print"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 115,
+          "y": 2508,
+          "l": 442,
+          "w": 85
+        },
+        "value": "Mullaney, Jason"
+      }
+    }
+  },
+  {
+    "field_area12": {
+      "bbox": {
+        "x": 1658,
+        "y": 2445,
+        "l": 781,
+        "w": 140
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1706,
+          "y": 2460,
+          "l": 253,
+          "w": 34
+        },
+        "name": "Degree/Specialty"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1739,
+          "y": 2514,
+          "l": 82,
+          "w": 71
+        },
+        "value": "MD"
+      }
+    }
+  },
+  {
+    "field_area13": {
+      "bbox": {
+        "x": 100,
+        "y": 2574,
+        "l": 2313,
+        "w": 130
+      },
+      "field_name": {
+        "bbox": {
+          "x": 98,
+          "y": 2581,
+          "l": 123,
+          "w": 34
+        },
+        "name": "Address"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 203,
+          "y": 2606,
+          "l": 580,
+          "w": 99
+        },
+        "value": "1557 Edgewood Ave"
+      }
+    }
+  },
+  {
+    "field_area14": {
+      "bbox": {
+        "x": 98,
+        "y": 2686,
+        "l": 1446,
+        "w": 160
+      },
+      "field_name": {
+        "bbox": {
+          "x": 98,
+          "y": 2698,
+          "l": 60,
+          "w": 37
+        },
+        "name": "City"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 209,
+          "y": 2738,
+          "l": 465,
+          "w": 107
+        },
+        "value": "Arlington Heights"
+      }
+    }
+  },
+  {
+    "field_area15": {
+      "bbox": {
+        "x": 1544,
+        "y": 2688,
+        "l": 177,
+        "w": 127
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1594,
+          "y": 2702,
+          "l": 77,
+          "w": 28
+        },
+        "name": "State"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1597,
+          "y": 2754,
+          "l": 73,
+          "w": 55
+        },
+        "value": "IL"
+      }
+    }
+  },
+  {
+    "field_area16": {
+      "bbox": {
+        "x": 1719,
+        "y": 2686,
+        "l": 736,
+        "w": 132
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1766,
+          "y": 2702,
+          "l": 49,
+          "w": 35
+        },
+        "name": "Zip"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1770,
+          "y": 2746,
+          "l": 187,
+          "w": 72
+        },
+        "value": "60005"
+      }
+    }
+  },
+  {
+    "field_area17": {
+      "bbox": {
+        "x": 90,
+        "y": 2814,
+        "l": 549,
+        "w": 124
+      },
+      "field_name": {
+        "bbox": {
+          "x": 98,
+          "y": 2823,
+          "l": 277,
+          "w": 37
+        },
+        "name": "Telephone Number"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 109,
+          "y": 2870,
+          "l": 431,
+          "w": 69
+        },
+        "value": "559-297-8404"
+      }
+    }
+  },
+  {
+    "field_area18": {
+      "bbox": {
+        "x": 635,
+        "y": 2814,
+        "l": 484,
+        "w": 127
+      },
+      "field_name": {
+        "bbox": {
+          "x": 680,
+          "y": 2824,
+          "l": 183,
+          "w": 32
+        },
+        "name": "Fax Number"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 672,
+          "y": 2878,
+          "l": 438,
+          "w": 62
+        },
+        "value": "559-297-8517"
+      }
+    }
+  },
+  {
+    "field_area19": {
+      "bbox": {
+        "x": 1118,
+        "y": 2815,
+        "l": 568,
+        "w": 125
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1162,
+          "y": 2825,
+          "l": 374,
+          "w": 38
+        },
+        "name": "Physician Tax ID Number:"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1153,
+          "y": 2874,
+          "l": 323,
+          "w": 53
+        },
+        "value": "21-0046005"
+      }
+    }
+  },
+  {
+    "field_area20": {
+      "bbox": {
+        "x": 1684,
+        "y": 2818,
+        "l": 764,
+        "w": 56
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1729,
+          "y": 2824,
+          "l": 444,
+          "w": 39
+        },
+        "name": "Are you related to this patient?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 2335,
+          "y": 2813,
+          "l": 87,
+          "w": 45
+        },
+        "value": "☑ No"
+      }
+    }
+  },
+  {
+    "field_area21": {
+      "bbox": {
+        "x": 1685,
+        "y": 2876,
+        "l": 751,
+        "w": 62
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1723,
+          "y": 2880,
+          "l": 457,
+          "w": 44
+        },
+        "name": "If yes, what is the relationship?"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area22": {
+      "bbox": {
+        "x": 98,
+        "y": 2938,
+        "l": 1808,
+        "w": 215
+      },
+      "field_name": {
+        "bbox": {
+          "x": 98,
+          "y": 2938,
+          "l": 442,
+          "w": 50
+        },
+        "name": "Signature of Physician"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 208,
+          "y": 2977,
+          "l": 289,
+          "w": 179
+        },
+        "value": "'S'"
+      }
+    }
+  },
+  {
+    "field_area23": {
+      "bbox": {
+        "x": 1904,
+        "y": 2940,
+        "l": 533,
+        "w": 165
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1953,
+          "y": 2946,
+          "l": 94,
+          "w": 35
+        },
+        "name": "Date"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1949,
+          "y": 3016,
+          "l": 324,
+          "w": 80
+        },
+        "value": "09-19-18"
+      }
+    }
+  }
+]

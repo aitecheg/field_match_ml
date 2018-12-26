@@ -1,0 +1,464 @@
+[
+  {
+    "field_area1": {
+      "bbox": {
+        "x": 88,
+        "y": 463,
+        "l": 1774,
+        "w": 157
+      },
+      "field_name": {
+        "bbox": {
+          "x": 91,
+          "y": 469,
+          "l": 727,
+          "w": 35
+        },
+        "name": "Patient's Name (Last Name, Suffix, First Name, MI)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 92,
+          "y": 512,
+          "l": 1770,
+          "w": 76
+        },
+        "value": "ARANDA, ELMER, F"
+      }
+    }
+  },
+  {
+    "field_area2": {
+      "bbox": {
+        "x": 1907,
+        "y": 464,
+        "l": 482,
+        "w": 136
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1907,
+          "y": 464,
+          "l": 346,
+          "w": 42
+        },
+        "name": "Date of Birth (mm/dd/yy)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1907,
+          "y": 503,
+          "l": 482,
+          "w": 96
+        },
+        "value": "06 13 83"
+      }
+    }
+  },
+  {
+    "field_area3": {
+      "bbox": {
+        "x": 89,
+        "y": 660,
+        "l": 2310,
+        "w": 330
+      },
+      "field_name": {
+        "bbox": {
+          "x": 89,
+          "y": 670,
+          "l": 411,
+          "w": 36
+        },
+        "name": "What is your treatment plan?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 301,
+          "y": 748,
+          "l": 1163,
+          "w": 190
+        },
+        "value": "Physical therapy after Surgery and Pain meds."
+      }
+    }
+  },
+  {
+    "field_area4": {
+      "bbox": {
+        "x": 87,
+        "y": 988,
+        "l": 2312,
+        "w": 182
+      },
+      "field_name": {
+        "bbox": {
+          "x": 90,
+          "y": 1003,
+          "l": 608,
+          "w": 36
+        },
+        "name": "Medications (Please attach medication log)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 320,
+          "y": 1065,
+          "l": 507,
+          "w": 65
+        },
+        "value": "Percocel 51325"
+      }
+    }
+  },
+  {
+    "field_area5": {
+      "bbox": {
+        "x": 90,
+        "y": 1161,
+        "l": 732,
+        "w": 100
+      },
+      "field_name": {
+        "bbox": {
+          "x": 90,
+          "y": 1179,
+          "l": 492,
+          "w": 34
+        },
+        "name": "Has the patient been hospitalized?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 602,
+          "y": 1159,
+          "l": 102,
+          "w": 49
+        },
+        "value": "☑ Yes"
+      }
+    }
+  },
+  {
+    "field_area6": {
+      "bbox": {
+        "x": 836,
+        "y": 1167,
+        "l": 829,
+        "w": 91
+      },
+      "field_name": {
+        "bbox": {
+          "x": 836,
+          "y": 1167,
+          "l": 520,
+          "w": 51
+        },
+        "name": "If yes, date hospitalized (mm/dd/yy):"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1387,
+          "y": 1183,
+          "l": 256,
+          "w": 73
+        },
+        "value": "04-13-17"
+      }
+    }
+  },
+  {
+    "field_area7": {
+      "bbox": {
+        "x": 1665,
+        "y": 1171,
+        "l": 725,
+        "w": 84
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1665,
+          "y": 1171,
+          "l": 293,
+          "w": 49
+        },
+        "name": "through (mm/dd/yy)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 2015,
+          "y": 1177,
+          "l": 271,
+          "w": 75
+        },
+        "value": "04-15-17"
+      }
+    }
+  },
+  {
+    "field_area8": {
+      "bbox": {
+        "x": 88,
+        "y": 1258,
+        "l": 2300,
+        "w": 168
+      },
+      "field_name": {
+        "bbox": {
+          "x": 89,
+          "y": 1269,
+          "l": 196,
+          "w": 36
+        },
+        "name": "Facility Name"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 218,
+          "y": 1296,
+          "l": 589,
+          "w": 128
+        },
+        "value": "Jefferson Hospital"
+      }
+    }
+  },
+  {
+    "field_area9": {
+      "bbox": {
+        "x": 86,
+        "y": 1376,
+        "l": 2302,
+        "w": 152
+      },
+      "field_name": {
+        "bbox": {
+          "x": 88,
+          "y": 1390,
+          "l": 119,
+          "w": 28
+        },
+        "name": "Address"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 195,
+          "y": 1417,
+          "l": 639,
+          "w": 109
+        },
+        "value": "565 Coal Valley Rd"
+      }
+    }
+  },
+  {
+    "field_area10": {
+      "bbox": {
+        "x": 90,
+        "y": 1496,
+        "l": 1460,
+        "w": 122
+      },
+      "field_name": {
+        "bbox": {
+          "x": 90,
+          "y": 1510,
+          "l": 57,
+          "w": 34
+        },
+        "name": "City"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 154,
+          "y": 1540,
+          "l": 419,
+          "w": 77
+        },
+        "value": "Jefferson Hills"
+      }
+    }
+  },
+  {
+    "field_area11": {
+      "bbox": {
+        "x": 1550,
+        "y": 1499,
+        "l": 168,
+        "w": 117
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1558,
+          "y": 1512,
+          "l": 75,
+          "w": 28
+        },
+        "name": "State"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1608,
+          "y": 1556,
+          "l": 58,
+          "w": 53
+        },
+        "value": "PA"
+      }
+    }
+  },
+  {
+    "field_area12": {
+      "bbox": {
+        "x": 1717,
+        "y": 1498,
+        "l": 672,
+        "w": 121
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1728,
+          "y": 1513,
+          "l": 46,
+          "w": 33
+        },
+        "name": "Zip"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1882,
+          "y": 1549,
+          "l": 166,
+          "w": 57
+        },
+        "value": "15025"
+      }
+    }
+  },
+  {
+    "field_area13": {
+      "bbox": {
+        "x": 87,
+        "y": 1614,
+        "l": 601,
+        "w": 136
+      },
+      "field_name": {
+        "bbox": {
+          "x": 89,
+          "y": 1628,
+          "l": 351,
+          "w": 34
+        },
+        "name": "Was surgery performed?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 455,
+          "y": 1618,
+          "l": 107,
+          "w": 40
+        },
+        "value": "☑ Yes"
+      }
+    }
+  },
+  {
+    "field_area14": {
+      "bbox": {
+        "x": 685,
+        "y": 1614,
+        "l": 975,
+        "w": 155
+      },
+      "field_name": {
+        "bbox": {
+          "x": 703,
+          "y": 1628,
+          "l": 551,
+          "w": 36
+        },
+        "name": "If yes, what procedure was performed?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 714,
+          "y": 1680,
+          "l": 640,
+          "w": 90
+        },
+        "value": "Arthroscopy L Shouler"
+      }
+    }
+  },
+  {
+    "field_area15": {
+      "bbox": {
+        "x": 1658,
+        "y": 1616,
+        "l": 734,
+        "w": 164
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1665,
+          "y": 1630,
+          "l": 529,
+          "w": 37
+        },
+        "name": "Date Surgery Performed (mm/dd/yy)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1754,
+          "y": 1671,
+          "l": 333,
+          "w": 111
+        },
+        "value": "04-13-17"
+      }
+    }
+  },
+  {
+    "field_area16": {
+      "bbox": {
+        "x": 89,
+        "y": 1750,
+        "l": 736,
+        "w": 99
+      },
+      "field_name": {
+        "bbox": {
+          "x": 89,
+          "y": 1762,
+          "l": 489,
+          "w": 39
+        },
+        "name": "Is patient still under your care?"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area17": {
+      "bbox": {
+        "x": 828,
+        "y": 1754,
+        "l": 1561,
+        "w": 98
+      },
+      "field_name": {
+        "bbox": {
+          "x": 834,
+          "y": 1760,
+          "l": 408,
+          "w": 37
+        },
+        "name": "If no, final date of treatment"
+      },
+      "field_value": {
+      }
+    }
+  }
+]

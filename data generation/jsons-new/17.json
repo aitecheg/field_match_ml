@@ -1,0 +1,961 @@
+[
+  {
+    "field_area1": {
+      "bbox": {
+        "x": 88,
+        "y": 552,
+        "l": 1568,
+        "w": 132
+      },
+      "field_name": {
+        "bbox": {
+          "x": 88,
+          "y": 552,
+          "l": 742,
+          "w": 34
+        },
+        "name": "Name of Patient (Last Name, Suffix, First Name, MI)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 88,
+          "y": 586,
+          "l": 1568,
+          "w": 96
+        },
+        "value": "ARANDA, ELMER, F"
+      }
+    }
+  },
+  {
+    "field_area2": {
+      "bbox": {
+        "x": 1731,
+        "y": 550,
+        "l": 664,
+        "w": 111
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1731,
+          "y": 550,
+          "l": 337,
+          "w": 36
+        },
+        "name": "Social Security Number"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1733,
+          "y": 589,
+          "l": 662,
+          "w": 70
+        },
+        "value": "559 65 7651"
+      }
+    }
+  },
+  {
+    "field_area3": {
+      "bbox": {
+        "x": 89,
+        "y": 662,
+        "l": 477,
+        "w": 110
+      },
+      "field_name": {
+        "bbox": {
+          "x": 89,
+          "y": 662,
+          "l": 349,
+          "w": 35
+        },
+        "name": "Date of Birth (mm/dd/yy)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 89,
+          "y": 700,
+          "l": 477,
+          "w": 72
+        },
+        "value": "06 13 83"
+      }
+    }
+  },
+  {
+    "field_area4": {
+      "bbox": {
+        "x": 647,
+        "y": 663,
+        "l": 725,
+        "w": 125
+      },
+      "field_name": {
+        "bbox": {
+          "x": 647,
+          "y": 663,
+          "l": 364,
+          "w": 33
+        },
+        "name": "Home Telephone Number"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 647,
+          "y": 696,
+          "l": 724,
+          "w": 91
+        },
+        "value": "432 343 1836"
+      }
+    }
+  },
+  {
+    "field_area5": {
+      "bbox": {
+        "x": 1459,
+        "y": 663,
+        "l": 726,
+        "w": 130
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1463,
+          "y": 663,
+          "l": 390,
+          "w": 31
+        },
+        "name": "Cellular Telephone Number"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1460,
+          "y": 695,
+          "l": 723,
+          "w": 99
+        },
+        "value": "976 587 1052"
+      }
+    }
+  },
+  {
+    "field_area6": {
+      "bbox": {
+        "x": 92,
+        "y": 1050,
+        "l": 499,
+        "w": 133
+      },
+      "field_name": {
+        "bbox": {
+          "x": 92,
+          "y": 1068,
+          "l": 485,
+          "w": 35
+        },
+        "name": "Expected Delivery Date (mm/dd/yy):"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area7": {
+      "bbox": {
+        "x": 593,
+        "y": 1053,
+        "l": 516,
+        "w": 132
+      },
+      "field_name": {
+        "bbox": {
+          "x": 602,
+          "y": 1067,
+          "l": 443,
+          "w": 36
+        },
+        "name": "Actual Delivery Date (mm/dd/yy):"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area8": {
+      "bbox": {
+        "x": 1106,
+        "y": 1056,
+        "l": 224,
+        "w": 127
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1116,
+          "y": 1066,
+          "l": 204,
+          "w": 37
+        },
+        "name": "Delivery Type:"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area9": {
+      "bbox": {
+        "x": 1328,
+        "y": 1053,
+        "l": 569,
+        "w": 129
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1347,
+          "y": 1066,
+          "l": 494,
+          "w": 77
+        },
+        "name": "Date of first visit for this pregnancy (mm/dd/yy):"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area10": {
+      "bbox": {
+        "x": 1894,
+        "y": 1054,
+        "l": 499,
+        "w": 127
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1910,
+          "y": 1064,
+          "l": 429,
+          "w": 37
+        },
+        "name": "Date Hospitalized (mm/dd/yy):"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area11": {
+      "bbox": {
+        "x": 91,
+        "y": 1390,
+        "l": 1047,
+        "w": 154
+      },
+      "field_name": {
+        "bbox": {
+          "x": 91,
+          "y": 1402,
+          "l": 791,
+          "w": 36
+        },
+        "name": "Date of first visit for this current condition(s) (mm/dd/yy):"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 254,
+          "y": 1452,
+          "l": 281,
+          "w": 94
+        },
+        "value": "04-13-17"
+      }
+    }
+  },
+  {
+    "field_area12": {
+      "bbox": {
+        "x": 87,
+        "y": 1186,
+        "l": 874,
+        "w": 85
+      },
+      "field_name": {
+        "bbox": {
+          "x": 87,
+          "y": 1186,
+          "l": 637,
+          "w": 43
+        },
+        "name": "Did you advise your patient to stop working?"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area13": {
+      "bbox": {
+        "x": 965,
+        "y": 1189,
+        "l": 1432,
+        "w": 82
+      },
+      "field_name": {
+        "bbox": {
+          "x": 965,
+          "y": 1189,
+          "l": 489,
+          "w": 41
+        },
+        "name": "If yes, on what date (mm/dd/yy)?"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area14": {
+      "bbox": {
+        "x": 1134,
+        "y": 1349,
+        "l": 1255,
+        "w": 174
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1145,
+          "y": 1402,
+          "l": 627,
+          "w": 35
+        },
+        "name": "Did you advise your patient to stop working?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1794,
+          "y": 1348,
+          "l": 99,
+          "w": 82
+        },
+        "value": "☑ Yes"
+      }
+    }
+  },
+  {
+    "field_area15": {
+      "bbox": {
+        "x": 1134,
+        "y": 1387,
+        "l": 1255,
+        "w": 176
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1145,
+          "y": 1440,
+          "l": 464,
+          "w": 38
+        },
+        "name": "If yes, on what date (mm/dd/yy)?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1659,
+          "y": 1447,
+          "l": 336,
+          "w": 117
+        },
+        "value": "04-13-17"
+      }
+    }
+  },
+  {
+    "field_area16": {
+      "bbox": {
+        "x": 93,
+        "y": 1484,
+        "l": 2300,
+        "w": 171
+      },
+      "field_name": {
+        "bbox": {
+          "x": 91,
+          "y": 1536,
+          "l": 1001,
+          "w": 33
+        },
+        "name": "Has the patient been treated for the same/similar condition in the past?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1349,
+          "y": 1482,
+          "l": 177,
+          "w": 83
+        },
+        "value": "☑ Unknown"
+      }
+    }
+  },
+  {
+    "field_area17": {
+      "bbox": {
+        "x": 86,
+        "y": 2332,
+        "l": 2314,
+        "w": 81
+      },
+      "field_name": {
+        "bbox": {
+          "x": 90,
+          "y": 1608,
+          "l": 822,
+          "w": 43
+        },
+        "name": "If yes, please provide treatment dates (mm/dd/yy): From"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area18": {
+      "bbox": {
+        "x": 1378,
+        "y": 1566,
+        "l": 1012,
+        "w": 82
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1378,
+          "y": 1608,
+          "l": 130,
+          "w": 40
+        },
+        "name": "Through"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area19": {
+      "bbox": {
+        "x": 87,
+        "y": 1654,
+        "l": 1653,
+        "w": 54
+      },
+      "field_name": {
+        "bbox": {
+          "x": 91,
+          "y": 1666,
+          "l": 1207,
+          "w": 38
+        },
+        "name": "Is the patient's condition due to injury or sickness involving the patient's employment?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1319,
+          "y": 1640,
+          "l": 103,
+          "w": 56
+        },
+        "value": "☑ Yes"
+      }
+    }
+  },
+  {
+    "field_area20": {
+      "bbox": {
+        "x": 88,
+        "y": 1765,
+        "l": 2303,
+        "w": 90
+      },
+      "field_name": {
+        "bbox": {
+          "x": 87,
+          "y": 1777,
+          "l": 950,
+          "w": 37
+        },
+        "name": "What is the primary diagnosis preventing the patient from working?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1104,
+          "y": 1777,
+          "l": 601,
+          "w": 71
+        },
+        "value": "L Shoulder Strain"
+      }
+    }
+  },
+  {
+    "field_area21": {
+      "bbox": {
+        "x": 86,
+        "y": 1857,
+        "l": 1144,
+        "w": 107
+      },
+      "field_name": {
+        "bbox": {
+          "x": 91,
+          "y": 1870,
+          "l": 1036,
+          "w": 36
+        },
+        "name": "Please include primary ICD Code or DSM-IV Multi-Axial diagnoses codes"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 243,
+          "y": 1900,
+          "l": 594,
+          "w": 64
+        },
+        "value": "m25.512 m75.102"
+      }
+    }
+  },
+  {
+    "field_area22": {
+      "bbox": {
+        "x": 1226,
+        "y": 1854,
+        "l": 1165,
+        "w": 98
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1241,
+          "y": 1869,
+          "l": 150,
+          "w": 31
+        },
+        "name": "ICD Code:"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area23": {
+      "bbox": {
+        "x": 89,
+        "y": 1949,
+        "l": 561,
+        "w": 95
+      },
+      "field_name": {
+        "bbox": {
+          "x": 89,
+          "y": 2003,
+          "l": 154,
+          "w": 28
+        },
+        "name": "DSM-IV: I"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area24": {
+      "bbox": {
+        "x": 649,
+        "y": 1951,
+        "l": 436,
+        "w": 93
+      },
+      "field_name": {
+        "bbox": {
+          "x": 665,
+          "y": 2004,
+          "l": 19,
+          "w": 27
+        },
+        "name": "II"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area25": {
+      "bbox": {
+        "x": 1085,
+        "y": 1949,
+        "l": 432,
+        "w": 93
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1097,
+          "y": 2003,
+          "l": 28,
+          "w": 27
+        },
+        "name": "III"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area26": {
+      "bbox": {
+        "x": 1516,
+        "y": 1948,
+        "l": 432,
+        "w": 97
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1527,
+          "y": 2003,
+          "l": 35,
+          "w": 27
+        },
+        "name": "IV"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area27": {
+      "bbox": {
+        "x": 1944,
+        "y": 1947,
+        "l": 446,
+        "w": 96
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1957,
+          "y": 2001,
+          "l": 29,
+          "w": 31
+        },
+        "name": "V"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area28": {
+      "bbox": {
+        "x": 88,
+        "y": 2045,
+        "l": 2305,
+        "w": 50
+      },
+      "field_name": {
+        "bbox": {
+          "x": 88,
+          "y": 2055,
+          "l": 969,
+          "w": 39
+        },
+        "name": "What are the other conditions that prevent the patient from working"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area29": {
+      "bbox": {
+        "x": 93,
+        "y": 2098,
+        "l": 785,
+        "w": 124
+      },
+      "field_name": {
+        "bbox": {
+          "x": 92,
+          "y": 2111,
+          "l": 309,
+          "w": 37
+        },
+        "name": "Secondary Dianosis:"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 133,
+          "y": 2133,
+          "l": 746,
+          "w": 88
+        },
+        "value": "Rotator Cuff Tear L-Shoulder"
+      }
+    }
+  },
+  {
+    "field_area30": {
+      "bbox": {
+        "x": 869,
+        "y": 2098,
+        "l": 1523,
+        "w": 103
+      },
+      "field_name": {
+        "bbox": {
+          "x": 882,
+          "y": 2111,
+          "l": 151,
+          "w": 31
+        },
+        "name": "ICD Code:"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1090,
+          "y": 2121,
+          "l": 287,
+          "w": 81
+        },
+        "value": "m75.102"
+      }
+    }
+  },
+  {
+    "field_area31": {
+      "bbox": {
+        "x": 92,
+        "y": 2192,
+        "l": 777,
+        "w": 95
+      },
+      "field_name": {
+        "bbox": {
+          "x": 90,
+          "y": 2205,
+          "l": 312,
+          "w": 36
+        },
+        "name": "Secondary Diagnosis:"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area32": {
+      "bbox": {
+        "x": 870,
+        "y": 2191,
+        "l": 1522,
+        "w": 92
+      },
+      "field_name": {
+        "bbox": {
+          "x": 878,
+          "y": 2206,
+          "l": 154,
+          "w": 30
+        },
+        "name": "ICD Code:"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area33": {
+      "bbox": {
+        "x": 83,
+        "y": 2286,
+        "l": 2311,
+        "w": 129
+      },
+      "field_name": {
+        "bbox": {
+          "x": 91,
+          "y": 2298,
+          "l": 1090,
+          "w": 34
+        },
+        "name": "Are there any cognitive deficits or psychiatric conditions that imapact function?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1317,
+          "y": 2273,
+          "l": 96,
+          "w": 68
+        },
+        "value": "☑ No"
+      }
+    }
+  },
+  {
+    "field_area34": {
+      "bbox": {
+        "x": 88,
+        "y": 2329,
+        "l": 2312,
+        "w": 84
+      },
+      "field_name": {
+        "bbox": {
+          "x": 88,
+          "y": 2329,
+          "l": 695,
+          "w": 44
+        },
+        "name": "If yes, please provide restrictions and limitations"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area35": {
+      "bbox": {
+        "x": 91,
+        "y": 2419,
+        "l": 995,
+        "w": 126
+      },
+      "field_name": {
+        "bbox": {
+          "x": 89,
+          "y": 2431,
+          "l": 522,
+          "w": 37
+        },
+        "name": "Date of last examination (mm/dd/yy):"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 650,
+          "y": 2442,
+          "l": 299,
+          "w": 108
+        },
+        "value": "04-15-17"
+      }
+    }
+  },
+  {
+    "field_area36": {
+      "bbox": {
+        "x": 1085,
+        "y": 2416,
+        "l": 1308,
+        "w": 120
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1096,
+          "y": 2428,
+          "l": 531,
+          "w": 40
+        },
+        "name": "Date of next examination (mm/dd/yy):"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1702,
+          "y": 2443,
+          "l": 292,
+          "w": 94
+        },
+        "value": "04-18-17"
+      }
+    }
+  },
+  {
+    "field_area37": {
+      "bbox": {
+        "x": 88,
+        "y": 2513,
+        "l": 2306,
+        "w": 176
+      },
+      "field_name": {
+        "bbox": {
+          "x": 88,
+          "y": 2526,
+          "l": 926,
+          "w": 38
+        },
+        "name": "What symptoms is your patient reporting about his/her condition?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 162,
+          "y": 2548,
+          "l": 1328,
+          "w": 90
+        },
+        "value": "Pain in Left Shoulder, limitation of motion"
+      }
+    }
+  },
+  {
+    "field_area38": {
+      "bbox": {
+        "x": 84,
+        "y": 2682,
+        "l": 2312,
+        "w": 184
+      },
+      "field_name": {
+        "bbox": {
+          "x": 90,
+          "y": 2698,
+          "l": 838,
+          "w": 37
+        },
+        "name": "What diagnostic or clinical findings support your diagnosis?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 228,
+          "y": 2724,
+          "l": 1812,
+          "w": 146
+        },
+        "value": "No improvement despite medicine, injection and Theraphy"
+      }
+    }
+  },
+  {
+    "field_area39": {
+      "bbox": {
+        "x": 90,
+        "y": 2859,
+        "l": 2303,
+        "w": 190
+      },
+      "field_name": {
+        "bbox": {
+          "x": 87,
+          "y": 2872,
+          "l": 1277,
+          "w": 30
+        },
+        "name": "What diagnostic or clinical findings support your patient's work restrictions and limitations?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 281,
+          "y": 2903,
+          "l": 1656,
+          "w": 129
+        },
+        "value": "Surgery -Repair rotator cuff L-Shoulder"
+      }
+    }
+  }
+]

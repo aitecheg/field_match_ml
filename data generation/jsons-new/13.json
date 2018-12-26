@@ -1,0 +1,142 @@
+[
+  {
+    "field_area1": {
+      "bbox": {
+        "x": 86,
+        "y": 2612,
+        "l": 1399,
+        "w": 189
+      },
+      "field_name": {
+        "bbox": {
+          "x": 88,
+          "y": 2734,
+          "l": 416,
+          "w": 60
+        },
+        "name": "Insured's Signature"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 196,
+          "y": 2615,
+          "l": 317,
+          "w": 184
+        },
+        "value": "'S'"
+      }
+    }
+  },
+  {
+    "field_area2": {
+      "bbox": {
+        "x": 1546,
+        "y": 2673,
+        "l": 674,
+        "w": 123
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1546,
+          "y": 2738,
+          "l": 268,
+          "w": 58
+        },
+        "name": "Date Signed"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1589,
+          "y": 2672,
+          "l": 304,
+          "w": 65
+        },
+        "value": "09-19-18"
+      }
+    }
+  },
+  {
+    "field_area3": {
+      "bbox": {
+        "x": 86,
+        "y": 2824,
+        "l": 1398,
+        "w": 114
+      },
+      "field_name": {
+        "bbox": {
+          "x": 88,
+          "y": 2891,
+          "l": 296,
+          "w": 47
+        },
+        "name": "Printed Name"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 202,
+          "y": 2825,
+          "l": 564,
+          "w": 72
+        },
+        "value": "MARGARITA MARDUN"
+      }
+    }
+  },
+  {
+    "field_area4": {
+      "bbox": {
+        "x": 1544,
+        "y": 2825,
+        "l": 677,
+        "w": 129
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1544,
+          "y": 2897,
+          "l": 513,
+          "w": 57
+        },
+        "name": "Social Security Number"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1582,
+          "y": 2827,
+          "l": 350,
+          "w": 67
+        },
+        "value": "104028783"
+      }
+    }
+  },
+  {
+    "field_area5": {
+      "bbox": {
+        "x": 90,
+        "y": 2994,
+        "l": 1728,
+        "w": 58
+      },
+      "field_name": {
+        "bbox": {
+          "x": 90,
+          "y": 2994,
+          "l": 820,
+          "w": 58
+        },
+        "name": "I signed on behalf of the Insured as"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1012,
+          "y": 2994,
+          "l": 127,
+          "w": 44
+        },
+        "value": "SELF"
+      }
+    }
+  }
+]

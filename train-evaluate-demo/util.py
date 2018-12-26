@@ -3,11 +3,14 @@ import re
 
 import gensim
 import numpy as np
+import tensorflow as tf
 from nltk.corpus import stopwords
+from sklearn.metrics import confusion_matrix, recall_score, precision_score
+from tensorflow.keras import backend
+from tensorflow.keras import metrics
 from tensorflow.python.keras import backend as K
 from tensorflow.python.keras.layers import Layer
 from tensorflow.python.keras.preprocessing.sequence import pad_sequences
-
 
 
 def text_to_word_list(text):
@@ -68,7 +71,7 @@ def make_w2v_embeddings(df, embedding_dim=300, empty_w2v=False):
         word2vec = EmptyWord2Vec
     else:
         # word2vec = KeyedVectors.load_word2vec_format("./data/GoogleNews-vectors-negative300.bin.gz", binary=True)
-        word2vec = gensim.models.FastText.load("./repo/Quora-Question-Pairs.ft").wv
+        word2vec = gensim.models.FastText.load("./models/Quora-Question-Pairs.ft").wv
 
     for index, row in df.iterrows():
         # Print the number of embedded sentences.
@@ -156,3 +159,23 @@ class EmptyWord2Vec:
     """
     vocab = {}
     word_vec = {}
+
+
+def show_metrics(Y, prediction):
+    Y = np.squeeze(Y)
+    prediction = np.squeeze(prediction)
+
+    print(confusion_matrix(Y, prediction > .5))
+    print("recall", recall_score(Y, prediction > .5))
+    print("precision", precision_score(Y, prediction > .5))
+
+    # keras placeholder used for evaluation
+    video_level_labels_k = backend.placeholder([None], dtype=tf.float32)
+    video_level_preds_k = backend.placeholder([None], dtype=tf.float32)
+
+    val_loss_op = backend.mean(metrics.binary_crossentropy(video_level_labels_k, video_level_preds_k))
+
+    video_level_loss, = backend.get_session().run(
+        [val_loss_op], feed_dict={video_level_labels_k: Y, video_level_preds_k: prediction})
+
+    print("log loss", video_level_loss)

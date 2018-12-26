@@ -5,20 +5,25 @@ import pandas as pd
 
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-
 from sklearn.model_selection import train_test_split
-
 import tensorflow as tf
 
 from tensorflow.python.keras.models import Model, Sequential
 from tensorflow.python.keras.layers import Input, Embedding, LSTM
 
-from util import make_w2v_embeddings
+from util import make_w2v_embeddings, show_metrics
 from util import split_and_zero_padding
 from util import ManDist
 
+import argparse
+
+params_parser = argparse.ArgumentParser(description='repo')
+params_parser.add_argument('gpu', type=int)
+params_parser.add_argument('file', type=str)
+params = params_parser.parse_args()
+
 # File paths
-TRAIN_CSV = './repo/train.csv'
+TRAIN_CSV  = './data/{}.csv'.format(params.file)
 
 # Load training set
 train_df = pd.read_csv(TRAIN_CSV, keep_default_na=False)
@@ -33,7 +38,7 @@ use_w2v = True
 train_df, embeddings = make_w2v_embeddings(train_df, embedding_dim=embedding_dim, empty_w2v=not use_w2v)
 
 # Split to train validation
-validation_size = int(len(train_df) * 0.1)
+validation_size = int(len(train_df) * 0.05)
 training_size = len(train_df) - validation_size
 
 X = train_df[['question1_n', 'question2_n']]
@@ -52,19 +57,19 @@ Y_validation = Y_validation.values
 assert X_train['left'].shape == X_train['right'].shape
 assert len(X_train['left']) == len(Y_train)
 
-with tf.device('/device:GPU:1'):
+with tf.device('/device:GPU:{}'.format(params.gpu)):
     # --
 
     # Model variables
     gpus = 1
     batch_size = 512 * gpus
-    n_epoch = 20
+    n_epoch = 10
     n_hidden = 64
 
     # Define the shared model
     x = Sequential()
     x.add(Embedding(len(embeddings), embedding_dim,
-                    weights=[embeddings], input_shape=(max_seq_length,), trainable=True))
+                    weights=[embeddings], input_shape=(max_seq_length,), trainable=False))
     # CNN
     # x.add(Conv1D(250, kernel_size=5, activation='relu'))
     # x.add(GlobalMaxPool1D())
@@ -72,8 +77,8 @@ with tf.device('/device:GPU:1'):
     # x.add(Dropout(0.3))
     # x.add(Dense(1, activation='sigmoid'))
     # LSTM
-    x.add(LSTM(n_hidden // 4, return_sequences=True))
-    x.add(LSTM(n_hidden // 2, return_sequences=True))
+    x.add(LSTM(n_hidden, return_sequences=True))
+    x.add(LSTM(n_hidden, return_sequences=True))
     x.add(LSTM(n_hidden))
 
     shared_model = x
@@ -98,11 +103,20 @@ with tf.device('/device:GPU:1'):
     malstm_trained = model.fit([X_train['left'], X_train['right']], Y_train,
                                batch_size=batch_size, epochs=n_epoch,
                                validation_data=([X_validation['left'], X_validation['right']], Y_validation))
+
+    print("loss,accuracy", model.evaluate([X_validation['left'], X_validation['right']], batch_size=512, y=Y_validation))
+
+    prediction = model.predict([X_train['left'], X_train['right']])
+    show_metrics(Y_train, prediction)
+
+    prediction = model.predict([X_validation['left'], X_validation['right']])
+    show_metrics(Y_validation, prediction)
+
     training_end_time = time()
     print("Training time finished.\n%d epochs in %12.2f" % (n_epoch,
                                                             training_end_time - training_start_time))
 
-    model.save('./repo/SiameseLSTM.h5')
+    model.save('./models/SiameseLSTM.h5')
 
     # Plot accuracy
     plt.subplot(211)
@@ -123,7 +137,7 @@ with tf.device('/device:GPU:1'):
     plt.legend(['Train', 'Validation'], loc='upper right')
 
     plt.tight_layout(h_pad=1.0)
-    plt.savefig('./repo/history-graph.png')
+    plt.savefig('./models/history-graph.png')
 
     print(str(malstm_trained.history['val_acc'][-1])[:6] +
           "(max: " + str(max(malstm_trained.history['val_acc']))[:6] + ")")

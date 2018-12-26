@@ -1,0 +1,36 @@
+id,question1,question2,is_duplicate
+0,Employer:,"SMITH, HEIDI , J.",1
+1,Employer:,864053,0
+2,Employer:,491 22 7531,0
+3,Employer:,08-15-47,0
+4,Employer:,461568,0
+5,Group Policy #:,864053,1
+6,Group Policy #:,"SMITH, HEIDI , J.",0
+7,Group Policy #:,491 22 7531,0
+8,Group Policy #:,08-15-47,0
+9,Group Policy #:,461568,0
+10,Customer #:,461568,1
+11,Customer #:,491 22 7531,0
+12,Customer #:,08-15-47,0
+13,Customer #:,864053,0
+14,Customer #:,04-26-74,0
+15,SS #:,491 22 7531,1
+16,SS #:,08-15-47,0
+17,SS #:,864053,0
+18,SS #:,"SMITH, HEIDI , J.",0
+19,SS #:,461568,0
+20,EE Name:,"ROSEN , ALBERT , K",1
+21,EE Name:,491 22 7531,0
+22,EE Name:,08-15-47,0
+23,EE Name:,461568,0
+24,EE Name:,04-26-74,0
+25,EE DOB:,08-15-47,1
+26,EE DOB:,491 22 7531,0
+27,EE DOB:,04-26-74,0
+28,EE DOB:,461568,0
+29,EE DOB:,"ROSEN , ALBERT , K",0
+30,Spouse DOB,04-26-74,1
+31,Spouse DOB,08-15-47,0
+32,Spouse DOB,491 22 7531,0
+33,Spouse DOB,461568,0
+34,Spouse DOB,"ROSEN , ALBERT , K",0

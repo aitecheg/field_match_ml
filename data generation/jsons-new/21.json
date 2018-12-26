@@ -1,0 +1,142 @@
+[
+  {
+    "field_area1": {
+      "bbox": {
+        "x": 93,
+        "y": 2501,
+        "l": 1376,
+        "w": 147
+      },
+      "field_name": {
+        "bbox": {
+          "x": 96,
+          "y": 2596,
+          "l": 407,
+          "w": 57
+        },
+        "name": "Insured's Signature"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 301,
+          "y": 2501,
+          "l": 431,
+          "w": 139
+        },
+        "value": "'S'"
+      }
+    }
+  },
+  {
+    "field_area2": {
+      "bbox": {
+        "x": 1527,
+        "y": 2519,
+        "l": 666,
+        "w": 134
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1527,
+          "y": 2596,
+          "l": 265,
+          "w": 55
+        },
+        "name": "Date Signed"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1623,
+          "y": 2517,
+          "l": 306,
+          "w": 98
+        },
+        "value": "04-15-17"
+      }
+    }
+  },
+  {
+    "field_area3": {
+      "bbox": {
+        "x": 92,
+        "y": 2647,
+        "l": 1378,
+        "w": 147
+      },
+      "field_name": {
+        "bbox": {
+          "x": 92,
+          "y": 2747,
+          "l": 293,
+          "w": 47
+        },
+        "name": "Printed Name"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 166,
+          "y": 2648,
+          "l": 643,
+          "w": 121
+        },
+        "value": "ARANDA, ELMER, F."
+      }
+    }
+  },
+  {
+    "field_area4": {
+      "bbox": {
+        "x": 1527,
+        "y": 2665,
+        "l": 665,
+        "w": 141
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1530,
+          "y": 2749,
+          "l": 501,
+          "w": 59
+        },
+        "name": "Social Security Number"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1596,
+          "y": 2662,
+          "l": 494,
+          "w": 113
+        },
+        "value": "559-65-7651"
+      }
+    }
+  },
+  {
+    "field_area5": {
+      "bbox": {
+        "x": 92,
+        "y": 2806,
+        "l": 1706,
+        "w": 86
+      },
+      "field_name": {
+        "bbox": {
+          "x": 92,
+          "y": 2824,
+          "l": 810,
+          "w": 53
+        },
+        "name": "I signed on behalf of the Insured as"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1193,
+          "y": 2808,
+          "l": 214,
+          "w": 80
+        },
+        "value": "SELF"
+      }
+    }
+  }
+]

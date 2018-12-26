@@ -1,0 +1,968 @@
+[
+  {
+    "field_area1": {
+      "bbox": {
+        "x": 100,
+        "y": 560,
+        "l": 1596,
+        "w": 112
+      },
+      "field_name": {
+        "bbox": {
+          "x": 100,
+          "y": 560,
+          "l": 756,
+          "w": 36
+        },
+        "name": "Name of Patient (Last Name, Suffix, First Name, MI)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 100,
+          "y": 594,
+          "l": 1596,
+          "w": 78
+        },
+        "value": "MAROUN, MARGARITA B"
+      }
+    }
+  },
+  {
+    "field_area2": {
+      "bbox": {
+        "x": 1774,
+        "y": 563,
+        "l": 674,
+        "w": 113
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1774,
+          "y": 563,
+          "l": 342,
+          "w": 35
+        },
+        "name": "Social Security Number"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1776,
+          "y": 602,
+          "l": 670,
+          "w": 72
+        },
+        "value": "104 02 8783"
+      }
+    }
+  },
+  {
+    "field_area3": {
+      "bbox": {
+        "x": 102,
+        "y": 670,
+        "l": 488,
+        "w": 116
+      },
+      "field_name": {
+        "bbox": {
+          "x": 102,
+          "y": 670,
+          "l": 356,
+          "w": 38
+        },
+        "name": "Date of Birth (mm/dd/yy)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 102,
+          "y": 711,
+          "l": 486,
+          "w": 75
+        },
+        "value": "08 10 68"
+      }
+    }
+  },
+  {
+    "field_area4": {
+      "bbox": {
+        "x": 670,
+        "y": 668,
+        "l": 736,
+        "w": 117
+      },
+      "field_name": {
+        "bbox": {
+          "x": 670,
+          "y": 673,
+          "l": 384,
+          "w": 35
+        },
+        "name": "Patient Telephone Number"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 670,
+          "y": 709,
+          "l": 736,
+          "w": 76
+        },
+        "value": "905 331 8089"
+      }
+    }
+  },
+  {
+    "field_area5": {
+      "bbox": {
+        "x": 104,
+        "y": 785,
+        "l": 2355,
+        "w": 128
+      },
+      "field_name": {
+        "bbox": {
+          "x": 105,
+          "y": 787,
+          "l": 232,
+          "w": 37
+        },
+        "name": "Employer Name"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 104,
+          "y": 831,
+          "l": 2355,
+          "w": 84
+        },
+        "value": "CRAIG, THOMAS"
+      }
+    }
+  },
+  {
+    "field_area6": {
+      "bbox": {
+        "x": 100,
+        "y": 1009,
+        "l": 509,
+        "w": 130
+      },
+      "field_name": {
+        "bbox": {
+          "x": 103,
+          "y": 1021,
+          "l": 495,
+          "w": 37
+        },
+        "name": "Expected Delivery Date (mm/dd/yy):"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area7": {
+      "bbox": {
+        "x": 610,
+        "y": 1009,
+        "l": 523,
+        "w": 132
+      },
+      "field_name": {
+        "bbox": {
+          "x": 621,
+          "y": 1024,
+          "l": 453,
+          "w": 36
+        },
+        "name": "Actual Delivery Date (mm/dd/yy):"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area8": {
+      "bbox": {
+        "x": 1133,
+        "y": 1012,
+        "l": 234,
+        "w": 128
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1146,
+          "y": 1025,
+          "l": 205,
+          "w": 36
+        },
+        "name": "Delivery Type:"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1156,
+          "y": 1065,
+          "l": 186,
+          "w": 63
+        },
+        "value": "Vaginal C-Section"
+      }
+    }
+  },
+  {
+    "field_area9": {
+      "bbox": {
+        "x": 1368,
+        "y": 1012,
+        "l": 575,
+        "w": 130
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1380,
+          "y": 1023,
+          "l": 502,
+          "w": 79
+        },
+        "name": "Date of first visit for this pregnancy (mm/dd/yy):"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area10": {
+      "bbox": {
+        "x": 1943,
+        "y": 1015,
+        "l": 497,
+        "w": 128
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1953,
+          "y": 1026,
+          "l": 435,
+          "w": 36
+        },
+        "name": "Date Hospitalized (mm/dd/yy):"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area11": {
+      "bbox": {
+        "x": 101,
+        "y": 1141,
+        "l": 509,
+        "w": 128
+      },
+      "field_name": {
+        "bbox": {
+          "x": 103,
+          "y": 1153,
+          "l": 151,
+          "w": 36
+        },
+        "name": "Diagnosis:"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area12": {
+      "bbox": {
+        "x": 609,
+        "y": 1140,
+        "l": 448,
+        "w": 129
+      },
+      "field_name": {
+        "bbox": {
+          "x": 619,
+          "y": 1152,
+          "l": 152,
+          "w": 33
+        },
+        "name": "ICD Code:"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area13": {
+      "bbox": {
+        "x": 1062,
+        "y": 1149,
+        "l": 764,
+        "w": 81
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1062,
+          "y": 1149,
+          "l": 642,
+          "w": 42
+        },
+        "name": "Did you advise your patient to stop working?"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area14": {
+      "bbox": {
+        "x": 1848,
+        "y": 1148,
+        "l": 595,
+        "w": 119
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1848,
+          "y": 1148,
+          "l": 484,
+          "w": 45
+        },
+        "name": "If yes, on what date (mm/dd/yy)?"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area15": {
+      "bbox": {
+        "x": 97,
+        "y": 1275,
+        "l": 1725,
+        "w": 43
+      },
+      "field_name": {
+        "bbox": {
+          "x": 97,
+          "y": 1275,
+          "l": 1481,
+          "w": 43
+        },
+        "name": "Were there any complications causing your patient to stop working prior to her expected delivery date?"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area16": {
+      "bbox": {
+        "x": 96,
+        "y": 1317,
+        "l": 2346,
+        "w": 137
+      },
+      "field_name": {
+        "bbox": {
+          "x": 96,
+          "y": 1317,
+          "l": 322,
+          "w": 40
+        },
+        "name": "If yes, please explain"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area17": {
+      "bbox": {
+        "x": 100,
+        "y": 1517,
+        "l": 633,
+        "w": 173
+      },
+      "field_name": {
+        "bbox": {
+          "x": 100,
+          "y": 1527,
+          "l": 633,
+          "w": 78
+        },
+        "name": "Date of first visit for this current condition(s) (mm/dd/yy):"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 232,
+          "y": 1621,
+          "l": 293,
+          "w": 68
+        },
+        "value": "09-10-18"
+      }
+    }
+  },
+  {
+    "field_area18": {
+      "bbox": {
+        "x": 732,
+        "y": 1514,
+        "l": 511,
+        "w": 175
+      },
+      "field_name": {
+        "bbox": {
+          "x": 740,
+          "y": 1528,
+          "l": 496,
+          "w": 37
+        },
+        "name": "Date of last office visit (mm/dd/yy):"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 794,
+          "y": 1623,
+          "l": 285,
+          "w": 69
+        },
+        "value": "09-18-18"
+      }
+    }
+  },
+  {
+    "field_area19": {
+      "bbox": {
+        "x": 1239,
+        "y": 1515,
+        "l": 528,
+        "w": 180
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1239,
+          "y": 1515,
+          "l": 528,
+          "w": 52
+        },
+        "name": "Date of next office visit (mm/dd/yy):"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1258,
+          "y": 1604,
+          "l": 301,
+          "w": 80
+        },
+        "value": "12-18-18"
+      }
+    }
+  },
+  {
+    "field_area20": {
+      "bbox": {
+        "x": 1768,
+        "y": 1523,
+        "l": 676,
+        "w": 122
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1768,
+          "y": 1523,
+          "l": 654,
+          "w": 41
+        },
+        "name": "Did you advice your patient to stop working?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1779,
+          "y": 1562,
+          "l": 91,
+          "w": 38
+        },
+        "value": "☑ Yes"
+      }
+    }
+  },
+  {
+    "field_area21": {
+      "bbox": {
+        "x": 1883,
+        "y": 1563,
+        "l": 516,
+        "w": 126
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1883,
+          "y": 1563,
+          "l": 516,
+          "w": 44
+        },
+        "name": "If yes, on what date (mm/dd/yy)?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1886,
+          "y": 1618,
+          "l": 496,
+          "w": 71
+        },
+        "value": "09/10 - 09/18/18"
+      }
+    }
+  },
+  {
+    "field_area22": {
+      "bbox": {
+        "x": 99,
+        "y": 1694,
+        "l": 1465,
+        "w": 51
+      },
+      "field_name": {
+        "bbox": {
+          "x": 99,
+          "y": 1694,
+          "l": 1027,
+          "w": 51
+        },
+        "name": "Has the patient been treated for the same/similar condition in the past?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1271,
+          "y": 1691,
+          "l": 85,
+          "w": 41
+        },
+        "value": "☑ No"
+      }
+    }
+  },
+  {
+    "field_area23": {
+      "bbox": {
+        "x": 99,
+        "y": 1779,
+        "l": 1301,
+        "w": 42
+      },
+      "field_name": {
+        "bbox": {
+          "x": 99,
+          "y": 1779,
+          "l": 837,
+          "w": 42
+        },
+        "name": "If yes, please provide treatment dates (mm/dd/yy): From"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area24": {
+      "bbox": {
+        "x": 1404,
+        "y": 1773,
+        "l": 1037,
+        "w": 53
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1404,
+          "y": 1773,
+          "l": 150,
+          "w": 53
+        },
+        "name": "Through"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area25": {
+      "bbox": {
+        "x": 97,
+        "y": 1830,
+        "l": 1001,
+        "w": 46
+      },
+      "field_name": {
+        "bbox": {
+          "x": 102,
+          "y": 1841,
+          "l": 553,
+          "w": 34
+        },
+        "name": "Is the patient's condition work related?"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area26": {
+      "bbox": {
+        "x": 1277,
+        "y": 1827,
+        "l": 567,
+        "w": 139
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1289,
+          "y": 1840,
+          "l": 237,
+          "w": 37
+        },
+        "name": "Patient's Height:"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1345,
+          "y": 1881,
+          "l": 160,
+          "w": 80
+        },
+        "value": "5'6\""
+      }
+    }
+  },
+  {
+    "field_area27": {
+      "bbox": {
+        "x": 1843,
+        "y": 1829,
+        "l": 599,
+        "w": 150
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1854,
+          "y": 1842,
+          "l": 237,
+          "w": 35
+        },
+        "name": "Patient's Weight"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1902,
+          "y": 1874,
+          "l": 410,
+          "w": 104
+        },
+        "value": "57 kg/126 lbs"
+      }
+    }
+  },
+  {
+    "field_area28": {
+      "bbox": {
+        "x": 90,
+        "y": 1962,
+        "l": 1824,
+        "w": 136
+      },
+      "field_name": {
+        "bbox": {
+          "x": 102,
+          "y": 1974,
+          "l": 273,
+          "w": 37
+        },
+        "name": "Primary Diagnosis:"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 173,
+          "y": 1977,
+          "l": 1532,
+          "w": 112
+        },
+        "value": "L 4-5 disc herniation resulting in R Ls radiculopathy"
+      }
+    }
+  },
+  {
+    "field_area29": {
+      "bbox": {
+        "x": 1913,
+        "y": 1966,
+        "l": 530,
+        "w": 134
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1922,
+          "y": 1976,
+          "l": 276,
+          "w": 39
+        },
+        "name": "Primary ICD Code:"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1968,
+          "y": 2026,
+          "l": 227,
+          "w": 60
+        },
+        "value": "M51.26"
+      }
+    }
+  },
+  {
+    "field_area30": {
+      "bbox": {
+        "x": 100,
+        "y": 2098,
+        "l": 1811,
+        "w": 135
+      },
+      "field_name": {
+        "bbox": {
+          "x": 100,
+          "y": 2110,
+          "l": 316,
+          "w": 37
+        },
+        "name": "Secondary Diagnosis:"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area31": {
+      "bbox": {
+        "x": 1912,
+        "y": 2101,
+        "l": 528,
+        "w": 137
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1922,
+          "y": 2113,
+          "l": 318,
+          "w": 39
+        },
+        "name": "Secodary ICD Code:"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area32": {
+      "bbox": {
+        "x": 98,
+        "y": 2235,
+        "l": 754,
+        "w": 143
+      },
+      "field_name": {
+        "bbox": {
+          "x": 100,
+          "y": 2245,
+          "l": 500,
+          "w": 36
+        },
+        "name": "Has the patient been hospitalized?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 633,
+          "y": 2221,
+          "l": 90,
+          "w": 57
+        },
+        "value": "☑ Yes"
+      }
+    }
+  },
+  {
+    "field_area33": {
+      "bbox": {
+        "x": 850,
+        "y": 2234,
+        "l": 854,
+        "w": 162
+      },
+      "field_name": {
+        "bbox": {
+          "x": 867,
+          "y": 2246,
+          "l": 520,
+          "w": 38
+        },
+        "name": "If yes, date hospitalized (mm/dd/yy):"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 948,
+          "y": 2289,
+          "l": 236,
+          "w": 110
+        },
+        "value": "09/10/18"
+      }
+    }
+  },
+  {
+    "field_area34": {
+      "bbox": {
+        "x": 1703,
+        "y": 2236,
+        "l": 737,
+        "w": 152
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1704,
+          "y": 2244,
+          "l": 294,
+          "w": 40
+        },
+        "name": "through (mm/dd/yy):"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1804,
+          "y": 2283,
+          "l": 221,
+          "w": 108
+        },
+        "value": "09/18/18"
+      }
+    }
+  },
+  {
+    "field_area35": {
+      "bbox": {
+        "x": 97,
+        "y": 2380,
+        "l": 607,
+        "w": 50
+      },
+      "field_name": {
+        "bbox": {
+          "x": 98,
+          "y": 2391,
+          "l": 360,
+          "w": 37
+        },
+        "name": "Was surgery performed?"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area36": {
+      "bbox": {
+        "x": 703,
+        "y": 2381,
+        "l": 701,
+        "w": 137
+      },
+      "field_name": {
+        "bbox": {
+          "x": 724,
+          "y": 2394,
+          "l": 562,
+          "w": 35
+        },
+        "name": "If yes, what procedure was performed?"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area37": {
+      "bbox": {
+        "x": 1400,
+        "y": 2383,
+        "l": 444,
+        "w": 134
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1412,
+          "y": 2392,
+          "l": 163,
+          "w": 32
+        },
+        "name": "CPT Code:"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1461,
+          "y": 2433,
+          "l": 202,
+          "w": 72
+        },
+        "value": "22505"
+      }
+    }
+  },
+  {
+    "field_area38": {
+      "bbox": {
+        "x": 1842,
+        "y": 2379,
+        "l": 600,
+        "w": 142
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1852,
+          "y": 2392,
+          "l": 534,
+          "w": 41
+        },
+        "name": "Date Surgery Performed (mm/dd/yy):"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area39": {
+      "bbox": {
+        "x": 101,
+        "y": 2517,
+        "l": 2342,
+        "w": 588
+      },
+      "field_name": {
+        "bbox": {
+          "x": 99,
+          "y": 2527,
+          "l": 870,
+          "w": 37
+        },
+        "name": "What is your treatment plan? Please include all medication."
+      },
+      "field_value": {
+        "bbox": {
+          "x": 769,
+          "y": 2709,
+          "l": 909,
+          "w": 164
+        },
+        "value": "See attached files"
+      }
+    }
+  }
+]

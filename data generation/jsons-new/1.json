@@ -1,0 +1,1185 @@
+[
+  {
+    "field_area1": {
+      "bbox": {
+        "x": 163,
+        "y": 559,
+        "l": 1096,
+        "w": 75
+      },
+      "field_name": {
+        "bbox": {
+          "x": 163,
+          "y": 559,
+          "l": 599,
+          "w": 34
+        },
+        "name": "Please check the type of claim you are filing:"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 163,
+          "y": 598,
+          "l": 264,
+          "w": 35
+        },
+        "value": "☒ Accidental Injury"
+      }
+    }
+  },
+  {
+    "field_area2": {
+      "bbox": {
+        "x": 162,
+        "y": 654,
+        "l": 1127,
+        "w": 34
+      },
+      "field_name": {
+        "bbox": {
+          "x": 162,
+          "y": 654,
+          "l": 219,
+          "w": 34
+        },
+        "name": "This claim is for:"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 537,
+          "y": 654,
+          "l": 144,
+          "w": 34
+        },
+        "value": "☒ Spouse"
+      }
+    }
+  },
+  {
+    "field_area3": {
+      "bbox": {
+        "x": 163,
+        "y": 770,
+        "l": 1102,
+        "w": 108
+      },
+      "field_name": {
+        "bbox": {
+          "x": 163,
+          "y": 770,
+          "l": 146,
+          "w": 26
+        },
+        "name": "Last Name"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 163,
+          "y": 810,
+          "l": 1096,
+          "w": 66
+        },
+        "value": "CLAUSEN"
+      }
+    }
+  },
+  {
+    "field_area4": {
+      "bbox": {
+        "x": 1328,
+        "y": 770,
+        "l": 138,
+        "w": 111
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1327,
+          "y": 769,
+          "l": 76,
+          "w": 29
+        },
+        "name": "Suffix"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area5": {
+      "bbox": {
+        "x": 1508,
+        "y": 770,
+        "l": 719,
+        "w": 110
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1508,
+          "y": 772,
+          "l": 149,
+          "w": 25
+        },
+        "name": "First Name"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1508,
+          "y": 812,
+          "l": 719,
+          "w": 68
+        },
+        "value": "JOSEPH"
+      }
+    }
+  },
+  {
+    "field_area6": {
+      "bbox": {
+        "x": 2276,
+        "y": 771,
+        "l": 68,
+        "w": 109
+      },
+      "field_name": {
+        "bbox": {
+          "x": 2288,
+          "y": 770,
+          "l": 37,
+          "w": 29
+        },
+        "name": "MI"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 2276,
+          "y": 811,
+          "l": 68,
+          "w": 69
+        },
+        "value": "N"
+      }
+    }
+  },
+  {
+    "field_area7": {
+      "bbox": {
+        "x": 164,
+        "y": 883,
+        "l": 452,
+        "w": 111
+      },
+      "field_name": {
+        "bbox": {
+          "x": 164,
+          "y": 883,
+          "l": 327,
+          "w": 33
+        },
+        "name": "Date of Birth (mm/dd/yy)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 164,
+          "y": 925,
+          "l": 452,
+          "w": 68
+        },
+        "value": "02 18 37"
+      }
+    }
+  },
+  {
+    "field_area8": {
+      "bbox": {
+        "x": 950,
+        "y": 885,
+        "l": 626,
+        "w": 109
+      },
+      "field_name": {
+        "bbox": {
+          "x": 950,
+          "y": 885,
+          "l": 317,
+          "w": 33
+        },
+        "name": "Social Security Number"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 950,
+          "y": 925,
+          "l": 626,
+          "w": 69
+        },
+        "value": "104 42 7346"
+      }
+    }
+  },
+  {
+    "field_area9": {
+      "bbox": {
+        "x": 1719,
+        "y": 886,
+        "l": 139,
+        "w": 105
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1719,
+          "y": 886,
+          "l": 139,
+          "w": 26
+        },
+        "name": "Gender"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1719,
+          "y": 924,
+          "l": 139,
+          "w": 26
+        },
+        "value": "☒ Male"
+      }
+    }
+  },
+  {
+    "field_area10": {
+      "bbox": {
+        "x": 163,
+        "y": 992,
+        "l": 2203,
+        "w": 102
+      },
+      "field_name": {
+        "bbox": {
+          "x": 163,
+          "y": 992,
+          "l": 202,
+          "w": 27
+        },
+        "name": "Home Address"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 163,
+          "y": 1026,
+          "l": 2203,
+          "w": 68
+        },
+        "value": "1739 DEANS LANE"
+      }
+    }
+  },
+  {
+    "field_area11": {
+      "bbox": {
+        "x": 162,
+        "y": 1097,
+        "l": 1362,
+        "w": 110
+      },
+      "field_name": {
+        "bbox": {
+          "x": 162,
+          "y": 1097,
+          "l": 54,
+          "w": 35
+        },
+        "name": "City"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 162,
+          "y": 1136,
+          "l": 1362,
+          "w": 67
+        },
+        "value": "WHITE PLAINS"
+      }
+    }
+  },
+  {
+    "field_area12": {
+      "bbox": {
+        "x": 1559,
+        "y": 1100,
+        "l": 133,
+        "w": 109
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1559,
+          "y": 1100,
+          "l": 71,
+          "w": 27
+        },
+        "name": "State"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1559,
+          "y": 1140,
+          "l": 131,
+          "w": 68
+        },
+        "value": "NY"
+      }
+    }
+  },
+  {
+    "field_area13": {
+      "bbox": {
+        "x": 1719,
+        "y": 1100,
+        "l": 631,
+        "w": 109
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1719,
+          "y": 1100,
+          "l": 45,
+          "w": 32
+        },
+        "name": "Zip"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1723,
+          "y": 1140,
+          "l": 631,
+          "w": 68
+        },
+        "value": "10601"
+      }
+    }
+  },
+  {
+    "field_area14": {
+      "bbox": {
+        "x": 164,
+        "y": 1208,
+        "l": 686,
+        "w": 105
+      },
+      "field_name": {
+        "bbox": {
+          "x": 164,
+          "y": 1208,
+          "l": 346,
+          "w": 31
+        },
+        "name": "Home Telephone Number"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 164,
+          "y": 1246,
+          "l": 687,
+          "w": 69
+        },
+        "value": "914 890 5521"
+      }
+    }
+  },
+  {
+    "field_area15": {
+      "bbox": {
+        "x": 949,
+        "y": 1208,
+        "l": 688,
+        "w": 108
+      },
+      "field_name": {
+        "bbox": {
+          "x": 949,
+          "y": 1208,
+          "l": 368,
+          "w": 33
+        },
+        "name": "Cellular Telephone Number"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 949,
+          "y": 1246,
+          "l": 688,
+          "w": 70
+        },
+        "value": "830 763 2514"
+      }
+    }
+  },
+  {
+    "field_area16": {
+      "bbox": {
+        "x": 1671,
+        "y": 1208,
+        "l": 690,
+        "w": 108
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1674,
+          "y": 1208,
+          "l": 338,
+          "w": 34
+        },
+        "name": "Work Telephone Number"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1672,
+          "y": 1248,
+          "l": 688,
+          "w": 68
+        },
+        "value": "915 704 8912"
+      }
+    }
+  },
+  {
+    "field_area17": {
+      "bbox": {
+        "x": 161,
+        "y": 1319,
+        "l": 656,
+        "w": 106
+      },
+      "field_name": {
+        "bbox": {
+          "x": 161,
+          "y": 1319,
+          "l": 325,
+          "w": 34
+        },
+        "name": "Accident Policy Number"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 166,
+          "y": 1356,
+          "l": 651,
+          "w": 70
+        },
+        "value": "5410796314"
+      }
+    }
+  },
+  {
+    "field_area18": {
+      "bbox": {
+        "x": 850,
+        "y": 1322,
+        "l": 1489,
+        "w": 129
+      },
+      "field_name": {
+        "bbox": {
+          "x": 853,
+          "y": 1322,
+          "l": 769,
+          "w": 33
+        },
+        "name": "Preferred e-mail address (for confirmation purposes only)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 850,
+          "y": 1358,
+          "l": 1489,
+          "w": 93
+        },
+        "value": "josephNclausen@jour.com"
+      }
+    }
+  },
+  {
+    "field_area19": {
+      "bbox": {
+        "x": 162,
+        "y": 1437,
+        "l": 646,
+        "w": 43
+      },
+      "field_name": {
+        "bbox": {
+          "x": 162,
+          "y": 1437,
+          "l": 292,
+          "w": 34
+        },
+        "name": "Language Preference"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 478,
+          "y": 1434,
+          "l": 148,
+          "w": 46
+        },
+        "value": "☒ English"
+      }
+    }
+  },
+  {
+    "field_area20": {
+      "bbox": {
+        "x": 161,
+        "y": 1494,
+        "l": 1246,
+        "w": 173
+      },
+      "field_name": {
+        "bbox": {
+          "x": 161,
+          "y": 1494,
+          "l": 886,
+          "w": 35
+        },
+        "name": "If known, please check all type of coverage you have with Unum."
+      },
+      "field_value": {
+        "bbox": {
+          "x": 161,
+          "y": 1538,
+          "l": 315,
+          "w": 55
+        },
+        "value": "☒ Short Term Disability"
+      }
+    }
+  },
+  {
+    "field_area21": {
+      "bbox": {
+        "x": 160,
+        "y": 1807,
+        "l": 2190,
+        "w": 50
+      },
+      "field_name": {
+        "bbox": {
+          "x": 160,
+          "y": 1807,
+          "l": 1242,
+          "w": 50
+        },
+        "name": "C. Information About the Patient (if different from Insured/Policyholder) Check one:"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1450,
+          "y": 1807,
+          "l": 154,
+          "w": 50
+        },
+        "value": "☒ Spouse"
+      }
+    }
+  },
+  {
+    "field_area22": {
+      "bbox": {
+        "x": 161,
+        "y": 1872,
+        "l": 1104,
+        "w": 104
+      },
+      "field_name": {
+        "bbox": {
+          "x": 161,
+          "y": 1872,
+          "l": 148,
+          "w": 30
+        },
+        "name": "Last Name"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 161,
+          "y": 1906,
+          "l": 1104,
+          "w": 69
+        },
+        "value": "CLAUSEN"
+      }
+    }
+  },
+  {
+    "field_area23": {
+      "bbox": {
+        "x": 1327,
+        "y": 1875,
+        "l": 137,
+        "w": 102
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1327,
+          "y": 1875,
+          "l": 77,
+          "w": 27
+        },
+        "name": "Suffix"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area24": {
+      "bbox": {
+        "x": 1505,
+        "y": 1874,
+        "l": 722,
+        "w": 104
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1505,
+          "y": 1874,
+          "l": 151,
+          "w": 29
+        },
+        "name": "First Name"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1505,
+          "y": 1907,
+          "l": 722,
+          "w": 71
+        },
+        "value": "EDITH"
+      }
+    }
+  },
+  {
+    "field_area25": {
+      "bbox": {
+        "x": 2273,
+        "y": 1876,
+        "l": 71,
+        "w": 102
+      },
+      "field_name": {
+        "bbox": {
+          "x": 2288,
+          "y": 1876,
+          "l": 36,
+          "w": 30
+        },
+        "name": "MI"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 2273,
+          "y": 1908,
+          "l": 71,
+          "w": 69
+        },
+        "value": "S"
+      }
+    }
+  },
+  {
+    "field_area26": {
+      "bbox": {
+        "x": 162,
+        "y": 1985,
+        "l": 453,
+        "w": 108
+      },
+      "field_name": {
+        "bbox": {
+          "x": 162,
+          "y": 1985,
+          "l": 328,
+          "w": 35
+        },
+        "name": "Date of Birth (mm/dd/yy)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 161,
+          "y": 2022,
+          "l": 455,
+          "w": 71
+        },
+        "value": "01 28 75"
+      }
+    }
+  },
+  {
+    "field_area27": {
+      "bbox": {
+        "x": 762,
+        "y": 1985,
+        "l": 629,
+        "w": 106
+      },
+      "field_name": {
+        "bbox": {
+          "x": 762,
+          "y": 1985,
+          "l": 321,
+          "w": 36
+        },
+        "name": "Social Security Number"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 763,
+          "y": 2022,
+          "l": 628,
+          "w": 70
+        },
+        "value": "618 22 1773"
+      }
+    }
+  },
+  {
+    "field_area28": {
+      "bbox": {
+        "x": 1469,
+        "y": 1989,
+        "l": 138,
+        "w": 121
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1469,
+          "y": 1989,
+          "l": 104,
+          "w": 28
+        },
+        "name": "Gender"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1471,
+          "y": 2065,
+          "l": 136,
+          "w": 45
+        },
+        "value": "☒ Female"
+      }
+    }
+  },
+  {
+    "field_area29": {
+      "bbox": {
+        "x": 1668,
+        "y": 1988,
+        "l": 651,
+        "w": 116
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1668,
+          "y": 1988,
+          "l": 651,
+          "w": 36
+        },
+        "name": "Relationship to Insured/Policyholder (check one)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1668,
+          "y": 2026,
+          "l": 388,
+          "w": 38
+        },
+        "value": "☒ Spouse/Domestic Partner"
+      }
+    }
+  },
+  {
+    "field_area30": {
+      "bbox": {
+        "x": 160,
+        "y": 2146,
+        "l": 2162,
+        "w": 36
+      },
+      "field_name": {
+        "bbox": {
+          "x": 160,
+          "y": 2146,
+          "l": 838,
+          "w": 36
+        },
+        "name": "If claim is for a child, please state your relationship to the child"
+      },
+      "field_value": {
+      }
+    }
+  },
+  {
+    "field_area31": {
+      "bbox": {
+        "x": 161,
+        "y": 2276,
+        "l": 716,
+        "w": 95
+      },
+      "field_name": {
+        "bbox": {
+          "x": 161,
+          "y": 2286,
+          "l": 226,
+          "w": 33
+        },
+        "name": "Date of Accident"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 389,
+          "y": 2309,
+          "l": 282,
+          "w": 63
+        },
+        "value": "03-11-18"
+      }
+    }
+  },
+  {
+    "field_area32": {
+      "bbox": {
+        "x": 876,
+        "y": 2280,
+        "l": 1473,
+        "w": 99
+      },
+      "field_name": {
+        "bbox": {
+          "x": 886,
+          "y": 2290,
+          "l": 872,
+          "w": 35
+        },
+        "name": "Time of Accident"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 962,
+          "y": 2326,
+          "l": 113,
+          "w": 57
+        },
+        "value": "5:30"
+      }
+    }
+  },
+  {
+    "field_area33": {
+      "bbox": {
+        "x": 876,
+        "y": 2280,
+        "l": 1473,
+        "w": 99
+      },
+      "field_name": {
+        "bbox": {
+          "x": 886,
+          "y": 2286,
+          "l": 230,
+          "w": 35
+        },
+        "name": "Time of Accident a.m. p.m."
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1653,
+          "y": 2284,
+          "l": 107,
+          "w": 52
+        },
+        "value": "☒ p.m."
+      }
+    }
+  },
+  {
+    "field_area34": {
+      "bbox": {
+        "x": 154,
+        "y": 2375,
+        "l": 2205,
+        "w": 142
+      },
+      "field_name": {
+        "bbox": {
+          "x": 158,
+          "y": 2380,
+          "l": 1553,
+          "w": 38
+        },
+        "name": "Please explain how your accident happend. (If you need more space, please attach a separate sheet of paper)."
+      },
+      "field_value": {
+        "bbox": {
+          "x": 154,
+          "y": 2433,
+          "l": 2205,
+          "w": 84
+        },
+        "value": "Fell while wrongly stepping down the stair at home"
+      }
+    }
+  },
+  {
+    "field_area35": {
+      "bbox": {
+        "x": 157,
+        "y": 2520,
+        "l": 865,
+        "w": 41
+      },
+      "field_name": {
+        "bbox": {
+          "x": 157,
+          "y": 2520,
+          "l": 630,
+          "w": 41
+        },
+        "name": "Were you at work at the time of your accident?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 935,
+          "y": 2522,
+          "l": 84,
+          "w": 41
+        },
+        "value": "☒ No"
+      }
+    }
+  },
+  {
+    "field_area36": {
+      "bbox": {
+        "x": 159,
+        "y": 2572,
+        "l": 1403,
+        "w": 38
+      },
+      "field_name": {
+        "bbox": {
+          "x": 159,
+          "y": 2572,
+          "l": 1170,
+          "w": 38
+        },
+        "name": "If yes, have you received Workers' Compensation benefits for your occupational injury?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1482,
+          "y": 2570,
+          "l": 80,
+          "w": 47
+        },
+        "value": "☒ No"
+      }
+    }
+  },
+  {
+    "field_area37": {
+      "bbox": {
+        "x": 162,
+        "y": 2614,
+        "l": 1011,
+        "w": 51
+      },
+      "field_name": {
+        "bbox": {
+          "x": 162,
+          "y": 2614,
+          "l": 779,
+          "w": 51
+        },
+        "name": "Is your claim pending a Workers' Compensation decision?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1091,
+          "y": 2614,
+          "l": 81,
+          "w": 50
+        },
+        "value": "☒ No"
+      }
+    }
+  },
+  {
+    "field_area38": {
+      "bbox": {
+        "x": 160,
+        "y": 2663,
+        "l": 607,
+        "w": 37
+      },
+      "field_name": {
+        "bbox": {
+          "x": 160,
+          "y": 2663,
+          "l": 375,
+          "w": 37
+        },
+        "name": "Have you stopped working?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 556,
+          "y": 2663,
+          "l": 101,
+          "w": 36
+        },
+        "value": "☒ Yes"
+      }
+    }
+  },
+  {
+    "field_area39": {
+      "bbox": {
+        "x": 819,
+        "y": 2638,
+        "l": 1024,
+        "w": 70
+      },
+      "field_name": {
+        "bbox": {
+          "x": 819,
+          "y": 2664,
+          "l": 779,
+          "w": 44
+        },
+        "name": "If yes, what was the last day that you worked? (mm/dd/yy)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1627,
+          "y": 2637,
+          "l": 213,
+          "w": 70
+        },
+        "value": "03-11-18"
+      }
+    }
+  },
+  {
+    "field_area40": {
+      "bbox": {
+        "x": 158,
+        "y": 2707,
+        "l": 1262,
+        "w": 52
+      },
+      "field_name": {
+        "bbox": {
+          "x": 158,
+          "y": 2707,
+          "l": 472,
+          "w": 37
+        },
+        "name": "Was this a motor vehicle accident?"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 776,
+          "y": 2705,
+          "l": 84,
+          "w": 56
+        },
+        "value": "☒ No"
+      }
+    }
+  },
+  {
+    "field_area41": {
+      "bbox": {
+        "x": 159,
+        "y": 2810,
+        "l": 757,
+        "w": 90
+      },
+      "field_name": {
+        "bbox": {
+          "x": 159,
+          "y": 2836,
+          "l": 143,
+          "w": 35
+        },
+        "name": "Diagnosis:"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 311,
+          "y": 2811,
+          "l": 607,
+          "w": 79
+        },
+        "value": "Left knee pain"
+      }
+    }
+  },
+  {
+    "field_area42": {
+      "bbox": {
+        "x": 1144,
+        "y": 2814,
+        "l": 664,
+        "w": 69
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1142,
+          "y": 2839,
+          "l": 421,
+          "w": 35
+        },
+        "name": "Confinement Dates: (mm/dd/yy)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1583,
+          "y": 2813,
+          "l": 220,
+          "w": 66
+        },
+        "value": "03-12-18"
+      }
+    }
+  },
+  {
+    "field_area43": {
+      "bbox": {
+        "x": 1814,
+        "y": 2814,
+        "l": 456,
+        "w": 78
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1814,
+          "y": 2839,
+          "l": 190,
+          "w": 36
+        },
+        "name": "to (mm/dd/yy)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 2034,
+          "y": 2815,
+          "l": 236,
+          "w": 77
+        },
+        "value": "04-09-18"
+      }
+    }
+  }
+]

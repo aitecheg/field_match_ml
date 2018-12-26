@@ -1,0 +1,114 @@
+[
+  {
+    "field_area1": {
+      "bbox": {
+        "x": 90,
+        "y": 458,
+        "l": 1768,
+        "w": 140
+      },
+      "field_name": {
+        "bbox": {
+          "x": 90,
+          "y": 458,
+          "l": 915,
+          "w": 44
+        },
+        "name": "Employee/Individual's Name (Last Name, Suffix, First Name, MI)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 90,
+          "y": 506,
+          "l": 1768,
+          "w": 92
+        },
+        "value": "ARANDA, ELMER, F."
+      }
+    }
+  },
+  {
+    "field_area2": {
+      "bbox": {
+        "x": 1910,
+        "y": 460,
+        "l": 477,
+        "w": 120
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1910,
+          "y": 460,
+          "l": 346,
+          "w": 38
+        },
+        "name": "Date of Birth (mm/dd/yy)"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1910,
+          "y": 504,
+          "l": 475,
+          "w": 78
+        },
+        "value": "06 13 83"
+      }
+    }
+  },
+  {
+    "field_area3": {
+      "bbox": {
+        "x": 88,
+        "y": 1600,
+        "l": 1492,
+        "w": 194
+      },
+      "field_name": {
+        "bbox": {
+          "x": 88,
+          "y": 1751,
+          "l": 188,
+          "w": 43
+        },
+        "name": "Signature"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 171,
+          "y": 1599,
+          "l": 412,
+          "w": 151
+        },
+        "value": "'S'"
+      }
+    }
+  },
+  {
+    "field_area4": {
+      "bbox": {
+        "x": 1667,
+        "y": 1659,
+        "l": 716,
+        "w": 129
+      },
+      "field_name": {
+        "bbox": {
+          "x": 1667,
+          "y": 1753,
+          "l": 90,
+          "w": 35
+        },
+        "name": "Date"
+      },
+      "field_value": {
+        "bbox": {
+          "x": 1790,
+          "y": 1659,
+          "l": 313,
+          "w": 117
+        },
+        "value": "04-17-17"
+      }
+    }
+  }
+]
