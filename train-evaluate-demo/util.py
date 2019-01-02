@@ -177,5 +177,9 @@ def show_metrics(Y, prediction):
 
     video_level_loss, = backend.get_session().run(
         [val_loss_op], feed_dict={video_level_labels_k: Y, video_level_preds_k: prediction})
+    print("log loss", video_level_loss)
+
+    video_level_loss, = backend.get_session().run(
+        [val_loss_op], feed_dict={video_level_labels_k: Y, video_level_preds_k: np.ones_like(prediction) * 0.36919785302629282})
 
     print("log loss", video_level_loss)

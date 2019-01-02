@@ -52,12 +52,9 @@ with tf.device('/device:GPU:{}'.format(params.gpu)):
     prediction = model.predict([X_test['left'], X_test['right']])
 
     for i in range(len(positive_indexes) - 1):
-        predicted_indexes = np.argsort(prediction[positive_indexes[i]:positive_indexes[i + 1]], axis=0) + positive_indexes[i]
-        print(predicted_indexes.shape)
-
-        print("field:", demo_df.iloc[positive_indexes[i]]["question1"],
-              "[predicted:", list(demo_df.iloc[predicted_index]["question2"] for predicted_index in predicted_indexes[::-1, 0]),
-
-              "||| actual:", demo_df.iloc[positive_indexes[i]]["question2"], "]")
+        predictions = prediction[positive_indexes[i]:positive_indexes[i + 1]]
+        predicted_indexes = np.argsort(predictions, axis=0) + positive_indexes[i]
+        print(demo_df.iloc[positive_indexes[i]]["question1"], ">>>", demo_df.iloc[positive_indexes[i]]["question2"], "\n"
+              , "\n".join(list((demo_df.iloc[predicted_index]["question2"] + ":" + str(predictions[predicted_index - i * (positive_indexes[i + 1] - positive_indexes[i])][0])) for predicted_index in predicted_indexes[::-1, 0])))
 
     # print(prediction)

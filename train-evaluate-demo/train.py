@@ -23,10 +23,11 @@ params_parser.add_argument('file', type=str)
 params = params_parser.parse_args()
 
 # File paths
-TRAIN_CSV  = './data/{}.csv'.format(params.file)
+TRAIN_CSV = './data/{}.csv'.format(params.file)
 
 # Load training set
 train_df = pd.read_csv(TRAIN_CSV, keep_default_na=False)
+
 for q in ['question1', 'question2']:
     train_df[q + '_n'] = train_df[q]
 
@@ -41,10 +42,13 @@ train_df, embeddings = make_w2v_embeddings(train_df, embedding_dim=embedding_dim
 validation_size = int(len(train_df) * 0.05)
 training_size = len(train_df) - validation_size
 
-X = train_df[['question1_n', 'question2_n']]
+X = train_df[["question1", "question2", 'question1_n', 'question2_n']]
 Y = train_df['is_duplicate']
 
 X_train, X_validation, Y_train, Y_validation = train_test_split(X, Y, test_size=validation_size)
+
+valid_split = pd.DataFrame({"question1": X_validation["question1"], "question2": X_validation["question2"], "is_duplicate": Y_validation})
+valid_split.to_csv("./data/valid_split.csv")
 
 X_train = split_and_zero_padding(X_train, max_seq_length)
 X_validation = split_and_zero_padding(X_validation, max_seq_length)
@@ -63,7 +67,7 @@ with tf.device('/device:GPU:{}'.format(params.gpu)):
     # Model variables
     gpus = 1
     batch_size = 512 * gpus
-    n_epoch = 10
+    n_epoch = 15
     n_hidden = 64
 
     # Define the shared model
