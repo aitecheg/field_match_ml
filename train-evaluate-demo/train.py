@@ -11,7 +11,7 @@ import tensorflow as tf
 from tensorflow.python.keras.models import Model, Sequential
 from tensorflow.python.keras.layers import Input, Embedding, LSTM
 
-from util import make_w2v_embeddings, show_metrics
+from util import load_embedding_and_vectorize, show_metrics
 from util import split_and_zero_padding
 from util import ManDist
 
@@ -32,11 +32,11 @@ for q in ['question1', 'question2']:
     train_df[q + '_n'] = train_df[q]
 
 # Make word2vec embeddings
-embedding_dim = 300
+embedding_dim = 250
 max_seq_length = 20
 use_w2v = True
 
-train_df, embeddings = make_w2v_embeddings(train_df, embedding_dim=embedding_dim, empty_w2v=not use_w2v)
+train_df, embeddings = load_embedding_and_vectorize(train_df)
 
 # Split to train validation
 validation_size = int(len(train_df) * 0.05)
@@ -67,7 +67,7 @@ with tf.device('/device:GPU:{}'.format(params.gpu)):
     # Model variables
     gpus = 1
     batch_size = 512 * gpus
-    n_epoch = 15
+    n_epoch = 3
     n_hidden = 64
 
     # Define the shared model
@@ -108,11 +108,9 @@ with tf.device('/device:GPU:{}'.format(params.gpu)):
                                batch_size=batch_size, epochs=n_epoch,
                                validation_data=([X_validation['left'], X_validation['right']], Y_validation))
 
+    # prediction = model.predict([X_train['left'], X_train['right']])
+    # show_metrics(Y_train, prediction)
     print("loss,accuracy", model.evaluate([X_validation['left'], X_validation['right']], batch_size=512, y=Y_validation))
-
-    prediction = model.predict([X_train['left'], X_train['right']])
-    show_metrics(Y_train, prediction)
-
     prediction = model.predict([X_validation['left'], X_validation['right']])
     show_metrics(Y_validation, prediction)
 

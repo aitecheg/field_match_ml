@@ -2,10 +2,10 @@ import argparse
 
 import numpy as np
 import pandas as pd
+import prettytable
 import tensorflow as tf
 
-from util import ManDist
-from util import make_w2v_embeddings
+from util import ManDist, load_embedding_and_vectorize
 from util import split_and_zero_padding
 
 params_parser = argparse.ArgumentParser(description='repo')
@@ -31,9 +31,8 @@ for q in ['question1', 'question2']:
     demo_df[q + '_n'] = demo_df[q]
 
 # Make word2vec embeddings
-embedding_dim = 300
 max_seq_length = 20
-test_df, embeddings = make_w2v_embeddings(demo_df, embedding_dim=embedding_dim, empty_w2v=False)
+test_df, _ = load_embedding_and_vectorize(demo_df)
 
 # Split to dicts and append zero padding.
 X_test = split_and_zero_padding(test_df, max_seq_length)
@@ -54,7 +53,11 @@ with tf.device('/device:GPU:{}'.format(params.gpu)):
     for i in range(len(positive_indexes) - 1):
         predictions = prediction[positive_indexes[i]:positive_indexes[i + 1]]
         predicted_indexes = np.argsort(predictions, axis=0) + positive_indexes[i]
-        print(demo_df.iloc[positive_indexes[i]]["question1"], ">>>", demo_df.iloc[positive_indexes[i]]["question2"], "\n"
-              , "\n".join(list((demo_df.iloc[predicted_index]["question2"] + ":" + str(predictions[predicted_index - i * (positive_indexes[i + 1] - positive_indexes[i])][0])) for predicted_index in predicted_indexes[::-1, 0])))
-
+        predictions_act = prettytable.PrettyTable(["field", "actual value"])
+        predictions_act.add_row([demo_df.iloc[positive_indexes[i]]["question1"], demo_df.iloc[positive_indexes[i]]["question2"]])
+        print(predictions_act)
+        predictions_pt = prettytable.PrettyTable(["prediction", "prediction score"])
+        for predicted_index in predicted_indexes[::-1, 0]:
+            predictions_pt.add_row([demo_df.iloc[predicted_index]["question2"], str(predictions[predicted_index - i * (positive_indexes[i + 1] - positive_indexes[i])][0])])
+        print(predictions_pt)
     # print(prediction)

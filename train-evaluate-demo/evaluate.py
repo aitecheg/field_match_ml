@@ -4,8 +4,7 @@ import numpy as np
 import pandas as pd
 import tensorflow as tf
 
-from util import ManDist, show_metrics
-from util import make_w2v_embeddings
+from util import ManDist, show_metrics, load_embedding_and_vectorize
 from util import split_and_zero_padding
 
 params_parser = argparse.ArgumentParser(description='repo')
@@ -22,9 +21,8 @@ for q in ['question1', 'question2']:
     test_df[q + '_n'] = test_df[q]
 
 # Make word2vec embeddings
-embedding_dim = 300
 max_seq_length = 20
-test_df, embeddings = make_w2v_embeddings(test_df, embedding_dim=embedding_dim, empty_w2v=False)
+test_df, _ = load_embedding_and_vectorize(test_df)
 
 # Split to dicts and append zero padding.
 X_test = split_and_zero_padding(test_df, max_seq_length)
