@@ -67,24 +67,19 @@ with tf.device('/device:GPU:{}'.format(params.gpu)):
     # Model variables
     gpus = 1
     batch_size = 512 * gpus
-    n_epoch = 3
+    n_epoch = 25
     n_hidden = 64
 
+    ######################################################################################################
     # Define the shared model
     x = Sequential()
     x.add(Embedding(len(embeddings), embedding_dim,
                     weights=[embeddings], input_shape=(max_seq_length,), trainable=False))
-    # CNN
-    # x.add(Conv1D(250, kernel_size=5, activation='relu'))
-    # x.add(GlobalMaxPool1D())
-    # x.add(Dense(250, activation='relu'))
-    # x.add(Dropout(0.3))
-    # x.add(Dense(1, activation='sigmoid'))
+
     # LSTM
     x.add(LSTM(n_hidden, return_sequences=True))
     x.add(LSTM(n_hidden, return_sequences=True))
     x.add(LSTM(n_hidden))
-
     shared_model = x
 
     # The visible layer
@@ -93,14 +88,40 @@ with tf.device('/device:GPU:{}'.format(params.gpu)):
 
     # Pack it all up into a Manhattan Distance model
     malstm_distance = ManDist()([shared_model(left_input), shared_model(right_input)])
+    # ######################################################################################################
+    # # Define the shared model
+    # embedding_layer = Embedding(len(embeddings), embedding_dim,
+    #                             weights=[embeddings], input_shape=(max_seq_length,), trainable=False)
+    #
+    # # LSTM
+    # x = Sequential()
+    # x.add(LSTM(n_hidden, return_sequences=True, input_shape=(max_seq_length, embedding_dim)))
+    # x.add(LSTM(n_hidden, return_sequences=True))
+    # x.add(LSTM(n_hidden))
+    # right_model = x
+    #
+    # x = Sequential()
+    # x.add(LSTM(n_hidden, return_sequences=True, input_shape=(max_seq_length, embedding_dim)))
+    # x.add(LSTM(n_hidden, return_sequences=True))
+    # x.add(LSTM(n_hidden))
+    # left_model = x
+    #
+    # # The visible layer
+    # left_input = Input(shape=(max_seq_length,), dtype='int32')
+    # right_input = Input(shape=(max_seq_length,), dtype='int32')
+    #
+    # left_embedded = embedding_layer(left_input)
+    # right_embedded = embedding_layer(right_input)
+    #
+    # # Pack it all up into a Manhattan Distance model
+    # malstm_distance = ManDist()([left_model(left_embedded), right_model(right_embedded)])
+    # ######################################################################################################
     model = Model(inputs=[left_input, right_input], outputs=[malstm_distance])
-
     if gpus >= 2:
         # `multi_gpu_model()` is a so quite buggy. it breaks the saved model.
         model = tf.keras.utils.multi_gpu_model(model, gpus=gpus)
     model.compile(loss='mean_squared_error', optimizer=tf.keras.optimizers.Adam(), metrics=['accuracy'])
     model.summary()
-    shared_model.summary()
 
     # Start trainings
     training_start_time = time()

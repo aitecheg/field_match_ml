@@ -46,7 +46,7 @@ with tf.device('/device:GPU:{}'.format(params.gpu)):
 
     submission = pd.DataFrame({"test_id": list(range(len(prediction))),
                                "is_duplicate": np.squeeze(prediction)
-                               },)
+                               }, )
 
     submission[['test_id', 'is_duplicate']].to_csv("submission.csv", header=True, index=False)
     # print(prediction)

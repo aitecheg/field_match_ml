@@ -1234,7 +1234,7 @@ fields_containing_num_hours = set()  # perfect
 fields_containing_length_height_weight = set()  # perfect
 fields_containing_relation = set()  # perfect
 fields_containing_burn_deg = set()  # perfect
-fields_containing_when = set()  # perfect
+fields_containing_when_to_back = set()  # perfect
 fields_containing_numbers = set()  # perfect
 fields_containing_diag = set()
 
@@ -1330,7 +1330,7 @@ transfer_list(fields, fields_containing_dates, ["from", ])
 transfer_list(fields, fields_containing_length_height_weight, ["patient's weight", "weight", "if related to a laceration. please indicate the length:", "a) height", "patient's height", "patient height", "height", ])
 transfer_list(fields, fields_containing_relation, ["i signed on behalf of the claimant as", "i signed on behalf of claimant as", "if yes, what is the relation?", "i signed on behalf of the insured, as", "patient relationship to insured:", "i signed on behalf of the insured as", "if yes, what is the relationship?", "if yes, what is the relationship", "if claim is for a child, please state your relationship to the child", "relationship", "relationship to insured/policyholder (check one)", ])
 transfer_list(fields, fields_containing_burn_deg, ["if related to a burn. please indicate the degree:", ])
-transfer_list(fields, fields_containing_when, ["a) when do you expect improvement in the patient's capabilities?", "if you have not returned to work, when do you expect to return?", "when do you expect the patient to return to work?", "if yes, when?", ])
+transfer_list(fields, fields_containing_when_to_back, ["a) when do you expect improvement in the patient's capabilities?", "if you have not returned to work, when do you expect to return?", "when do you expect the patient to return to work?", "if yes, when?", ])
 transfer_list(fields, fields_containing_numbers, ["policy number", "policy number:", "policy #", "customer number", "account number:", "id number:", "accident policy number", "personal account number"])
 transfer_list(fields, fields_containing_diag, ["secondary diagnosis", "what diagnostic or clinical findings support your diagnosis?", "a) what is the primary diagnosis preventing your patient from working?", "diagnosis:", "secondary diagnosis:", "diagnosis remarks", "diagnosis and treatment", "diagnosis", "what diagnostic or clinical findings support your patient's work restrictions and limitations?", "primary diagnosis", "diagnostic procedure codes/description", ])
 
@@ -1349,6 +1349,7 @@ transfer_list(fields, fields_descriptive,
                "if yes, please provide restrictions and limitations:", "please provide the duration of these restrictions and limitations.", "current restrictions (activities patient should not do)", "if yes, please list the permanent restrictions and limitations.", "if no, please indicate the restrictions and limitations that prevent the patient from returning to work in the space provided below.", "current restrictions (activities patient should not do) and current limitations (activities patient cannot do). please be specific and understand tht a reply of \"no work\" or \"totally incapacitated\" will not enable us to evaluate the claim for benefits", "if your patient has current restrictions (activities patient should not do) and/or limitations (activities patient cannot do) list below.", "c) limitations (activities patient cannot do)", "current limitations (activities patient cannot do)",
                "cpt code",
                "v",
+               "medical specialty", "degree/specialty", "specialty",
                "procedure/procedure code", "procedure", "if yes, what procedure was performed?", "surgical procedure",
                "c) describe reported symptoms", "what symptoms is your patient reporting about his/her condition?", "b) describe reported symptoms",
                "if yes what is the recommended frequency of treatment?", "treatment",
@@ -1358,10 +1359,10 @@ transfer_list(fields, fields_descriptive,
                "life insurance",
                "c. information about the patient", "please explain how your accident happened. (if you need more space, please attach a separate sheet of paper).", "section b. accidental injury", "c. complete this section for emergency room and/or hospital/icu confinement claims (please refer to place of service codes above)", "section 2: spouse information - complete only if applying for spouse coverage", "if yes, please explain how the work related injury/illness occured", "part ii: to be completed by attending physician or treating provider", "c. complete this section for hospital confinement/intensive care benefit claims.", "f. information about physicians and hospitals",
 
-               "specialty", "place of service codes",
+               "place of service codes",
                "av order / other",
-               "time of accident", "degree/specialty", "[optional employee selected benefit]", "employer selected benefit[s]", "cancel my direct deposit agreement", "employee id/payroll #",
-               "contact details", "ain mgmt w/", "name, specialty, address, phone #", "through", "medical specialty", "st/po box", "other details:", "c) describe physical findings (mris, x-rays, emg/ncv studies, lab test, clinical findings, gaf etc.)", "other conditions (please attach additional information as necessary)", "return to work assessment", "d) patient's ability to perform (please check)",
+               "time of accident", "[optional employee selected benefit]", "employer selected benefit[s]", "cancel my direct deposit agreement", "employee id/payroll #",
+               "contact details", "ain mgmt w/", "name, specialty, address, phone #", "through", "st/po box", "other details:", "c) describe physical findings (mris, x-rays, emg/ncv studies, lab test, clinical findings, gaf etc.)", "other conditions (please attach additional information as necessary)", "return to work assessment", "d) patient's ability to perform (please check)",
                "if related to an injury, when, where and how did the injury occur?", "d. complete this section for inpatient/outpatient surgery claims (please refer to place of service codes above)", "what is your treatment plan? please include all medications.", "to be completed by physician or treating provider", "if this claim is related to normal pregnancy, please provide the following:", "section c. hospital confinement, intensive care benefit", "b. complete this section for all conditions except pregnancy, then go to sextion c", "a) describe the patient's current treatment program (include facilities name/address if applicable)", "change direct deposit account", "normal pregnancy", "restrictions and/or limitations", "sos services:", "2. for other than pregnancy, is your disability caused by",
                "d) describe physical findings (mris, x-rays, emg/ncv studies, lab test, clinical findings, gaf etc.)", "tell us how your accident happened: (if you need more space, you may attach oa separate place pf paper.)", "to be completed by attending physician or treating provider", "section 3: coverage information",
                "individual disability", "a. complete this section for normal pregnancy, then go to section c", "what is your treatment plan?", "physical capabilities", "ient referral", "b. complete this section for all conditions except pregnancy, then go to section c",
@@ -1382,37 +1383,37 @@ transfer_list(fields, fields_descriptive,
 # print("\n".join(fields_containing_name_word))
 
 
-print(len(fields))
-print("\",\n\"".join(fields_containing_diag))
+print("remaining unrevised", len(fields))
+print("\n\n[\"", "\",\n\"".join(fields_containing_diag), "\"]\n\n", sep="")
 
 total = [fields_containing_dates,
-         fields_containing_compound_names,
+         fields_containing_compound_names,  #
          fields_containing_names,
          fields_containing_SSN,
          fields_containing_gender,
          fields_containing_mail,
          fields_containing_fax,
          fields_containing_tele,
-         fields_containing_addresses,
-         fields_containing_icd,
+         fields_containing_addresses,  #
+         fields_containing_icd,  #
          fields_containing_MI,
          fields_containing_zip,
          fields_containing_yes_no,
          fields_containing_signature,
-         fields_containing_mailing_address,
+         fields_containing_mailing_address,  #
          fields_containing_state,
          fields_containing_city,
          fields_containing_tax_id,
          fields_containing_hospitals,
-         fields_containing_num_hours,
+         fields_containing_num_hours,  #
          fields_containing_length_height_weight,
          fields_containing_relation,
          fields_containing_burn_deg,
-         fields_containing_when,
-         fields_containing_numbers,
+         fields_containing_when_to_back,
+         fields_containing_numbers,  #
          fields_containing_diag]
 
-print(sum(list(map(lambda item: len(item), total))))
+print("total revised fields", sum(list(map(lambda item: len(item), total))))
 
 # print(len(fields))
 # import Levenshtein # https://rawgit.com/ztane/python-Levenshtein/master/docs/Levenshtein.html

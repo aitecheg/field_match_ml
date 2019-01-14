@@ -103,16 +103,16 @@ def show_metrics(Y, prediction):
     print("precision", precision_score(Y, prediction > .5))
 
     # keras placeholder used for evaluation
-    video_level_labels_k = backend.placeholder([None], dtype=tf.float32)
-    video_level_preds_k = backend.placeholder([None], dtype=tf.float32)
+    labels_k = backend.placeholder([None], dtype=tf.float32)
+    preds_k = backend.placeholder([None], dtype=tf.float32)
 
-    val_loss_op = backend.mean(metrics.binary_crossentropy(video_level_labels_k, video_level_preds_k))
+    val_loss_op = backend.mean(metrics.binary_crossentropy(labels_k, preds_k))
 
-    video_level_loss, = backend.get_session().run(
-        [val_loss_op], feed_dict={video_level_labels_k: Y, video_level_preds_k: prediction})
-    print("log loss", video_level_loss)
+    loss, = backend.get_session().run(
+        [val_loss_op], feed_dict={labels_k: Y, preds_k: prediction})
+    print("log loss", loss)
 
-    # video_level_loss, = backend.get_session().run(
-    #     [val_loss_op], feed_dict={video_level_labels_k: Y, video_level_preds_k: np.ones_like(prediction) * 0.36919785302629282})
+    # loss, = backend.get_session().run(
+    #     [val_loss_op], feed_dict={labels_k: Y, preds_k: np.ones_like(prediction) * 0.36919785302629282})
     #
-    # print("log loss", video_level_loss)
+    # print("log loss", loss)
