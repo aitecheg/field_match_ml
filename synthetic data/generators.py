@@ -41,7 +41,9 @@ generators.append(city_generator)
 
 ##############################################################
 def state_generator(field):
-    return fake.state_abbr()
+    if (random.random()) > .5:
+        return fake.state_abbr()
+    return fake.state()
 
 
 generators.append(state_generator)
@@ -209,4 +211,4 @@ for index, generator in enumerate(generators):
     others[generator.__name__] = generators[:index] + generators[index + 1:]
 
 if __name__ == "__main__":
-    print("||".join([address_generator("") for _ in range(50)]))
+    print("||".join([state_generator("") for _ in range(50)]))

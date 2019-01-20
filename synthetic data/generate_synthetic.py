@@ -5,9 +5,11 @@ import time
 import pandas as pd
 
 import generators
+from noise_maker import augment_noisy_data
 
 visualize_samples = False  # view each generated sample pair
 demo_data = False  # a small testing dataset for humans
+noise_maker = True
 
 with open("./buckets_of_fields.pkl", 'rb') as f:
     fields_containing_dates, fields_containing_compound_names, fields_containing_names, fields_containing_SSN, fields_containing_gender, fields_containing_mail, fields_containing_fax, fields_containing_tele, fields_containing_addresses, fields_containing_icd, fields_containing_MI, fields_containing_zip, fields_containing_yes_no, fields_containing_signature, fields_containing_mailing_address, fields_containing_state, fields_containing_city, fields_containing_tax_id, fields_containing_hospitals, fields_containing_num_hours, fields_containing_length_height_weight, fields_containing_relation, fields_containing_burn_deg, fields_containing_when_to_back, fields_containing_numbers, fields_containing_diag = pickle.load(f)
@@ -64,11 +66,16 @@ if demo_data:
             demo_value.append(value)
             demo_label.append(0)
 
-    synthesized_demo_data = pd.DataFrame({"id": list(range(25 * 5)), "question1": demo_field, "question2": demo_value, "is_duplicate": demo_label})
+    compound = list(zip(demo_field, demo_value, demo_label))
+    if noise_maker:
+        augment_noisy_data(compound, 1)
+    demo_field, demo_value, demo_label = list(zip(*compound))
+
+    synthesized_demo_data = pd.DataFrame({"id": list(range(len(compound))), "question1": demo_field, "question2": demo_value, "is_duplicate": demo_label})
     with pd.option_context('display.max_rows', None, 'display.max_columns', None):
         print(synthesized_demo_data)
         print(synthesized_demo_data[["is_duplicate"]].describe())
-    synthesized_demo_data.to_csv("/home/mohammed-alaa/Downloads/synthesized demo data.csv")
+    synthesized_demo_data.to_csv("/home/mohammed-alaa/Downloads/synthesized{}demo data.csv".format(" noisy " if noise_maker else " "))
 
 else:
     fields = []
@@ -94,17 +101,33 @@ else:
         values.append(value)
         labels.append(int(label))
 
+    compound = list(zip(fields, values, labels))
+    if noise_maker:
+        augment_noisy_data(compound, 4)
+
+    random.shuffle(compound)
+    fields, values, labels = list(zip(*compound))
+
     if not visualize_samples:
         valid_split = int(len(fields) * .05)
         synthesized_data = pd.DataFrame({"question1": fields[:valid_split], "question2": values[:valid_split], "is_duplicate": labels[:valid_split]})
         with pd.option_context('display.max_rows', None, 'display.max_columns', None):
             print(synthesized_data.head())
             print(synthesized_data[["is_duplicate"]].describe())
-        synthesized_data.to_csv("/home/mohammed-alaa/Downloads/synthesized test data.csv")
+        synthesized_data.to_csv("/home/mohammed-alaa/Downloads/synthesized{}test data.csv".format(" noisy " if noise_maker else " "))
 
         # synthesized_data = pd.DataFrame({"question1": fields, "question2": values, "is_duplicate": labels})
         synthesized_data = pd.DataFrame({"question1": fields[valid_split:], "question2": values[valid_split:], "is_duplicate": labels[valid_split:]})
         with pd.option_context('display.max_rows', None, 'display.max_columns', None):
             print(synthesized_data.head())
             print(synthesized_data[["is_duplicate"]].describe())
-        synthesized_data.to_csv("/home/mohammed-alaa/Downloads/synthesized train data.csv")
+        synthesized_data.to_csv("/home/mohammed-alaa/Downloads/synthesized{}train data.csv".format(" noisy " if noise_maker else " "))
+
+        # char_set = set()
+        # for field in fields:
+        #     char_set = set.union(char_set, set(list(field)))
+        #
+        # for value in values:
+        #     char_set = set.union(char_set, set(list(value)))
+        #
+        # print(char_set)

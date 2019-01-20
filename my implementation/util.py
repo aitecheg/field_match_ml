@@ -2,7 +2,6 @@
   Created by mohammed-alaa
 """
 
-import math
 import os
 import pickle
 import string
@@ -22,7 +21,7 @@ from tensorflow.python.layers.base import Layer
 from tensorflow.python.ops.rnn_cell_impl import MultiRNNCell
 
 PADDING_TOKEN = "þ"
-NONE_TOKEN = "ø"
+
 
 def tokenize_sentence(sentence):
     """Tokenize the sentence"""
@@ -184,6 +183,13 @@ class QuoraSequence(keras.utils.Sequence):
                     pad_sequences_wrapped(q2_list),
                     np.array(list(map(lambda item: len(item), q2_list)))]
 
+    def get_id_list(self):
+        if not self.is_training:
+            ids, _, _ = list(zip(*self.data_source))
+            return ids
+        else:
+            return None
+
     def on_epoch_end(self):
         self.shuffle()
 
@@ -222,8 +228,9 @@ def show_metrics(Y, prediction):
 # vectorize_tokenized_sentence(tokenize_sentence("this is a sentence ain't? time 15-42/2"),dictionary)
 
 
-def best_saver_callback(model, hpy_path, metric_name, minimize, frequency=1):
+def best_saver_callback(model, hpy_path, metric_name, minimize, metric_initial_value, frequency=1):
     """
+    :param metric_initial_value:
     :param model: the model being trained
     :param hpy_path: path to save
     :param metric_name: string like "acc" in logs
@@ -235,7 +242,7 @@ def best_saver_callback(model, hpy_path, metric_name, minimize, frequency=1):
     class SaverCallback(tf.keras.callbacks.Callback):
         def __init__(self):
             super().__init__()
-            self.metric_best_value = (math.inf if minimize else -math.inf)
+            self.metric_best_value = metric_initial_value  # (math.inf if minimize else -math.inf)
 
         def on_epoch_end(self, epoch, logs=None):
             epoch_one_based = epoch + 1
@@ -269,6 +276,40 @@ def elmo_embeddings(tokenized):
         as_dict=True,
         signature='tokens',
     )['elmo']  # [batch_size, max_length, 1024]
+
+
+# Create a custom layer that allows us to update weights (lambda layers do not have trainable parameters!)
+
+class CustomElmoEmbeddingLayer(Layer):
+    def __init__(self, **kwargs):
+        self.dimensions = 1024
+        self.trainable = True
+        self.elmo = None
+        self.result = None
+        super(CustomElmoEmbeddingLayer, self).__init__(**kwargs)
+
+    def build(self, input_shape):
+        self.elmo = hub.Module('https://tfhub.dev/google/elmo/2', trainable=False,
+                               )
+
+        self._trainable_weights += self.elmo._graph._collections["variables"]  # building multiple times will accumulate the weights
+        print("added ", len(self._trainable_weights), "variables")
+        super(CustomElmoEmbeddingLayer, self).build(input_shape)
+
+    def call(self, tokenized, mask=None):
+        tokens_input, tokens_length = tokenized
+
+        self.result = self.elmo(inputs={
+            "tokens": tokens_input,
+            "sequence_len": tokens_length[:, 0]
+        },
+            as_dict=True,
+            signature='tokens',
+        )['elmo']  # [batch_size, max_length, 1024]
+        return self.result
+
+    def compute_output_shape(self, input_shape):
+        return K.int_shape(self.result)
 
 
 def cosine_distance_lambda_layer(siamese_outputs):
@@ -393,8 +434,16 @@ def get_siamese_loss_layer(margin):
 
 def vectorize_demo_data(demo_df, is_elmo):
     q1, q2, gt = demo_df[["question1"]].values[:, 0], demo_df[["question2"]].values[:, 0], demo_df[["is_duplicate"]].values[:, 0]
+
     q1 = tokenize_sentences_list(q1)
     q2 = tokenize_sentences_list(q2)
+
+    q1_len = list(map(lambda item: len(item), q1))
+    q2_len = list(map(lambda item: len(item), q2))
+
+    if is_elmo:
+        q1 = pad_sequences_wrapped(q1)
+        q2 = pad_sequences_wrapped(q2)
 
     if not is_elmo:
         with open("/home/elsallab/Work/cod/siamese_text/quora/quora_lang.pkl", 'rb') as f:
@@ -402,4 +451,4 @@ def vectorize_demo_data(demo_df, is_elmo):
             q1 = vectorize_tokenized_sentences(q1, dictionary)
             q2 = vectorize_tokenized_sentences(q2, dictionary)
 
-    return np.array(q1), np.array(q2), np.array(gt)
+    return np.array(q1), np.array(q1_len).reshape((-1, 1)), np.array(q2), np.array(q2_len).reshape((-1, 1)), np.array(gt)

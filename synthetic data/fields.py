@@ -1237,6 +1237,7 @@ fields_containing_burn_deg = set()  # perfect
 fields_containing_when_to_back = set()  # perfect
 fields_containing_numbers = set()  # perfect
 fields_containing_diag = set()
+fields_containing_no_association = set()
 
 fields_descriptive = set()  # perfect
 fields_containing_name_word = set()
@@ -1340,9 +1341,11 @@ fields = set.union(fields, fields_containing_name_word)
 transfer_list(fields, fields_containing_addresses, ["home address (street/po box)", "street address", "hospital address", "address details:", "address", "home address", "address:", "name/address of facility", ])
 
 transfer_list(fields, fields_containing_hospitals, ["information about your doctor(s) and/or hospital (please print)", "hospital", "hospital name", ])
+transfer_list(fields, fields_containing_icd, ["dsm-iv i", ])
+
+transfer_list(fields, fields_containing_no_association, [ "b. information about how to set-up or change your direct deposit","please verify the transit routing number with your bank.","if this claim is related to normal pregnancy, please provide the following", "d. information about your condition", "e. complete this section for accidental injury claims","attending physician or provider of service statement (continued)", "attending physician statement", "b. complete this section for disability claims only.", "if yes, please provide the following", "a routing number beginning with the number 5 is not valid", "part i: to be completed by patient", "a. information about you", "c. information about your medical providers", "this claim is for", "b. information about your disability", "insured/patient statement (please print)", "insured/patient statement (continued)", "employee statement (continued)", "please provide copies of all test results, operative reports, pathology reports, and/or your detailed medical statement related to the service provided to the patient.", "employee statement (please print)", ])
 transfer_list(fields, fields_descriptive,
-              ["b. complete this section for disability claims only.", "if yes, please provide the following", "a routing number beginning with the number 5 is not valid", "part i: to be completed by patient", "a. information about you", "c. information about your medical providers", "this claim is for", "b. information about your disability",
-               "insured/patient statement (please print)", "insured/patient statement (continued)", "employee statement (continued)", "please provide copies of all test results, operative reports, pathology reports, and/or your detailed medical statement related to the service provided to the patient.", "employee statement (please print)", "attending physician or provider of service statement (continued)", "attending physician statement", "if your hospital bill does not contain this information, please ask your doctor to complete the attending physician statement (pages 8-10 of this form.)", "attending physician or provider of service statement (please print)", "a. attending physician's statement (please print)", "attending physician statement (continued)", "attending physician statement (please print)",
+              ["if your hospital bill does not contain this information, please ask your doctor to complete the attending physician statement (pages 8-10 of this form.)", "attending physician or provider of service statement (please print)", "a. attending physician's statement (please print)", "attending physician statement (continued)", "attending physician statement (please print)",
                "a. complete this section for accident claims only.", "if yes, please explain", "section 4: employee (applicant) statements", "a. complete this section for pregnancy, then go to section c", "d. complete this section for hospital confinement/intensive care claims.", "section 1: employee (applicant) information - always complete",
                "c. information about the patient (if different from insured/policyholder) check one",
                "what is your treatment plan? please include all medications",
@@ -1367,24 +1370,26 @@ transfer_list(fields, fields_descriptive,
                "d) describe physical findings (mris, x-rays, emg/ncv studies, lab test, clinical findings, gaf etc.)", "tell us how your accident happened: (if you need more space, you may attach oa separate place pf paper.)", "to be completed by attending physician or treating provider", "section 3: coverage information",
                "individual disability", "a. complete this section for normal pregnancy, then go to section c", "what is your treatment plan?", "physical capabilities", "ient referral", "b. complete this section for all conditions except pregnancy, then go to section c",
                "c) patients ability to lift/carry (please check)", "risk", "if no, when do you expect improvement in the patient's functional capacity?",
-               "if this claim is related to normal pregnancy, please provide the following", "d. information about your condition", "e. complete this section for accidental injury claims", "contingent beneficiary", "if your patient has current restrictions (activities patient should not do) and/or limitation (activities patient cannot do) list below. please be specific and understand that a reply of \"no work\" or \"totally disabled\" will not enable us to evaluate your patient's claim for benefits and may result in us having to contact you for clarification.",
+                "contingent beneficiary", "if your patient has current restrictions (activities patient should not do) and/or limitation (activities patient cannot do) list below. please be specific and understand that a reply of \"no work\" or \"totally disabled\" will not enable us to evaluate your patient's claim for benefits and may result in us having to contact you for clarification.",
 
-               "(activities patient cannot do), please initial here", "iv", "b. information about how to set-up or change your direct deposit",
+               "(activities patient cannot do), please initial here",
                "if your patient has current restrictions (activities patient should not do) and/or limitations (activities patient cannot do) list below",
                "b) restrictions (activities patient should not do)", "other providers: please supply complete name, contact information and specialty of any other treating physicians or hospital.", "if yes, please indicate any ongoing restrictions and limitations in the space provided below.", "unknown", "ii", "policy endorsements:", "if known, please check all types of coverage you have with unum.", "b. information about the insured", "choose type of account - note: we are only able to deposit benefit payments into one account.", "primary beneficiary", "b) patient's ability to: (please check)", "facility name", "short term disability", "long term disability",
-               "agent/insp:", "c. functional capacity", "the above statements are true and complete to the best of my knowledge and belief.", "please verify the transit routing number with your bank.", "e. information about physician", "full time", "section a. general information", "delivery type:",
-               "dsm-iv i",
+               "agent/insp:", "the above statements are true and complete to the best of my knowledge and belief.",  "e. information about physician", "full time", "section a. general information", "delivery type:",
+
                "voluntary benefits cancer/critical illness insurance", "c) delivery type", "b. complete this section for all conditions except normal pregnancy", "degree", "if related to a fracture or dislocation, please indicate:", "branch:", "b. complete this section for diagnostic testing claims", "a. complete this section for all medical conditions", "part i: to be completed by insured/patient",
                "accident details", "what are the other conditions that prevent the patient from working?", "voluntary benefits disability", "voluntary benefits medsupport insurance", "please attach an itemized copy of your hospital bill that includes the following information. diagnosis, admission and discharge dates, name of facility and address.", "dates of inpatient hospital confinement", "iii", "if yes, please describe", "please complete this section if you are canceling your direct deposit agreement", "cpt code:", "what is the primary diagnosis preventing the patient from working?", "employee/policyholder information", "part ii: to be completed by physician or treating provider", "claim event identifier",
                "(if the patient received multiple tests, please provide dates and locations in an attached doument)", "(name / relationship)", "occupation", "c. direct deposit cancellation request", "patient information", "all other conditions", "other providers: are you aware or have you referred your patient to other treating providers? if yes, please provide complete name, contact information and specialty of any other treating physicians",
                "supplies/casting order", "group accident", "b) medications (please list all medications including dosage and frequency)", "other providers: are you aware of or have you referred your patient to other treating providers? if yes, please provide complete name, contact information and specialty of any other treating physicians.",
-               "c. fuctional capacity", "set-up direct deposit", "mri", "certification",
+
+               "iv",
+               "c. fuctional capacity", "c. functional capacity", "set-up direct deposit", "mri", "certification",
                "next oppointment", "what type of delivery?", "what is the name of your medical condition?", "part time", "medications (please attach medication log)", "b. information about the insured/policyholder", "are there other conditions that prevent your patient from working? if so, please list with information as follows:", ])
 # print("\n".join(fields_containing_name_word))
 
 
 print("remaining unrevised", len(fields))
-print("\n\n[\"", "\",\n\"".join(fields_containing_diag), "\"]\n\n", sep="")
+print("\n\n[\"", "\",\n\"".join(fields), "\"]\n\n", sep="")
 
 total = [fields_containing_dates,
          fields_containing_compound_names,  #
@@ -1394,8 +1399,8 @@ total = [fields_containing_dates,
          fields_containing_mail,
          fields_containing_fax,
          fields_containing_tele,
-         fields_containing_addresses,  #
-         fields_containing_icd,  #
+         fields_containing_addresses,
+         fields_containing_icd,
          fields_containing_MI,
          fields_containing_zip,
          fields_containing_yes_no,
@@ -1411,7 +1416,9 @@ total = [fields_containing_dates,
          fields_containing_burn_deg,
          fields_containing_when_to_back,
          fields_containing_numbers,  #
-         fields_containing_diag]
+         fields_containing_diag,
+         ###
+         fields_containing_no_association]
 
 print("total revised fields", sum(list(map(lambda item: len(item), total))))
 

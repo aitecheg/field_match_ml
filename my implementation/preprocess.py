@@ -35,7 +35,11 @@ if is_quora:
     test_file = "/home/elsallab/Work/cod/siamese_text/quora/data/test.csv"
 else:
     train_file = "/home/elsallab/Work/cod/siamese_text/repo/data/train.csv"
+    train_file = "/home/elsallab/Work/cod/siamese_text/repo/data/synthesized train data.csv"
+    train_file = "/home/elsallab/Work/cod/siamese_text/repo/data/synthesized noisy train data.csv"
     test_file = None
+
+NONE_TOKEN = "ø"
 
 
 def read_dataframes(train_path=train_file, test_path=test_file):
@@ -43,28 +47,46 @@ def read_dataframes(train_path=train_file, test_path=test_file):
     train_data = pd.read_csv(train_path)
 
     vocab_set = set()
-    remove_list = []
+    # remove_list = []
+    # for i in range(train_data.shape[0]):
+    #     row = train_data.iloc[i]
+    #     if type(row["question1"]) != str or type(row["question2"]) != str:
+    #         remove_list.append(i)
+    #
+    # print(train_data.shape)
+    # print(len(remove_list))
+    # train_data.drop(train_data.index[remove_list], inplace=True)
+    #
+    # if is_quora:
+    #     remove_list = []
+    #     test_data = pd.read_csv(test_path)
+    #     for i in range(test_data.shape[0]):
+    #         row = test_data.iloc[i]
+    #         if type(row["question1"]) != str or type(row["question2"]) != str:
+    #             remove_list.append(i)
+    #
+    #     print(test_data.shape)
+    #     print(len(remove_list))
+    #
+    #     test_data.drop(test_data.index[remove_list], inplace=True)
+
     for i in range(train_data.shape[0]):
         row = train_data.iloc[i]
-        if type(row["question1"]) != str or type(row["question2"]) != str:
-            remove_list.append(i)
-
-    print(train_data.shape)
-    print(len(remove_list))
-    train_data.drop(train_data.index[remove_list], inplace=True)
+        if type(row["question1"]) != str:
+            train_data.at[i, 'question1'] = NONE_TOKEN
+            print(train_data.iloc[i])
+            exit()
+        if type(row["question2"]) != str:
+            train_data.at[i, 'question2'] = NONE_TOKEN
 
     if is_quora:
-        remove_list = []
         test_data = pd.read_csv(test_path)
         for i in range(test_data.shape[0]):
             row = test_data.iloc[i]
-            if type(row["question1"]) != str or type(row["question2"]) != str:
-                remove_list.append(i)
-
-        print(test_data.shape)
-        print(len(remove_list))
-
-        test_data.drop(test_data.index[remove_list], inplace=True)
+            if type(row["question1"]) != str:
+                test_data.at[i, 'question1'] = NONE_TOKEN
+            if type(row["question2"]) != str:
+                test_data.at[i, 'question2'] = NONE_TOKEN
 
     return list(zip(tokenize_sentences_list(train_data["question1"], vocab_set), tokenize_sentences_list(train_data["question2"], vocab_set), list(train_data["is_duplicate"]))), \
            (list(zip(list(test_data["test_id"]), tokenize_sentences_list(test_data["question1"], vocab_set), tokenize_sentences_list(test_data["question2"], vocab_set)))) if is_quora else None, \
@@ -110,7 +132,6 @@ if __name__ == '__main__':
     train_tuples, test_tuples, vocab_set = read_dataframes()
     print("read & tokenized all data", time.time() - start)
 
-    exit()
     print("textual example")
     train_sequence = QuoraSequence(train_tuples.copy(), 2)
     sentence_demo((train_sequence[0][0][0], train_sequence[0][1][0], train_sequence[0][2][0], train_sequence[0][3][0], train_sequence[0][4][0]))

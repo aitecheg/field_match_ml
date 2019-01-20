@@ -8,7 +8,12 @@ import numpy as np
 import pandas as pd
 import tensorflow as tf
 
-from util import custom_stacked_bidirectional_GRU_layer, elmo_embeddings, QuoraSequence
+from util import custom_stacked_bidirectional_GRU_layer, elmo_embeddings, QuoraSequence, ManDistanceLayer
+
+sub_df = pd.read_csv("/home/elsallab/Work/cod/siamese_text/quora/data/sample_submission.csv")
+sub_df[["is_duplicate"]] = 0
+print(sub_df.shape)
+print(sub_df.head())
 
 params_parser = argparse.ArgumentParser(description='my implementation')
 params_parser.add_argument('is_elmo', type=int)
@@ -18,8 +23,8 @@ print("Is Elmo", params.is_elmo)
 
 ######################################
 
-state_size = 64
-staked_layers = 2
+state_size = 300
+staked_layers = 3
 
 is_elmo = params.is_elmo == 1
 epochs = 25 if is_elmo else 80
@@ -42,9 +47,10 @@ else:
     test_sequence = QuoraSequence(test_tuples_vectorized, batch_size, is_demo_generation=False, is_training=False)
 
 with tf.device('/device:GPU:1'):
-    siamese = tf.keras.models.load_model('/home/elsallab/Work/cod/siamese_text/quora/models/my_elmo.h5' if is_elmo else '/home/elsallab/Work/cod/siamese_text/quora/models/my_fasttext.h5',
+    ids = test_sequence.get_id_list()
+    siamese = tf.keras.models.load_model('/home/elsallab/Work/cod/siamese_text/quora/models/elmo.h5' if is_elmo else '/home/elsallab/Work/cod/siamese_text/quora/models/fasttext.h5',
 
-                                         custom_objects={'custom_stacked_bidirectional_GRU_layer': custom_stacked_bidirectional_GRU_layer(state_size, staked_layers), "elmo_embeddings": elmo_embeddings})
+                                         custom_objects={'_custom_stacked_bidirectional_GRU': custom_stacked_bidirectional_GRU_layer(state_size, staked_layers), "elmo_embeddings": elmo_embeddings, "ManDistanceLayer": ManDistanceLayer})
     siamese.summary()
 
     prediction = siamese.predict_generator(test_sequence, workers=4, use_multiprocessing=True, verbose=2)
@@ -52,9 +58,12 @@ with tf.device('/device:GPU:1'):
     print(np.mean(prediction))
     print(prediction.shape)
 
-    submission = pd.DataFrame({"test_id": list(range(len(prediction))),
-                               "is_duplicate": np.squeeze(prediction)
-                               }, )
+    sub_df["is_duplicate"] = sub_df["is_duplicate"].astype("float32")
+    prediction = np.squeeze(prediction)
+    for index, test_id in enumerate(ids):
+        sub_df.at[test_id, "is_duplicate"] = prediction[index]
 
-    submission[['test_id', 'is_duplicate']].to_csv("submission.csv", header=True, index=False)
+    print(ids[1461432 - 5:1461432 + 5], "\n", prediction[1461432 - 5:1461432 + 5], "\n", sub_df.iloc[1461432 - 10:1461432 + 5])
+
+    sub_df.to_csv("submission.csv", header=True, index=False)
     # print(prediction)
