@@ -99,6 +99,7 @@ with tf.device('/device:GPU:0'):
 
     else:
         embedded = Embedding(len(embeddings), embedding_dim, weights=[embeddings], input_shape=(None,), trainable=False)(tokens)
+
 with tf.device('/device:GPU:1'):
     # bidirectional RNN layer
     final_state = custom_stacked_bidirectional_GRU_layer(state_size, staked_layers)([embedded, sequence_length])

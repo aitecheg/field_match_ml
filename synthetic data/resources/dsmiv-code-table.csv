@@ -1,0 +1,282 @@
+Code,Title (NOS= Not Otherwise Specified)
+2900 ,Dementia of the Alzheimers type with late onset Uncomplicated
+29010 ,"Dementia of the Alzheimers type with early onset Uncomplicated, Dementia due to Pick's Disease or Creutzfeld-Jacob Disease"
+29011 ,Dementia of the Alzheimers type with early onset With delirium
+29012 ,Dementia of the Alzheimers type with early onset With Delusions
+29013 ,Dementia of the Alzheimers type with early onset With Depressed Mood
+29020 ,Dementia of the Alzheimers type with late onset With Delusions
+29021 ,Dementia of the Alzheimers type with late onset With Depressed Mood
+2903 ,Dementia of the Alzheimers type with late onset With Delirium
+29040 ,Vascular Dementia Uncomplicated
+29041 ,Vascular Dementia With Delirium
+29042 ,Vascular Dementia With Delusions
+29043 ,Vascular Dementia With Depressed Mood
+2910 ,Alcohol Intoxication Delirium or Alcohol Withdrawal Delirium
+2911 ,Alcohol-Induced Persisting Amnestic Disorder
+2912 ,Alcohol-Induced Persisting Dementia
+2913 ,Alcohol-Induced Psychotic Disorder With Hallucinations
+2915 ,Alcohol-Induced Psychotic Disorder With Delusions
+29181 ,Alcohol Withdrawal
+29189 ,"Alcohol-Induced Anxiety, Mood or Sleep Disorder or Sexual Dysfunction"
+2919 ,Alcohol-Related Disorder NOS
+2920 ,"Substance Withdrawal, Sedative, Hypnotic or Anxiolytic Withdrawal"
+29211 ,"Substance-Induced Psychotic Disorder, With Delusions"
+29212 ,"Substance-Induced Psychotic Disorder, With Hallucinations"
+29281 ,Substance Intoxication Delirium
+29282 ,Substance-Induced Persisting Dementia
+29283 ,Substance-Induced Persisting Amnestic Disorder
+29284 ,Substance-Induced Mood Disorder
+29289 ,"Substance-Induced Intoxication, Sleep, Anxiety, Sexual or Perception Disorder"
+2929 ,Substance-Related Disorder NOS
+2930 ,Delirium (Due to General Medical Condition)
+29381 ,Psychotic Disorder (Due to General Medical Condition) With Delusions
+29382 ,Psychotic Disorder (Due to General Medical Condition) With Hallucinations
+29383 ,Mood Disorder (Due to General Medical Condition)
+29384 ,Anxiety Disorder (Due to General Medical Condition)
+29389 ,Catatonic Disorder (Due to General Medical Condition)
+2939 ,Mental Disorder NOS (Due to General Medical Condition)
+2940 ,Amnestic Disorder (Due to General Medical Condition)
+2941 ,Dementia Due to HIV Infection or General Medical Condition
+2948 ,Dementia NOS or Amnestic Disorder NOS
+2949 ,Cognitive Disorder NOS
+29510 ,Schizophrenia Disorganised Type
+29520 ,Schizophrenia Catatonic Type
+29530 ,Schizophrenia Paranoid Type
+29540 ,Schizophreniform Disorder
+29560 ,Schizophrenia Residual Type
+29570 ,Schizoaffective Disorder
+29590 ,Schizophrenia Undifferentiated Type
+29600 ,"Bipolar I Disorder, Single Manic Episode Unspecified"
+29601 ,"Bipolar I Disorder, Single Manic Episode Mild"
+29602 ,"Bipolar I Disorder, Single Manic Episode Moderate"
+29603 ,"Bipolar I Disorder, Single Manic Episode Severe without psychotic features"
+29604 ,"Bipolar I Disorder, Single Manic Episode Severe with psychotic features"
+29605 ,"Bipolar I Disorder, Single Manic Episode In partial remission"
+29606 ,"Bipolar I Disorder, Single Manic Episode In full remission"
+29620 ,"Major Depressive Disorder, Single Episode Unspecified"
+29621 ,"Major Depressive Disorder, Single Episode Mild"
+29622 ,"Major Depressive Disorder, Single Episode Moderate"
+29623 ,"Major Depressive Disorder, Single Episode Severe without psychotic features"
+29624 ,"Major Depressive Disorder, Single Episode Severe with psychotic features"
+29625 ,"Major Depressive Disorder, Single Episode In partial remission"
+29626 ,"Major Depressive Disorder, Single Episode In full remission"
+29630 ,"Major Depressive Disorder, Recurrent Unspecified"
+29631 ,"Major Depressive Disorder, Recurrent Mild"
+29632 ,"Major Depressive Disorder, Recurrent Moderate"
+29633 ,"Major Depressive Disorder, Recurrent Severe Without Psychotic Features"
+29634 ,"Major Depressive Disorde, Recurrent Severe With Psychotic Features"
+29635 ,"Major Depressive Disorder, Recurrent In Partial Remission"
+29636 ,"Major Depressive Disorder, Recurrent In Full Remission"
+29640 ,"Bipolar I Disorder, Most Recent Episode Manic, Hypomanic, Unspecified"
+29641 ,"Bipolar I Disorder, Most Recent Episode Manic Mild"
+29642 ,"Bipolar I Disorder, Most Recent Episode Manic Moderate"
+29643 ,"Bipolar I Disorder, Most Recent Episode Manic Severe Without Psychotic Features"
+29644 ,"Bipolar I Disorder, Most Recent Episode Manic Severe With Psychotic Features"
+29645 ,"Bipolar I Disorder, Most Recent Episode Manic In Partial Remission"
+29646 ,"Bipolar I Disorder, Most Recent Episode Manic In Full Remission"
+29650 ,"Bipolar I Disorder, Most Recent Episode Depressed Unspecified"
+29651 ,"Bipolar I Disorder, Most Recent Episode Depressed Mild"
+29652 ,"Bipolar I Disorder, Most Recent Episode Depressed Moderate"
+29653 ,"Bipolar I Disorder, Most Recent Episode Depressed Severe without psychotic features"
+29654 ,"Bipolar I Disorder, Most Recent Episode Depressed Severe with psychotic features"
+29655 ,"Bipolar I Disorder, Most Recent Episode Depressed In partial remission"
+29656 ,"Bipolar I Disorder, Most Recent Episode Depressed In full remission"
+29660 ,"Bipolar I Disorder, Most Recent Episode Mixed Unspecified"
+29661 ,"Bipolar I Disorder, Most Recent Episode Mixed Mild"
+29662 ,"Bipolar I Disorder, Most Recent Episode Mixed Moderate"
+29663 ,"Bipolar I Disorder, Most Recent Episode Mixed Severe without psychotic features"
+29664 ,"Bipolar I Disorder, Most Recent Episode Mixed Severe with psychotic features"
+29665 ,"Bipolar I Disorder, Most Recent Episode Mixed In partial remission"
+29666 ,"Bipolar I Disorder, Most Recent Episode Mixed In full remission"
+2967 ,"Bipolar I Disorder, Most Recent Episode Unspecified"
+29680 ,Bipolar Disorder NOS
+29689 ,Bipolar II Disorder
+29690 ,Mood Disorder NOS
+2971 ,Delusional Disorder
+2973 ,Shared Psychotic Disorder
+2988 ,Brief Psychotic Disorder
+2989 ,Psychotic Disorder NOS
+29900 ,Autistic Disorder
+29910 ,Childhood Disintegrative Disorder
+29980 ,"Rett's Disorder, Asperger's Disorder, Pervasive Developmental Disorder NOS"
+30000 ,Anxiety Disorder NOS
+30001 ,Panic Disorder Without Agoraphobia
+30002 ,Generalised Anxiety Disorder
+30011 ,Conversion Disorder
+30012 ,Dissociative Amnesia
+30013 ,Dissociative Fugue
+30014 ,Dissociative Identity Disorder
+30015 ,Dissociative Disorder NOS
+30016 ,Factitious Disorder with Predominantly Psychological Signs and Symptoms
+30019 ,"Factitious Disorder NOS, With Predominantly Physical Signs and Symptoms, With Combined Psychological and Physical Signs and Symptoms"
+30021 ,Panic Disorder With Agoraphobia
+30022 ,Agoraphobia Without History of Panic Disorder
+30023 ,Social Phobia
+30029 ,Specific Phobia
+3003 ,Obsessive-Compulsive Disorder
+3004 ,Dysthymic Disorder
+3006 ,Depersonalisation Disorder
+3007 ,Hypochondriasis or Body Dysmorphic Disorder
+30081 ,Somatisation Disorder
+30082 ,"Somatoform Disorder NOS, Undifferentiated Somatoform Disorder"
+3009 ,Unspecified Mental Disorder (nonpsychotic)
+3010 ,Paranoid Personality Disorder
+30113 ,Cyclothymic Disorder
+30120 ,Schizoid Personality Disorder
+30122 ,Schizotypal Personality Disorder
+3014 ,Obsessive-Compulsive Personality Disorder
+30150 ,Histrionic Personality Disorder
+3016 ,Dependent Personality Disorder
+3017 ,Antisocial Personality Disorder
+30181 ,Narcissistic Personality Disorder
+30182 ,Avoidant Personality Disorder
+30183 ,Borderline Personality Disorder
+3019 ,Personality Disorder NOS
+3022 ,Pedophilia
+3023 ,Transvestic Fetishism
+3024 ,Exhibitionism
+3026 ,Gender Identity Disorder in Children or Gender Identity Disorder NOS
+30270 ,Sexual Dysfunction NOS
+30271 ,Hypoactive Sexual Desire Disorder
+30272 ,Female Sexual Arousal Disorder or Male Erectile Disorder
+30273 ,Female Orgasmic Disorder
+30274 ,Male Orgasmic Disorder
+30275 ,Premature Ejaculation
+30276 ,Dyspareunia (Not Due to a General Medical Condition)
+30279 ,Sexual Aversion Disorder
+30281 ,Fetishism
+30282 ,Voyeurism
+30283 ,Sexual Masochism
+30284 ,Sexual Sadism
+30285 ,Gender Identity Disorder in Adolescents or Adults
+30289 ,Frotteurism
+3029 ,Paraphilia NOS or Sexual Disorder NOS
+30300 ,Alcohol Intoxication
+30390 ,Alcohol Dependence
+30400 ,Opioid Dependence
+30410 ,"Sedative, Hypnotic, or Anxiolytic Dependence"
+30420 ,Cocaine Dependence
+30430 ,Cannabis Dependence
+30440 ,Amphetamine Dependence
+30450 ,Hallucinogen Dependence
+30460 ,Inhalant or Phencyclidine Dependence
+30480 ,Polysubstance Dependence
+30490 ,Other (or Unknown) Substance Dependence
+30500 ,Alcohol Abuse
+30510 ,Nicotine Dependence
+30520 ,Cannabis Abuse
+30530 ,Hallucinogen Abuse
+30540 ,"Sedative, Hypnotic, or Anxiolytic Abuse"
+30550 ,Opioid Abuse
+30560 ,Cocaine Abuse
+30570 ,Amphetamine Abuse
+30590 ,"Caffeine Intoxication, Inhalant Abuse, Other (or Unknown) Substance Abuse, Phencyclidine Abuse"
+30651 ,Vaginismus (Not Due to a General Medical Condition)
+3070 ,Stuttering
+3071 ,Anorexia Nervosa
+30720 ,Tic Disorder NOS
+30721 ,Transient Tic Disorder
+30722 ,Chronic Motor or Vocal Tic Disorder
+30723 ,Tourette's Disorder
+3073 ,Stereotypic Movement Disorder
+30742 ,"Insomnia Related to Axis 1 or Axis 11 Disorder, Primary Insomnia"
+30744 ,"Hypersomnia Related to Axis 1 or Axis 11 Disorder, Primary Hypersomnia"
+30745 ,Circadian Rhythm Sleep Disorder
+30746 ,Sleep Terror Disorder or Sleepwalking Disorder
+30747 ,Dyssomnia NOS or Nightmare Disorder or Parasomnia NOS
+30750 ,Eating Disorder NOS
+30751 ,Bulimia Nervosa
+30752 ,Pica
+30753 ,Rumination Disorder
+30759 ,Feeding Disorder of Infancy or Early Childhood
+3076 ,Enuresis (Not Due to a General Medical Condition)
+3077 ,Encopresis Without Constipation and Overflow Incontinence
+30780 ,Pain Disorder Associated With Psychological Factors
+30789 ,Pain Disorder Associated With Psychological Factors and a General Medical Condition
+3079 ,Communication Disorder NOS
+3083 ,Acute Stress Disorder
+3090 ,Adjustment Disorder With Depressed Mood
+30921 ,Separation Anxiety Disorder
+30924 ,Adjustment Disorder With Anxiety
+30928 ,Adjustment Disorder With Mixed Anxiety and Depressed Mood
+3093 ,Adjustment Disorder With Disturbance of Conduct
+3094 ,Adjustment Disorder With Mixed Disturbance of Emotions and Conduct
+30981 ,Posttraumatic Stress Disorder
+3099 ,Adjustment Disorder Unspecified
+3101 ,Personality Change (Due to a General Medical Condition)
+311 ,Depressive Disorder NOS
+31230 ,Impulse-Control Disorder NOS
+31231 ,Pathological Gambling
+31232 ,Kleptomania
+31233 ,Pyromania
+31234 ,Intermittent Explosive Disorder
+31239 ,Trichotillomania
+31281 ,"Conduct Disorder, Childhood-Onset Type"
+31282 ,"Conduct Disorder, Adolescent-Onset type"
+31289 ,"Conduct Disorder, Unspecified Onset"
+3129 ,Disruptive Behavior Disorder NOS
+31323 ,Selective Mutism
+31381 ,Oppositional Defiant Disorder
+31382 ,Identity Problem
+31389 ,Reactive Attachment Disorder of Infancy or Early Childhood
+3139 ,"Disorder of Infancy, Childhood, or Adolescence NOS"
+31400 ,Attention-Deficit/Hyperactivity Disorder Predominantly Inattentive Type
+31401 ,Attention-Deficit/Hyperactivity Disorder Combined Type or Predominantly Hyperactive-Impulse Type
+3149 ,Attention-Deficit/Hyperactivity Disorder NOS
+31500 ,Reading Disorder
+3151 ,Mathematics Disorder
+3152 ,Disorder of Written Expression
+31531 ,Expressive Language Disorder
+31532 ,Mixed Receptive-Expressive Language Disorder
+31539 ,Phonological Disorder
+3154 ,Developmental Coordination Disorder
+3159 ,Learning Disorder NOS
+316 ,Psychological Factors Affecting a Medical Condition
+317 ,Mild Mental Retardation
+3180 ,Moderate Mental Retardation
+3181 ,Severe Mental Retardation
+3182 ,Profound Mental Retardation
+319 ,"Mental Retardation, Severity Unspecified"
+3321 ,Neuroleptic-Induced Parkinsonism
+3331 ,Medication-Induced Postural Tremor
+3337 ,Neuroleptic-Induced Acute Dystonia
+33382 ,Neuroleptic-Induced Tardive Dyskinesia
+33390 ,Medication-Induced Movement Disorder NOS
+33392 ,Neuroleptic Malignant Syndrome
+33399 ,Neuroleptic-Induced Acute Akathisia
+347 ,Narcolepsy
+60784 ,Male Erectile Disorder (Due to a General Medical Condition)
+60889 ,Other Male Sexual Dysfunction (Due to a General Medical Condition)
+6250 ,Female Dyspareunia (Due to a General Medical Condition)
+6258 ,Other Female Sexual Dysfunction (Due to a General Medical Condition)
+78009 ,Delirium NOS
+78052 ,Sleep Disorder (Due to a General Medical Condition) Insomnia Type
+78054 ,"Sleep Disorder (Due to a General Medical Condition), Hypersomnia Type"
+78059 ,"Breathing-Related Sleep Disorder or Sleep Disorder (Due to a General Medical Condition), Parasomnia or Mixed Type"
+7809 ,Age-Related Cognitive Decline
+7876 ,"Encopresis, With Constipation and Overflow Incontinence"
+7999 ,Diagnosis or Condition Deferred on Axis I or Diagnosis Deferred on Axis II
+9952 ,Adverse Effects of Medication NOS
+99552 ,Neglect of Child (if focus of attention is on victim)
+99553 ,Sexual abuse of child (if focus of attention is on victim)
+99554 ,Physical abuse of child (if focus of attention is on victim)
+99581 ,Physical abuse of adult (if focus of attention is on victim)
+99583 ,Sexual abuse of adult (if focus of attention is on victim)
+V1581 ,Noncompliance With Treatment
+V6110 ,Partner Relational Problem
+V6112 ,Physical or Sexual Abuse of Adult (if by partner)
+V6120 ,Parent-Child Relational Problem
+V6121 ,Sexual or Physical Abuse or Neglect of Child
+V618 ,Sibling Relational Problem
+V619 ,Relational Problem Related to a Mental Disorder of General Medical Condition
+V622 ,Occupational Problem
+V623 ,Academic Problem
+V624 ,Acculturation Problem
+V6281 ,Relational Problem NOS
+V6282 ,Bereavement
+V6283 ,Physical or Sexual Abuse of Adult (if by person other than partner)
+V6289 ,"Phase of Life Problem, Religious or Spiritual Problem or Borderline Intellectual Functioning"
+V652 ,Malingering
+V7101 ,Adult Antisocial Behavior
+V7102 ,Child or Adolescent Antisocial Behavior
+V7109 ,No Diagnosis or Condition on Axis I or Axis II

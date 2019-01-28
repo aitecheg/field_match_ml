@@ -9,7 +9,7 @@ generators = []
 others = {}
 
 with open("./providers.pkl", 'rb') as f:
-    cities, addresses, hospitals, codes, description = pickle.load(f)
+    cities, addresses, hospitals_names, hospital_address, icd_codes, diagnosis, cpt_codes, treatments, dsmv_codes, dsmv_description, zip_codes = pickle.load(f)
 
 
 def generate_another_value(generator, field):
@@ -40,6 +40,51 @@ generators.append(city_generator)
 
 
 ##############################################################
+
+def signature_generator(field):
+    return "'S'"
+
+
+generators.append(signature_generator)
+
+
+##############################################################
+
+def none_generator(field):
+    return "ø"
+
+
+generators.append(none_generator)
+
+
+##############################################################
+
+def procedure_desc_generator(field):
+    return random.choice(treatments)
+
+
+generators.append(procedure_desc_generator)
+
+
+##############################################################
+
+def cpt_generator(field):
+    return random.choice(cpt_codes)
+
+
+generators.append(cpt_generator)
+
+
+##############################################################
+
+def dsm_generator(field):
+    return random.choice(dsmv_codes)
+
+
+generators.append(dsm_generator)
+
+
+##############################################################
 def state_generator(field):
     if (random.random()) > .5:
         return fake.state_abbr()
@@ -51,6 +96,8 @@ generators.append(state_generator)
 
 ##############################################################
 def zip_generator(field):  # 15025 60644 35203
+    if (random.random()) > .5:
+        return str(random.choice(zip_codes))
     return fake.zipcode()
 
 
@@ -111,11 +158,11 @@ generators.append(tax_id_generator)
 
 ##############################################################
 
-def hospitals_generator(field):
-    return random.choice(hospitals)
+def hospitals_name_generator(field):
+    return random.choice(hospitals_names)
 
 
-generators.append(hospitals_generator)
+generators.append(hospitals_name_generator)
 
 
 ##############################################################
@@ -129,7 +176,7 @@ generators.append(mi_generator)
 ##############################################################
 
 def icd_generator(field):
-    icd = random.choice(codes)
+    icd = random.choice(icd_codes)
 
     return icd[:3] + "." + icd[3:] if len(icd) > 3 else icd
 
@@ -196,13 +243,20 @@ generators.append(yes_no_generator)
 
 ##############################################################
 def diagnose_generator(field):
-    return random.choice(description)
+    return random.choice(diagnosis)
 
 
 generators.append(diagnose_generator)
 
 
 ##############################################################
+def hospital_address_generator(field):
+    return random.choice(hospital_address)
+
+
+# i wont add this
+##############################################################
+
 def placeholder_generator():
     raise NotImplementedError()
 
@@ -211,4 +265,4 @@ for index, generator in enumerate(generators):
     others[generator.__name__] = generators[:index] + generators[index + 1:]
 
 if __name__ == "__main__":
-    print("||".join([state_generator("") for _ in range(50)]))
+    print("||".join([hospital_address_generator("") for _ in range(50)]))

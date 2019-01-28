@@ -12,10 +12,10 @@ demo_data = False  # a small testing dataset for humans
 noise_maker = True
 
 with open("./buckets_of_fields.pkl", 'rb') as f:
-    fields_containing_dates, fields_containing_compound_names, fields_containing_names, fields_containing_SSN, fields_containing_gender, fields_containing_mail, fields_containing_fax, fields_containing_tele, fields_containing_addresses, fields_containing_icd, fields_containing_MI, fields_containing_zip, fields_containing_yes_no, fields_containing_signature, fields_containing_mailing_address, fields_containing_state, fields_containing_city, fields_containing_tax_id, fields_containing_hospitals, fields_containing_num_hours, fields_containing_length_height_weight, fields_containing_relation, fields_containing_burn_deg, fields_containing_when_to_back, fields_containing_numbers, fields_containing_diag = pickle.load(f)
+    fields_containing_dates, fields_containing_compound_names, fields_containing_names, fields_containing_SSN, fields_containing_gender, fields_containing_mail, fields_containing_fax, fields_containing_tele, fields_containing_addresses, fields_containing_icd, fields_containing_MI, fields_containing_zip, fields_containing_yes_no, fields_containing_signature, fields_containing_mailing_address, fields_containing_state, fields_containing_city, fields_containing_tax_id, fields_containing_hospitals, fields_containing_num_hours, fields_containing_length_height_weight, fields_containing_relation, fields_containing_burn_deg, fields_containing_when_to_back, fields_containing_numbers, fields_containing_diag, fields_with_no_association, fields_containing_cpt, fields_containing_selection, fields_containing_bank_info, fields_containing_bank_account, fields_containing_policy_numbers, fields_containing_dsm, fields_containing_treatments, fields_containing_restrictions_limitations, fields_containing_procedure_codes, fields_containing_symptoms = pickle.load(
+        f)
 
 generator_mapping = [(fields_containing_dates, generators.date_generator),
-
                      (fields_containing_names, generators.name_generator),
                      (fields_containing_SSN, generators.ssn_generator),
                      (fields_containing_gender, generators.gender_generator),
@@ -30,8 +30,8 @@ generator_mapping = [(fields_containing_dates, generators.date_generator),
                      (fields_containing_city, generators.city_generator),
                      (fields_containing_tax_id, generators.tax_id_generator),
                      (fields_containing_diag, generators.diagnose_generator),
-                     (fields_containing_signature, generators.placeholder_generator),
-                     (fields_containing_mailing_address, generators.placeholder_generator),
+                     (fields_containing_signature, generators.signature_generator),
+                     (fields_containing_mailing_address, generators.address_generator),
                      (fields_containing_compound_names, generators.placeholder_generator),
                      (fields_containing_num_hours, generators.placeholder_generator),
                      (fields_containing_length_height_weight, generators.placeholder_generator),
@@ -39,7 +39,13 @@ generator_mapping = [(fields_containing_dates, generators.date_generator),
                      (fields_containing_burn_deg, generators.placeholder_generator),
                      (fields_containing_when_to_back, generators.placeholder_generator),
                      (fields_containing_numbers, generators.placeholder_generator),
-
+                     (fields_with_no_association, generators.none_generator),
+                     (fields_containing_bank_info, generators.placeholder_generator),
+                     (fields_containing_dsm, generators.dsm_generator),
+                     (fields_containing_treatments, generators.procedure_desc_generator),
+                     (fields_containing_restrictions_limitations, generators.placeholder_generator),
+                     (fields_containing_procedure_codes, generators.cpt_generator),
+                     (fields_containing_symptoms, generators.placeholder_generator),
                      ]
 
 generator_mapping = list(map(lambda item: (list(item[0]), item[1]), generator_mapping))
