@@ -15,9 +15,9 @@ from util import QuoraSequence, show_metrics, kinitializer, best_saver_callback,
 params_parser = argparse.ArgumentParser(description='my implementation')
 params_parser.add_argument('is_elmo', type=int)
 params_parser.add_argument('is_quora', type=int)
-params_parser.add_argument('is_resume', type=int)
-params_parser.add_argument('initial_epoch', type=int, dest="last value reported by tensorboard+1")
-params_parser.add_argument('lr', type=float)
+params_parser.add_argument('is_resume', type=int, help="resume training")
+params_parser.add_argument('initial_epoch', type=int, help="used to continue(when is_resume=1) training last value reported by tensorboard+1")
+params_parser.add_argument('lr', type=float, help="learning rate, for elmo use .00005 for fasttext use .001")
 
 params = params_parser.parse_args()
 

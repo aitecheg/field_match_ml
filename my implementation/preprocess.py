@@ -22,7 +22,7 @@ from gensim.models import FastText
 
 from util import QuoraSequence, vectorize_tokenized_sentence, tokenize_sentences_list, sentence_demo
 
-params_parser = argparse.ArgumentParser(description='my datareader')
+params_parser = argparse.ArgumentParser(description='preprocessing of the data')
 params_parser.add_argument('is_quora', type=int)
 params = params_parser.parse_args()
 
@@ -74,8 +74,6 @@ def read_dataframes(train_path=train_file, test_path=test_file):
         row = train_data.iloc[i]
         if type(row["question1"]) != str:
             train_data.at[i, 'question1'] = NONE_TOKEN
-            print(train_data.iloc[i])
-            exit()
         if type(row["question2"]) != str:
             train_data.at[i, 'question2'] = NONE_TOKEN
 

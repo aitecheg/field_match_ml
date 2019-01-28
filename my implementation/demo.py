@@ -4,9 +4,8 @@ import numpy as np
 import pandas as pd
 import prettytable
 import tensorflow as tf
-from tensorflow.python.keras.engine.saving import model_from_json
 
-from util import vectorize_demo_data, custom_stacked_bidirectional_GRU_layer, CustomElmoEmbeddingLayer, ManDistanceLayer, kinitializer
+from util import vectorize_demo_data, custom_stacked_bidirectional_GRU_layer, CustomElmoEmbeddingLayer, ManDistanceLayer
 
 params_parser = argparse.ArgumentParser(description='my implementation')
 params_parser.add_argument('is_elmo', type=int)
