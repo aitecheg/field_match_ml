@@ -55,14 +55,16 @@ def transform_fn(loaded_model, data, input_content_type, output_content_type):
     original_match = prettytable.PrettyTable(["field", "values", "field score", "value score"])
     fields = []
     values = []
+    bbox_of_all = {}
     text_to_score={}
     for pair in initial_matching['field_match_output']:
         fields.append({"string": pair['field_name'], "bbox": pair['bbox'], "center": get_center(pair['bbox'])})
-
+        bbox_of_all[pair['field_name']] = pair['bbox']
         text_to_score[pair['field_name']]= pair["confidence"]
         if pair["value"]['bbox'] != {'top': -1, 'height': -1, 'width': -1, 'left': -1}:
             values.append({"string": pair["value"]['field_value'], "bbox": pair["value"]['bbox'], "center": get_center(pair["value"]['bbox'])})
             text_to_score[pair["value"]['field_value']] = pair["value"]['confidence']
+            bbox_of_all[pair["value"]['field_value']] = pair["value"]['bbox']
 
         # print({"strings": {"field": , "value": pair["value"]['field_value']},
         #        "bboxs": {"field": pair['bbox'], "value": pair["value"]['bbox']}})
@@ -71,7 +73,7 @@ def transform_fn(loaded_model, data, input_content_type, output_content_type):
                                 ])
 
     print('Calling ML fields_match')
-    ml_field_matching = MXNetPredictor("field-match-ml-2019-01-20")
+    ml_field_matching = MXNetPredictor("field-match-ml-2019-01-20-1")
     '''
     fields_strings = list(map(lambda item: item["string"], fields))
     values_strings = list(map(lambda item: item["string"], values))
@@ -90,14 +92,14 @@ def transform_fn(loaded_model, data, input_content_type, output_content_type):
     dist_thresh = 100
     matched_results = []
     for field in fields:
-        print(field["string"])
+        #print(field["string"])
         candidates = []
         for value in values:
-            print(value["string"])
+            #print(value["string"])
             l2_dist = l2_distance(field, value)
             if(l2_dist < dist_thresh):
                 candidates.append((value, l2_dist))
-                print(str(l2_dist))
+                #print(str(l2_dist))
 
         nearest = list(map(lambda item: item[0]["string"], sorted(candidates, key=lambda item: item[1])[:5]))
         input_to_matching = {"field_names": [field["string"]], "field_values": nearest}
@@ -106,6 +108,7 @@ def transform_fn(loaded_model, data, input_content_type, output_content_type):
         else:
             results = [{"field": field["string"], "value": '', "score": 0}]
             text_to_score[''] = ''
+            bbox_of_all[''] = {'width': -1, 'top': -1, 'height': -1, 'left': -1}
         for result in sorted(results, key=lambda item: -item["score"]):
             predictions_act.add_row([result["field"],
                                      text_to_score[result["field"]],
@@ -113,10 +116,16 @@ def transform_fn(loaded_model, data, input_content_type, output_content_type):
                                      text_to_score[result["value"]],
                                      result["score"],
                                      ])
-            matched_results.append({"field": result["field"], "value": result["value"], "score": result["score"], "field_detection_score": text_to_score[result["field"]], "value_detection_score": text_to_score[result["value"]] })
+            matched_results.append({"field": result["field"], 
+                                    "value": result["value"], 
+                                    "score": result["score"], 
+                                    "field_detection_score": text_to_score[result["field"]], 
+                                    "value_detection_score": text_to_score[result["value"]], 
+                                    "value_bbox": bbox_of_all[result["value"]], 
+                                    "field_bbox": bbox_of_all[result["field"]] })
 
-    print(predictions_act)
-    
+    #print(predictions_act)
+    print('finished')
     
     #return json.dumps(results), output_content_type
     return json.dumps(matched_results), output_content_type
